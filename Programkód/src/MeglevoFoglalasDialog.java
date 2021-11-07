@@ -25,8 +25,8 @@ public class MeglevoFoglalasDialog extends JDialog {
             jegyek.remove(confirmationNumber);
             jegyek.save();
 
-            ConfirmationDialog cd = new ConfirmationDialog(confirmationNumber);
-            cd.foglalasTorles();
+            ConfirmationDialog cd = new ConfirmationDialog();
+            cd.foglalasTorles(confirmationNumber);
         }
     }
 

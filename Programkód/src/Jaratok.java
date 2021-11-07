@@ -26,6 +26,10 @@ public class Jaratok extends AbstractTableModel {
         return tarolo.size();
     }
 
+    public boolean checkID(String id) {
+        return false;
+    }
+
     public void save() {
         try {
             FileOutputStream f = new FileOutputStream("jaratok.dat");

@@ -26,8 +26,8 @@ public class FoglalasDialog extends JDialog {
                 jegyek.add(j);
                 jegyek.save();
                 dispose();
-                ConfirmationDialog cd = new ConfirmationDialog(confirmationNumber);
-                cd.ujFoglalas();
+                ConfirmationDialog cd = new ConfirmationDialog();
+                cd.ujFoglalas(confirmationNumber);
             }
 
             if(jarmu == "Repulo") {

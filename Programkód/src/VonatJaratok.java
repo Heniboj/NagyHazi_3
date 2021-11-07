@@ -1,8 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.swing.table.AbstractTableModel;
-
 import java.io.*;
 
 public class VonatJaratok extends Jaratok  {
@@ -12,18 +9,41 @@ public class VonatJaratok extends Jaratok  {
         tarolo = new ArrayList<Vonat>();
     }
 
-    public void add(Vonat o) {
-        tarolo.add(o);
+    public void add(Jarmu o) {
+        tarolo.add((Vonat)o);
     }
+
     public Vonat get(int index) {
         return tarolo.get(index);
     }
-    public void remove(String jaratazonosito) {
-        // TODO
-    
+
+    public void remove(String id) {
+        for(int i = 0; i < tarolo.size(); i++) {
+            if(tarolo.get(i).get_id() == id) {
+                tarolo.remove(i);
+            }
+        }
     }
+
     public int size() {
         return tarolo.size();
+    }
+
+    public boolean checkID(String id) {
+        for(int i = 0; i < tarolo.size(); i++) {
+            if(tarolo.get(i).get_id() == id) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int getRowCount() {
+        return tarolo.size();
+    }
+
+    public int getColumnCount() {
+        return 6;
     }
 
     public void save() {
@@ -48,13 +68,6 @@ public class VonatJaratok extends Jaratok  {
         }
     }
 
-    public int getRowCount() {
-        return tarolo.size();
-    }
-
-    public int getColumnCount() {
-        return 6;
-    }
 
     public Object getValueAt(int rowIndex, int columnIndex) {
 

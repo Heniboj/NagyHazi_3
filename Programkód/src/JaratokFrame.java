@@ -11,11 +11,6 @@ public class JaratokFrame extends JFrame{
     //private VonatJaratok vonatjaratok; 
     //private Jaratok repulojaratok;
 
-
-
-
-
-
     private VonatJaratok jaratok;
 
     class NewButtonActionListener implements ActionListener {
@@ -31,8 +26,7 @@ public class JaratokFrame extends JFrame{
 
         //vonatjaratok.load();
         
-
-
+        
         // table setup
         JTable table = new JTable();
         JScrollPane sp = new JScrollPane(table);
@@ -41,7 +35,6 @@ public class JaratokFrame extends JFrame{
 
         TableRowSorter<TableModel> rowSorter = new TableRowSorter<>(table.getModel());
         JTextField jtfFilter = new JTextField(10);
-        //JButton jbtFilter = new JButton("Filter");
         table.setRowSorter(rowSorter);
 
         // IDEIGLENES HELY A PANELNEK

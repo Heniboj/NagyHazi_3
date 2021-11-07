@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Jegyek<T> {
+public class Jegyek<T> implements Serializable{
     List<T> tarolo;
 
     public Jegyek() { //maybe int i ?
@@ -15,9 +15,12 @@ public class Jegyek<T> {
     public T get(int index) {
         return tarolo.get(index);
     }
-    public void remove(String jaratazonosito) {
-        // TODO
-    
+    public void remove(int confirmationNumber) {
+        for(int i = 0; i < tarolo.size(); i++) {
+            if(((Jegy)tarolo.get(i)).get_ConfirmationNumber() == confirmationNumber) {
+                tarolo.remove(i);
+            }
+        }
     }
     public int size() {
         return tarolo.size();

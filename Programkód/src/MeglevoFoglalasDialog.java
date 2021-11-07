@@ -15,6 +15,16 @@ public class MeglevoFoglalasDialog extends JDialog {
         }
     }
 
+    class TorlesButtonActionListener implements ActionListener {
+        private int confirmationNumber;
+        public TorlesButtonActionListener(int confirmationNumber) {
+            this.confirmationNumber = confirmationNumber;
+        }
+        public void actionPerformed(ActionEvent e) {
+            jegyek.remove(confirmationNumber);
+        }
+    }
+
     public MeglevoFoglalasDialog(Jegyek jegyek) {
         this.jegyek = jegyek;
         setSize(300,100);
@@ -43,9 +53,28 @@ public class MeglevoFoglalasDialog extends JDialog {
 
     private void constructSecondPanel(int confirmationNumber) {
         JPanel panel2 = new JPanel();
-        VonatJegy jegy = (VonatJegy) jegyek.get(confirmationNumber-1);
-        JLabel infoLabel = new JLabel(jegy.get_nev()+jegy.get_kocsiszam()+jegy.get_hely());
-        panel2.add(infoLabel);
-        panels.add(panel2, "panel2");
+
+        for(int i = 0; i < jegyek.size(); i ++) {
+            VonatJegy jegy = (VonatJegy) jegyek.get(i);
+            if(jegy.get_ConfirmationNumber() == confirmationNumber) {
+                panel2.setLayout(new BoxLayout(panel2, BoxLayout.Y_AXIS));
+                JLabel nevLabel = new JLabel("Név: "+jegy.get_nev());
+                nevLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+                JLabel kocsiszamLabel = new JLabel("Kocsiszám: "+jegy.get_kocsiszam());
+                kocsiszamLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+                JLabel helylabel = new JLabel("Hely: "+jegy.get_hely());
+                helylabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+                JButton torlesButton = new JButton("Foglalás törlése");
+                torlesButton.setAlignmentX(Component.CENTER_ALIGNMENT);
+                torlesButton.addActionListener(new TorlesButtonActionListener(confirmationNumber));
+                panel2.add(nevLabel);
+                panel2.add(kocsiszamLabel);
+                panel2.add(helylabel);
+                panel2.add(torlesButton);
+                panels.add(panel2, "panel2");
+                break;
+            }
+        }
+        // TODO: nem letezo foglalasi szam
     }
 }

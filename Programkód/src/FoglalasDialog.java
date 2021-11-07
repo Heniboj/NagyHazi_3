@@ -15,9 +15,17 @@ public class FoglalasDialog extends JDialog {
     public class okButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             if(jarmu == "Vonat") {
-                VonatJegy j = new VonatJegy(nevTextField.getText(), Integer.parseInt(secondTextField.getText()), Integer.parseInt(thirdTextField.getText()));
+                int confirmationNumber;
+                if(jegyek.size() == 0) {
+                    confirmationNumber = 1;
+                } else {
+                    confirmationNumber = ((VonatJegy)jegyek.get(jegyek.size()-1)).get_ConfirmationNumber() + 1;
+                }
+
+                VonatJegy j = new VonatJegy(confirmationNumber, nevTextField.getText(), Integer.parseInt(secondTextField.getText()), Integer.parseInt(thirdTextField.getText()));
                 jegyek.add(j);
-                ConfirmationDialog cd = new ConfirmationDialog(jegyek.size());
+                jegyek.save();
+                ConfirmationDialog cd = new ConfirmationDialog(confirmationNumber);
             }
 
             if(jarmu == "Repulo") {

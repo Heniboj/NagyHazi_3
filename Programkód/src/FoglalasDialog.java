@@ -25,7 +25,9 @@ public class FoglalasDialog extends JDialog {
                 VonatJegy j = new VonatJegy(confirmationNumber, nevTextField.getText(), Integer.parseInt(secondTextField.getText()), Integer.parseInt(thirdTextField.getText()));
                 jegyek.add(j);
                 jegyek.save();
+                dispose();
                 ConfirmationDialog cd = new ConfirmationDialog(confirmationNumber);
+                cd.ujFoglalas();
             }
 
             if(jarmu == "Repulo") {

@@ -21,7 +21,12 @@ public class MeglevoFoglalasDialog extends JDialog {
             this.confirmationNumber = confirmationNumber;
         }
         public void actionPerformed(ActionEvent e) {
+            dispose();
             jegyek.remove(confirmationNumber);
+            jegyek.save();
+
+            ConfirmationDialog cd = new ConfirmationDialog(confirmationNumber);
+            cd.foglalasTorles();
         }
     }
 
@@ -53,11 +58,11 @@ public class MeglevoFoglalasDialog extends JDialog {
 
     private void constructSecondPanel(int confirmationNumber) {
         JPanel panel2 = new JPanel();
+        panel2.setLayout(new BoxLayout(panel2, BoxLayout.Y_AXIS));
 
         for(int i = 0; i < jegyek.size(); i ++) {
             VonatJegy jegy = (VonatJegy) jegyek.get(i);
             if(jegy.get_ConfirmationNumber() == confirmationNumber) {
-                panel2.setLayout(new BoxLayout(panel2, BoxLayout.Y_AXIS));
                 JLabel nevLabel = new JLabel("Név: "+jegy.get_nev());
                 nevLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
                 JLabel kocsiszamLabel = new JLabel("Kocsiszám: "+jegy.get_kocsiszam());
@@ -72,9 +77,12 @@ public class MeglevoFoglalasDialog extends JDialog {
                 panel2.add(helylabel);
                 panel2.add(torlesButton);
                 panels.add(panel2, "panel2");
-                break;
+                return;
             }
         }
-        // TODO: nem letezo foglalasi szam
+        JLabel infoLabel = new JLabel("A megadott foglalási szám alapján megvásárolt jegy nem található!");
+        infoLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel2.add(infoLabel);
+        panels.add(panel2, "panel2");
     }
 }

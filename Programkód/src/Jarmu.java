@@ -1,4 +1,6 @@
-public class Jarmu {
+import java.io.Serializable;
+
+public class Jarmu implements Serializable{
     protected String jaratazonosito;
     protected String indul_allomas;
     protected String erkez_allomas;

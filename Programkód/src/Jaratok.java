@@ -1,18 +1,21 @@
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.swing.table.AbstractTableModel;
+
 import java.io.*;
 
-public class Jaratok<T> {
-    List<T> tarolo;
+public class Jaratok extends AbstractTableModel {
+    private ArrayList<Jarmu> tarolo;
 
-    public Jaratok(int i) {
-        tarolo = new ArrayList<T>();
+    public Jaratok() {
+        tarolo = new ArrayList<Jarmu>();
     }
 
-    public void add(T o) {
+    public void add(Jarmu o) {
         tarolo.add(o);
     }
-    public T get(int index) {
+    public Jarmu get(int index) {
         return tarolo.get(index);
     }
     public void remove(String jaratazonosito) {
@@ -25,7 +28,7 @@ public class Jaratok<T> {
 
     public void save() {
         try {
-            FileOutputStream f = new FileOutputStream("jaratok.txt");
+            FileOutputStream f = new FileOutputStream("jaratok.dat");
             ObjectOutputStream out = new ObjectOutputStream(f);
             out.writeObject(tarolo);
             out.close();
@@ -35,12 +38,26 @@ public class Jaratok<T> {
 
     public void load() {
         try {
-            FileInputStream f = new FileInputStream("jaratok.txt");
+            FileInputStream f = new FileInputStream("jaratok.dat");
             ObjectInputStream in = new ObjectInputStream(f);
-            this.tarolo = (ArrayList<T>)in.readObject();
+            this.tarolo = (ArrayList<Jarmu>)in.readObject();
             in.close();
             } 
             catch(IOException ex) {} 
             catch(ClassNotFoundException ex) {}
+    }
+
+    public int getRowCount() {
+        return tarolo.size();
+    }
+
+    public int getColumnCount() {
+        return 5;
+    }
+
+    public Object getValueAt(int rowIndex, int columnIndex) {
+
+        return null;
+
     }
 }

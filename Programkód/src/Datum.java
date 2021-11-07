@@ -1,4 +1,6 @@
-public class Datum {
+import java.io.Serializable;
+
+public class Datum implements Serializable{
     private int ev;
     private int honap;
     private int nap;
@@ -20,4 +22,12 @@ public class Datum {
     public int get_nap() {return nap;}
     public int get_ora() {return ora;}
     public int get_perc() {return perc;}
+
+    public String toString() {
+        String datum = ev+"/"+nap+"/"+honap+" "+ora+":";
+        if(perc < 10) {
+            datum += "0";
+        }
+        return datum + perc;  
+    }
 }

@@ -5,7 +5,7 @@ import java.util.List;
 public class Jegyek<T> {
     List<T> tarolo;
 
-    public Jegyek(int i) {
+    public Jegyek() { //maybe int i ?
         tarolo = new ArrayList<T>();
     }
 
@@ -25,7 +25,7 @@ public class Jegyek<T> {
 
     public void save() {
         try {
-            FileOutputStream f = new FileOutputStream("jegyek.txt");
+            FileOutputStream f = new FileOutputStream("jegyek.dat");
             ObjectOutputStream out = new ObjectOutputStream(f);
             out.writeObject(tarolo);
             out.close();
@@ -35,7 +35,7 @@ public class Jegyek<T> {
 
     public void load() {
         try {
-            FileInputStream f = new FileInputStream("jegyek.txt");
+            FileInputStream f = new FileInputStream("jegyek.dat");
             ObjectInputStream in = new ObjectInputStream(f);
             this.tarolo = (ArrayList<T>)in.readObject();
             in.close();

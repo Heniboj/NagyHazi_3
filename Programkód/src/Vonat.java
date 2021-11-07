@@ -1,4 +1,4 @@
-public class Vonat extends Jarmu {
+public class Vonat extends Jarmu{
     private int kocsik_szama;
 
     public Vonat(String id, String ind_all, String erk_all, Datum ind_dt, Datum erk_dt, int ksz) {
@@ -9,4 +9,6 @@ public class Vonat extends Jarmu {
         this.erkez_datum = erk_dt;
         this.kocsik_szama = ksz;
     }
+
+    public int get_kocsik_szama() {return kocsik_szama;}
 }

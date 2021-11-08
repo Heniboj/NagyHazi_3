@@ -31,7 +31,7 @@ public class Datum implements Serializable{
     public int get_perc() {return perc;}
 
     public String toString() {
-        String datum = ev+"/"+nap+"/"+honap+" "+ora+":";
+        String datum = ev+"/"+honap+"/"+nap+" "+ora+":";
         if(perc < 10) {
             datum += "0";
         }

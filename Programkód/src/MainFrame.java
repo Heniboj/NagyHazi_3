@@ -19,18 +19,15 @@ public class MainFrame extends JFrame {
         setTitle("Főmenü");
 
         SelectionPanel sp = new SelectionPanel(this);
-        
         VonatPanel vp = new VonatPanel(this);
+        RepuloPanel rp = new RepuloPanel(this);
         
         panels = new JPanel(new CardLayout());
         panels.add(sp, "main");
         panels.add(vp, "vonatpanel");
+        panels.add(rp, "repulopanel");
 
         add(panels, BorderLayout.CENTER);
-
-        
-        
-
 
         setMinimumSize(new Dimension(300, 100));
 
@@ -43,6 +40,10 @@ public class MainFrame extends JFrame {
 
     public void vonatPanel() {
         cl.show(panels, "vonatpanel");
+    }
+
+    public void repuloPanel() {
+        cl.show(panels, "repulopanel");
     }
 
     public Jegyek getJegyek() {return jegyek;}

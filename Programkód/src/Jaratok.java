@@ -10,6 +10,10 @@ public abstract class Jaratok extends AbstractTableModel {
 
     public abstract int size();
 
+    public abstract void save();
+
+    public abstract void load();
+
     // returns true if id is in use
     public abstract boolean checkID(String id);
 

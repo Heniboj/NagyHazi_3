@@ -13,11 +13,11 @@ public class JaratokFrame extends JFrame{
     //private VonatJaratok vonatjaratok; 
     //private Jaratok repulojaratok;
 
-    private VonatJaratok jaratok;
+    private Jaratok jaratok;
 
     class NewButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            JaratFelvetelDialog jfd = new JaratFelvetelDialog(jaratok, "Vonat");
+            JaratFelvetelDialog jfd = new JaratFelvetelDialog(jaratok);
         }
     }
 
@@ -58,7 +58,7 @@ public class JaratokFrame extends JFrame{
     }
     
 
-    public JaratokFrame(VonatJaratok jaratok) {
+    public JaratokFrame(Jaratok jaratok) {
         this.setLayout(new BorderLayout());
         this.jaratok = jaratok;
 

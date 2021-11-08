@@ -2,8 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 public class JaratFelvetelDialog extends JDialog {
-    private VonatJaratok jaratok;
-    private String jarmu;
+    private Jaratok jaratok;
     private JTextField idField;
     private JTextField ind_helyField;
     private JTextField erk_helyField; 
@@ -12,7 +11,7 @@ public class JaratFelvetelDialog extends JDialog {
 
     public class okButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            if(jarmu == "Vonat") {
+            if(jaratok.getClass() == VonatJaratok.class) {
                 Datum ind = new Datum(ind_datumField.getText());
                 Datum erk = new Datum(erk_datumField.getText());
                 Vonat v = new Vonat(idField.getText(), ind_helyField.getText(), erk_helyField.getText(), ind, erk, 5);
@@ -23,15 +22,21 @@ public class JaratFelvetelDialog extends JDialog {
                 cd.ujJarat();
             }
 
-            if(jarmu == "Repulo") {
-                
+            if(jaratok.getClass() == RepuloJaratok.class) {
+                Datum ind = new Datum(ind_datumField.getText());
+                Datum erk = new Datum(erk_datumField.getText());
+                Repulo r = new Repulo(idField.getText(), ind_helyField.getText(), erk_helyField.getText(), ind, erk, 100);
+                jaratok.add(r);
+                jaratok.save();
+                dispose();
+                ConfirmationDialog cd = new ConfirmationDialog();
+                cd.ujJarat();
             } 
         }
     }
 
-    public JaratFelvetelDialog(VonatJaratok jaratok, String jarmu) {
+    public JaratFelvetelDialog(Jaratok jaratok) {
         this.jaratok = jaratok;
-        this.jarmu = jarmu;
         setSize(300,300);
         setLocation(400, 200);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);

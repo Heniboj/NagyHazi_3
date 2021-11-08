@@ -10,9 +10,6 @@ import javax.swing.event.*;
 import javax.swing.table.*;
 
 public class JaratokFrame extends JFrame{
-    //private VonatJaratok vonatjaratok; 
-    //private Jaratok repulojaratok;
-
     private Jaratok jaratok;
 
     class NewButtonActionListener implements ActionListener {
@@ -80,15 +77,15 @@ public class JaratokFrame extends JFrame{
         searchPanel.add(idFilter);
         searchPanel.add(new JLabel("Indulási állomás:"));
         JTextField induloFilter = new JTextField(10);
-        induloFilter.getDocument().addDocumentListener(new TableDocumentListener(rowSorter, induloFilter, 0));
+        induloFilter.getDocument().addDocumentListener(new TableDocumentListener(rowSorter, induloFilter, 1));
         searchPanel.add(induloFilter);
         searchPanel.add(new JLabel("Érkezési állomás:"));
         JTextField erkezoFilter = new JTextField(10);
-        erkezoFilter.getDocument().addDocumentListener(new TableDocumentListener(rowSorter, erkezoFilter, 0));
+        erkezoFilter.getDocument().addDocumentListener(new TableDocumentListener(rowSorter, erkezoFilter, 2));
         searchPanel.add(erkezoFilter);
         searchPanel.add(new JLabel("Indulási dátum:"));
         JTextField indulodatumFilter = new JTextField(10);
-        indulodatumFilter.getDocument().addDocumentListener(new TableDocumentListener(rowSorter, indulodatumFilter, 0));
+        indulodatumFilter.getDocument().addDocumentListener(new TableDocumentListener(rowSorter, indulodatumFilter, 3));
         searchPanel.add(indulodatumFilter);
 
         // esetleg érkezési dátum alapján szűrés

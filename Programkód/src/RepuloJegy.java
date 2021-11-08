@@ -2,7 +2,8 @@ public class RepuloJegy extends Jegy {
     private String osztaly;
     private String menu;
 
-    public RepuloJegy(String n, String o, String m) {
+    public RepuloJegy(int cn, String n, String o, String m) {
+        this.confirmationNumber = cn;
         this.nev = n;
         this.osztaly = o;
         this.menu = m;

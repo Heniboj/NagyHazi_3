@@ -30,7 +30,7 @@ public class VonatPanel extends JPanel {
 
     class EllenorzesButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            MeglevoFoglalasDialog mfd = new MeglevoFoglalasDialog(getJegyek());
+            MeglevoFoglalasDialog mfd = new MeglevoFoglalasDialog(getJegyek(), VonatPanel.this);
         }
     }
     

@@ -22,7 +22,7 @@ public class RepuloPanel extends JPanel {
     class FoglalasButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             FoglalasDialog ff = new FoglalasDialog(getJegyek());
-            ff.vonat();
+            ff.repulo();
             ff.setVisible(true);
             ff.setAlwaysOnTop(true);
         }
@@ -30,7 +30,7 @@ public class RepuloPanel extends JPanel {
 
     class EllenorzesButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            MeglevoFoglalasDialog mfd = new MeglevoFoglalasDialog(getJegyek());
+            MeglevoFoglalasDialog mfd = new MeglevoFoglalasDialog(getJegyek(), RepuloPanel.this);
         }
     }
     

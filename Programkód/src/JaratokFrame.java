@@ -10,7 +10,7 @@ public class JaratokFrame extends JFrame{
 
     class NewButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            JaratFelvetelDialog jfd = new JaratFelvetelDialog(jaratok);
+            new JaratFelvetelDialog(jaratok);
         }
     }
 

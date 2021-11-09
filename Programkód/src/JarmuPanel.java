@@ -31,7 +31,7 @@ public abstract class JarmuPanel extends JPanel {
     class EllenorzesButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             // ez a default, de minden jármű esetén újra kell implementálni
-            MeglevoFoglalasDialog mfd = new VonatMeglevoFoglalasDialog(getJegyek()); 
+            new VonatMeglevoFoglalasDialog(getJegyek()); 
         }
     }
     

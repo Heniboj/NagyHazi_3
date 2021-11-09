@@ -4,7 +4,7 @@ public class RepuloPanel extends JarmuPanel {
     
     class EllenorzesButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            MeglevoFoglalasDialog mfd = new RepuloMeglevoFoglalasDialog(getJegyek());
+            new RepuloMeglevoFoglalasDialog(getJegyek());
         }
     }
     

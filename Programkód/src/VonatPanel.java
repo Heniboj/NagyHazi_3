@@ -4,7 +4,7 @@ public class VonatPanel extends JarmuPanel {
 
     class EllenorzesButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            MeglevoFoglalasDialog mfd = new VonatMeglevoFoglalasDialog(getJegyek());
+            new VonatMeglevoFoglalasDialog(getJegyek());
         }
     }
     

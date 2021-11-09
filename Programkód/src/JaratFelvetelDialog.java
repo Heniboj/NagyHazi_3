@@ -1,6 +1,6 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
+
 public class JaratFelvetelDialog extends JDialog {
     private Jaratok jaratok;
     private JTextField idField;

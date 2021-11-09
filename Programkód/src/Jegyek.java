@@ -5,7 +5,7 @@ import java.util.List;
 public class Jegyek<T> implements Serializable{
     List<T> tarolo;
 
-    public Jegyek() { //maybe int i ?
+    public Jegyek() {
         tarolo = new ArrayList<T>();
     }
 

@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
 
 public class FoglalasDialog extends JDialog {
@@ -82,13 +81,10 @@ public class FoglalasDialog extends JDialog {
         panel.add(nevTextField);
         panel.add(osztalyLabel);
         panel.add(combobox);
-        //panel.add(secondTextField);
         panel.add(menuLabel);
         panel.add(thirdTextField);
         panel.add(okButton);
 
         add(panel);
     }
-
-
 }

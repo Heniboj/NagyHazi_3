@@ -2,9 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class RepuloPanel extends JPanel {
-    private MainFrame parent;
-    private RepuloJaratok jaratok;
+public abstract class JarmuPanel extends JPanel {
+    protected MainFrame parent;
+    protected Jaratok jaratok;
 
     class MainMenuButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
@@ -22,7 +22,7 @@ public class RepuloPanel extends JPanel {
     class FoglalasButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             FoglalasDialog ff = new FoglalasDialog(getJegyek());
-            ff.repulo();
+            ff.vonat();
             ff.setVisible(true);
             ff.setAlwaysOnTop(true);
         }
@@ -30,14 +30,12 @@ public class RepuloPanel extends JPanel {
 
     class EllenorzesButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            MeglevoFoglalasDialog mfd = new RepuloMeglevoFoglalasDialog(getJegyek());
+            // ez a default, de minden jármű esetén újra kell implementálni
+            MeglevoFoglalasDialog mfd = new VonatMeglevoFoglalasDialog(getJegyek()); 
         }
     }
     
-    public RepuloPanel(MainFrame parent) {
-        jaratok = new RepuloJaratok();
-        jaratok.load();
-
+    public JarmuPanel(MainFrame parent) {
         this.parent = parent;
         setLayout(new BorderLayout());
         JLabel infoLabel = new JLabel("Válassza ki a megfelelő menüpontot.");
@@ -59,7 +57,12 @@ public class RepuloPanel extends JPanel {
         this.add(ujFoglalas, BorderLayout.CENTER);
         this.add(foglalasEllenorzes, BorderLayout.LINE_END);
         this.add(fomenuGomb, BorderLayout.PAGE_END);
+
+        // járatok tárolójának példányosítása, szerializált adatok beolvasása
+        initJaratok();
     }
+
+    protected abstract void initJaratok();
 
     public Jegyek getJegyek() {
         return parent.getJegyek();

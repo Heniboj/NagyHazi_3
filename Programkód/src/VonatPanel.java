@@ -3,8 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class VonatPanel extends JarmuPanel {
-    //private VonatJaratok jaratok;
-
+    
     class EllenorzesButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             MeglevoFoglalasDialog mfd = new VonatMeglevoFoglalasDialog(getJegyek());

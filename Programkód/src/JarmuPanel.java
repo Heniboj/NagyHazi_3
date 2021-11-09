@@ -5,6 +5,8 @@ import java.awt.event.*;
 public abstract class JarmuPanel extends JPanel {
     protected MainFrame parent;
     protected Jaratok jaratok;
+    protected JButton ujFoglalas;
+    protected JButton foglalasEllenorzes;
 
     class MainMenuButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
@@ -18,22 +20,6 @@ public abstract class JarmuPanel extends JPanel {
             jf.setVisible(true);
         }
     }
-
-    class FoglalasButtonActionListener implements ActionListener {
-        public void actionPerformed(ActionEvent e) {
-            FoglalasDialog ff = new FoglalasDialog(getJegyek());
-            ff.vonat();
-            ff.setVisible(true);
-            ff.setAlwaysOnTop(true);
-        }
-    }
-
-    class EllenorzesButtonActionListener implements ActionListener {
-        public void actionPerformed(ActionEvent e) {
-            // ez a default, de minden jármű esetén újra kell implementálni
-            new VonatMeglevoFoglalasDialog(getJegyek()); 
-        }
-    }
     
     public JarmuPanel(MainFrame parent) {
         this.parent = parent;
@@ -43,11 +29,9 @@ public abstract class JarmuPanel extends JPanel {
         JButton jaratokButton = new JButton("Járatok megtekintése");
         jaratokButton.addActionListener(new JaratokButtonActionListener());
 
-        JButton ujFoglalas = new JButton("Új foglalás");
-        ujFoglalas.addActionListener(new FoglalasButtonActionListener());
-
-        JButton foglalasEllenorzes = new JButton("Meglévő foglalás ellenőrzése");
-        foglalasEllenorzes.addActionListener(new EllenorzesButtonActionListener());
+        ujFoglalas = new JButton("Új foglalás");
+        
+        foglalasEllenorzes = new JButton("Meglévő foglalás ellenőrzése");
 
         JButton fomenuGomb = new JButton("Vissza a Főmenübe");
         fomenuGomb.addActionListener(new MainMenuButtonActionListener());

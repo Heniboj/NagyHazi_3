@@ -12,7 +12,7 @@ public class RepuloMeglevoFoglalasDialog extends MeglevoFoglalasDialog {
         panel2.setLayout(new BoxLayout(panel2, BoxLayout.Y_AXIS));
 
         for(int i = 0; i < jegyek.size(); i ++) {
-            try{
+            try {
                 RepuloJegy jegy = (RepuloJegy) jegyek.get(i);
                 if(jegy.get_ConfirmationNumber() == confirmationNumber) {
                     JLabel nevLabel = new JLabel("Név: "+jegy.get_nev());

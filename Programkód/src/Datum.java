@@ -7,7 +7,7 @@ public class Datum implements Serializable{
     private int ora;
     private int perc;
 
-    public Datum(int e, int h, int n, int o, int p) {
+/*     public Datum(int e, int h, int n, int o, int p) {
         this.ev = e;
         this.honap = h;
         this.nap = n;
@@ -22,6 +22,15 @@ public class Datum implements Serializable{
         this.nap = Integer.parseInt(splittedString[2]);
         this.ora = Integer.parseInt(splittedString[3]);
         this.perc = Integer.parseInt(splittedString[4]);
+    }
+ */
+
+    public Datum(String e, String h, String n, String o, String p) {
+        this.ev = Integer.parseInt(e);
+        this.honap = Integer.parseInt(h);
+        this.nap = Integer.parseInt(n);
+        this.ora = Integer.parseInt(o);
+        this.perc = Integer.parseInt(p);
     }
 
     public int get_ev() {return ev;}

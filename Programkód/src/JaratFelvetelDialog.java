@@ -26,7 +26,7 @@ public class JaratFelvetelDialog extends JDialog {
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setModalityType(ModalityType.APPLICATION_MODAL);
         setTitle("Járat felvétele");
-        setResizable(true);
+        setResizable(false);
         
          
         panel = new JPanel();

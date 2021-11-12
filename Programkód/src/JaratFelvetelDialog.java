@@ -1,48 +1,23 @@
 import javax.swing.*;
-import java.awt.event.*;
 import java.awt.*;
 
 public class JaratFelvetelDialog extends JDialog {
-    private Jaratok jaratok;
-    private JTextField idField;
-    private JTextField ind_helyField;
-    private JTextField erk_helyField; 
-    private JComboBox ind_ev;
-    private JComboBox ind_honap;
-    private JComboBox ind_nap;
-    private JTextField ind_ora;
-    private JTextField ind_perc;
-    private JComboBox erk_ev;
-    private JComboBox erk_honap;
-    private JComboBox erk_nap;
-    private JTextField erk_ora;
-    private JTextField erk_perc;
-
-    public class okButtonActionListener implements ActionListener {
-        public void actionPerformed(ActionEvent e) {
-            if(jaratok.getClass() == VonatJaratok.class) {
-                Datum ind = new Datum((String)ind_ev.getSelectedItem(), (String)(ind_honap.getSelectedItem()), (String)(ind_nap.getSelectedItem()), ind_ora.getText(), ind_perc.getText());
-                Datum erk = new Datum((String)(erk_ev.getSelectedItem()), (String)(erk_honap.getSelectedItem()), (String)(erk_nap.getSelectedItem()), erk_ora.getText(), erk_perc.getText());
-                Vonat v = new Vonat(idField.getText(), ind_helyField.getText(), erk_helyField.getText(), ind, erk, 5);
-                jaratok.add(v);
-                jaratok.save();
-                dispose();
-                ConfirmationDialog cd = new ConfirmationDialog();
-                cd.ujJarat();
-            }
-
-            if(jaratok.getClass() == RepuloJaratok.class) {
-                Datum ind = new Datum((String)ind_ev.getSelectedItem(), (String)(ind_honap.getSelectedItem()), (String)(ind_nap.getSelectedItem()), ind_ora.getText(), ind_perc.getText());
-                Datum erk = new Datum((String)(erk_ev.getSelectedItem()), (String)(erk_honap.getSelectedItem()), (String)(erk_nap.getSelectedItem()), erk_ora.getText(), erk_perc.getText());
-                Repulo r = new Repulo(idField.getText(), ind_helyField.getText(), erk_helyField.getText(), ind, erk, 100);
-                jaratok.add(r);
-                jaratok.save();
-                dispose();
-                ConfirmationDialog cd = new ConfirmationDialog();
-                cd.ujJarat();
-            }
-        }
-    }
+    protected Jaratok jaratok;
+    protected JPanel panel;
+    protected JTextField idField;
+    protected JTextField ind_helyField;
+    protected JTextField erk_helyField; 
+    protected JComboBox ind_ev;
+    protected JComboBox ind_honap;
+    protected JComboBox ind_nap;
+    protected JTextField ind_ora;
+    protected JTextField ind_perc;
+    protected JComboBox erk_ev;
+    protected JComboBox erk_honap;
+    protected JComboBox erk_nap;
+    protected JTextField erk_ora;
+    protected JTextField erk_perc;
+    protected JButton okButton;
 
     public JaratFelvetelDialog(Jaratok jaratok) {
         this.jaratok = jaratok;
@@ -54,7 +29,7 @@ public class JaratFelvetelDialog extends JDialog {
         setResizable(true);
         
          
-        JPanel panel = new JPanel();
+        panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         panel.setBorder(BorderFactory.createEmptyBorder(0, 20, 20, 20));
         
@@ -108,9 +83,8 @@ public class JaratFelvetelDialog extends JDialog {
         erk_idopontPanel.add(new JLabel(":"));
         erk_idopontPanel.add(erk_perc);
         
-        JButton okButton = new JButton("OK");
+        okButton = new JButton("OK");
         okButton.setAlignmentX(Component.CENTER_ALIGNMENT);
-        okButton.addActionListener(new okButtonActionListener());
 
         panel.add(idLabel);
         panel.add(idField);
@@ -130,11 +104,6 @@ public class JaratFelvetelDialog extends JDialog {
         erk_datumPanel.add(erk_nap);
         panel.add(erk_datumPanel);
         panel.add(erk_idopontPanel);
-        panel.add(okButton);
-
-        add(panel);
-        
-        setVisible(true);
     }
     
 }

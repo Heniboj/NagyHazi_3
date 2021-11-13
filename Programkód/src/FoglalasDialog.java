@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.event.*;
 
 public abstract class FoglalasDialog extends JDialog {
     protected Jegyek jegyek;

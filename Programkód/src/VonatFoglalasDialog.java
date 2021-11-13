@@ -5,19 +5,28 @@ public class VonatFoglalasDialog extends FoglalasDialog {
     
     public class okButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            int confirmationNumber;
-            if(jegyek.size() == 0) {
-                confirmationNumber = 1;
-            } else {
-                confirmationNumber = ((Jegy)jegyek.get(jegyek.size()-1)).get_ConfirmationNumber() + 1;
+            if(nevTextField.getText().equals("")) {
+                new ErrorDialog("Ne hagyj üresen mezőt és ellenőrizd az adatok helyességét.");
+                return;
             }
+            
+            try {
+                int confirmationNumber;
+                if(jegyek.size() == 0) {
+                    confirmationNumber = 1;
+                } else {
+                    confirmationNumber = ((Jegy)jegyek.get(jegyek.size()-1)).get_ConfirmationNumber() + 1;
+                }
 
-            Jegy j = new VonatJegy(confirmationNumber, nevTextField.getText(), Integer.parseInt(secondTextField.getText()), Integer.parseInt(thirdTextField.getText()));
-            jegyek.add(j);
-            jegyek.save();
-            dispose();
-            ConfirmationDialog cd = new ConfirmationDialog();
-            cd.ujFoglalas(confirmationNumber);     
+                Jegy j = new VonatJegy(confirmationNumber, nevTextField.getText(), Integer.parseInt(secondTextField.getText()), Integer.parseInt(thirdTextField.getText()));
+                jegyek.add(j);
+                jegyek.save();
+                dispose();
+                ConfirmationDialog cd = new ConfirmationDialog();
+                cd.ujFoglalas(confirmationNumber);
+            } catch(Exception ex) {
+                new ErrorDialog("Ne hagyj üresen mezőt és ellenőrizd az adatok helyességét.");
+            } 
         }
     }
 

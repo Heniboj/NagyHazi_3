@@ -10,6 +10,10 @@ public abstract class MeglevoFoglalasDialog extends JDialog {
 
     class okButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            if(confirmationNumberField.getText().equals("")) {
+                new ErrorDialog("Ne hagyd üresen a mezőt.");
+                return;
+            }
             constructSecondPanel(Integer.parseInt(confirmationNumberField.getText()));
             cl.show(panels, "panel2");
         }
@@ -36,7 +40,6 @@ public abstract class MeglevoFoglalasDialog extends JDialog {
         setLocation(400, 200);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setModalityType(ModalityType.APPLICATION_MODAL);
-        setAlwaysOnTop(true);
 
         JPanel panel1 = new JPanel();
         JLabel confirmationNumberLabel = new JLabel("Foglalási szám:");

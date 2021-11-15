@@ -37,6 +37,7 @@ public class RepuloMeglevoFoglalasDialog extends MeglevoFoglalasDialog {
         }
         
         JLabel infoLabel = new JLabel("A megadott foglalási szám alapján megvásárolt jegy nem található!");
+        setSize(500,100);
         infoLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
         panel2.add(infoLabel);
         panels.add(panel2, "panel2");

@@ -8,24 +8,6 @@ public class Datum implements Serializable{
     private int ora;
     private int perc;
 
-/*     public Datum(int e, int h, int n, int o, int p) {
-        this.ev = e;
-        this.honap = h;
-        this.nap = n;
-        this.ora = o;
-        this.perc = p;
-    }
-
-    public Datum(String datumString) {
-        String[] splittedString = datumString.split("/");
-        this.ev = Integer.parseInt(splittedString[0]);
-        this.honap = Integer.parseInt(splittedString[1]);
-        this.nap = Integer.parseInt(splittedString[2]);
-        this.ora = Integer.parseInt(splittedString[3]);
-        this.perc = Integer.parseInt(splittedString[4]);
-    }
- */
-
     public Datum(String e, String h, String n, String o, String p) {
         this.ev = Integer.parseInt(e);
         this.honap = Integer.parseInt(h);

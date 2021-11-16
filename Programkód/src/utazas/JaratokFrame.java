@@ -114,6 +114,12 @@ public class JaratokFrame extends JFrame{
         setMinimumSize(new Dimension(850, 300));
     }
 
+    
+    /** 
+     * Filterek inicializálása
+     * @param filters filtereket tároló Collectible
+     * @param size  filterek száma
+     */
     public void initFilters(ArrayList<RowFilter<Object,Object>> filters, int size) {
         for(int i = 0; i < size; i++) {
             filters.add(RowFilter.regexFilter(".*", i));

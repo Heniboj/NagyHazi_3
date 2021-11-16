@@ -10,6 +10,11 @@ public class ConfirmationDialog extends JDialog {
         setAlwaysOnTop(true);
     }
 
+    
+    /** 
+     * Új foglalás megerősítése, a foglalási szám megjelenítése
+     * @param confirmationNumber a foglalási szám
+     */
     public void ujFoglalas(int confirmationNumber) {
         JPanel panel = new JPanel();
         JLabel confirmationLabel = new JLabel("Sikeres foglalás! A foglalási szám: "+confirmationNumber);
@@ -19,6 +24,11 @@ public class ConfirmationDialog extends JDialog {
         setVisible(true);
     }
 
+    
+    /** 
+     * Foglalás törlésének megerősítése
+     * @param confirmationNumber a foglalási szám
+     */
     public void foglalasTorles(int confirmationNumber) {
         JPanel panel = new JPanel();
         JLabel confirmationLabel = new JLabel("A "+confirmationNumber+" számú foglalást sikeresen töröltük.");
@@ -28,6 +38,9 @@ public class ConfirmationDialog extends JDialog {
         setVisible(true);
     }
 
+    /** 
+     * Tájékoztatás sikeres járatfelvételről
+    */
     public void ujJarat() {
         JPanel panel = new JPanel();
         JLabel confirmationLabel = new JLabel("Sikeres járatfelvétel!");

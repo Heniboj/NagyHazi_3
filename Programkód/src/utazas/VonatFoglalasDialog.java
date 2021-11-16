@@ -4,6 +4,9 @@ import java.awt.event.*;
 
 public class VonatFoglalasDialog extends FoglalasDialog {
     
+    /**
+     * Ok gomb megnyomása után a foglalás rögzítése hibakezeléssel
+     */
     public class okButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             if(nevTextField.getText().equals("")) {

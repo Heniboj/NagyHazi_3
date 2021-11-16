@@ -22,6 +22,9 @@ public abstract class JarmuPanel extends JPanel {
         }
     }
     
+    /**
+     * Panel menügombjainak kirajzolása
+    */
     public JarmuPanel(MainFrame parent) {
         this.parent = parent;
         setLayout(new BorderLayout());

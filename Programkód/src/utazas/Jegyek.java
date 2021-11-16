@@ -10,10 +10,22 @@ public class Jegyek<T> implements Serializable{
         tarolo = new ArrayList<T>();
     }
 
+    
+    /** 
+     * Objektum hozzáadása a tárolóhoz
+     * @param o az objektum
+     */
     public void add(T o) {
         tarolo.add(o);
     }
 
+    
+    /** 
+     * Objektum lekérése a tárolóból a foglalás száma alapján
+     * @param confirmationNumber a foglalás száma
+     * @return T az objektum
+     * @throws TicketNotFoundException nem létező foglalás esetén dobott kivétel
+     */
     public T get(int confirmationNumber) throws TicketNotFoundException {
         for(int i = 0; i< tarolo.size(); i++) {
             if(((Jegy)tarolo.get(i)).get_ConfirmationNumber() == confirmationNumber) {
@@ -23,6 +35,11 @@ public class Jegyek<T> implements Serializable{
         throw new TicketNotFoundException("A keresett jegy nem található!");
     }
 
+    
+    /** 
+     * Foglalás törlése a tárolóból
+     * @param confirmationNumber a foglalás száma
+     */
     public void remove(int confirmationNumber) {
         for(int i = 0; i < tarolo.size(); i++) {
             if(((Jegy)tarolo.get(i)).get_ConfirmationNumber() == confirmationNumber) {
@@ -31,10 +48,18 @@ public class Jegyek<T> implements Serializable{
         }
     }
 
+    
+    /** 
+     * A tároló mérete
+     * @return int a méret
+     */
     public int size() {
         return tarolo.size();
     }
 
+    /**
+     * tároló szerializálása
+     */
     public void save() {
         try {
             FileOutputStream f = new FileOutputStream("jegyek.dat");
@@ -45,6 +70,9 @@ public class Jegyek<T> implements Serializable{
             catch(IOException ex) {  }
     }
 
+    /**
+     * szerializált adatok beolvasása
+     */
     public void load() {
         try {
             FileInputStream f = new FileInputStream("jegyek.dat");

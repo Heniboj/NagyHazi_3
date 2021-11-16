@@ -5,6 +5,9 @@ import java.awt.event.*;
 public class RepuloFoglalasDialog extends FoglalasDialog {
     private JComboBox combobox;
 
+    /**
+     * Ok gomb megnyomása után a foglalás rögzítése hibakezeléssel
+     */
     public class okButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             if(nevTextField.getText().equals("") || thirdTextField.getText().equals("")) {

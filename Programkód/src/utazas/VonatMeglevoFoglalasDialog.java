@@ -8,6 +8,10 @@ public class VonatMeglevoFoglalasDialog extends MeglevoFoglalasDialog {
         super(jegyek);
     }
 
+    /** 
+     * Második panel elkészítésa, amely létező foglalás esetén kiírja az adatokat
+     * @param confirmationNumber a foglalás száma
+     */
     protected void constructSecondPanel(int confirmationNumber) {
         JPanel panel2 = new JPanel();
         panel2.setLayout(new BoxLayout(panel2, BoxLayout.Y_AXIS));

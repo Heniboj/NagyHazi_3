@@ -9,6 +9,9 @@ public class MainFrame extends JFrame {
 
     private Jegyek jegyek;
 
+    /**
+     * Konstruktor: panelek létrehozása, cardlayoutba berakása
+     */
     public MainFrame() {
         jegyek = new Jegyek();
         jegyek.load();
@@ -34,14 +37,23 @@ public class MainFrame extends JFrame {
         cl = (CardLayout)(panels.getLayout());
     }
 
+    /**
+     * Főmenü megjelenítése
+     */
     public void mainMenu() {
         cl.show(panels, "main");
     }
 
+    /**
+     * VonatPanel megjelenítése
+     */
     public void vonatPanel() {
         cl.show(panels, "vonatpanel");
     }
 
+    /**
+     * RepuloPanel megjelenítése
+     */
     public void repuloPanel() {
         cl.show(panels, "repulopanel");
     }

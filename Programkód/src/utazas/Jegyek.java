@@ -37,6 +37,15 @@ public class Jegyek<T> implements Serializable{
 
     
     /** 
+     * Objektum lekérése a tárolóból az indexe alapján
+     * @param index az objektum indexe a tárolóban
+     * @return T az objektum
+     */
+    public T getByIndex(int index) {
+        return tarolo.get(index);
+    }
+    
+    /** 
      * Foglalás törlése a tárolóból
      * @param confirmationNumber a foglalás száma
      */

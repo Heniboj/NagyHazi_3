@@ -19,7 +19,7 @@ public class VonatFoglalasDialog extends FoglalasDialog {
                 if(jegyek.size() == 0) {
                     confirmationNumber = 1;
                 } else {
-                    confirmationNumber = ((Jegy)jegyek.get(jegyek.size()-1)).get_ConfirmationNumber() + 1;
+                    confirmationNumber = ((Jegy)jegyek.getByIndex(jegyek.size()-1)).get_ConfirmationNumber() + 1;
                 }
 
                 Jegy j = new VonatJegy(confirmationNumber, nevTextField.getText(), Integer.parseInt(secondTextField.getText()), Integer.parseInt(thirdTextField.getText()));

@@ -14,7 +14,8 @@ public abstract class FoglalasDialog extends JDialog {
 
     public FoglalasDialog(Jegyek jegyek) {
         this.jegyek = jegyek;
-        setSize(300,300);
+        setSize(300,125);
+        setResizable(false);
         setLocation(400, 200);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setModalityType(ModalityType.APPLICATION_MODAL);

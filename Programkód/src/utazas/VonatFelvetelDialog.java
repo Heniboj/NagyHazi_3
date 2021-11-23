@@ -12,7 +12,7 @@ public class VonatFelvetelDialog extends JaratFelvetelDialog {
             try {
                 Datum ind = new Datum((String)ind_ev.getSelectedItem(), (String)(ind_honap.getSelectedItem()), (String)(ind_nap.getSelectedItem()), ind_ora.getText(), ind_perc.getText());
                 Datum erk = new Datum((String)(erk_ev.getSelectedItem()), (String)(erk_honap.getSelectedItem()), (String)(erk_nap.getSelectedItem()), erk_ora.getText(), erk_perc.getText());
-                Vonat v = new Vonat(idField.getText(), ind_helyField.getText(), erk_helyField.getText(), ind, erk, 5);
+                Vonat v = new Vonat(idField.getText(), ind_helyField.getText(), erk_helyField.getText(), ind, erk, Integer.parseInt(specField.getText()));
                 jaratok.add(v);
                 jaratok.save();
                 dispose();
@@ -26,6 +26,7 @@ public class VonatFelvetelDialog extends JaratFelvetelDialog {
 
     public VonatFelvetelDialog(Jaratok jaratok) {
         super(jaratok);
+        specLabel.setText("Kocsik száma:");
         okButton.addActionListener(new okButtonActionListener());
         panel.add(okButton);
         add(panel);

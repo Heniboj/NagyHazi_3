@@ -15,10 +15,6 @@ public class MainFrame extends JFrame {
     public MainFrame() {
         jegyek = new Jegyek();
         jegyek.load();
-        try {
-        System.out.println((jegyek.get(1)).get_nev());
-        }
-        catch (TicketNotFoundException e) {}
         setLayout(new BorderLayout());
         setSize(600,300);
         setLocation(400, 200);

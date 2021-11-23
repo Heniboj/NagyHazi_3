@@ -18,11 +18,13 @@ public class JaratFelvetelDialog extends JDialog {
     protected JComboBox erk_nap;
     protected JTextField erk_ora;
     protected JTextField erk_perc;
+    protected JLabel specLabel;
+    protected JTextField specField;
     protected JButton okButton;
 
     public JaratFelvetelDialog(Jaratok jaratok) {
         this.jaratok = jaratok;
-        setSize(300, 350);
+        setSize(300, 400);
         setLocation(400, 200);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setModalityType(ModalityType.APPLICATION_MODAL);
@@ -83,6 +85,10 @@ public class JaratFelvetelDialog extends JDialog {
         erk_idopontPanel.add(erk_ora);
         erk_idopontPanel.add(new JLabel(":"));
         erk_idopontPanel.add(erk_perc);
+
+        specLabel = new JLabel("Speciális adat:");
+        specLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
+        specField = new JTextField(10);
         
         okButton = new JButton("OK");
         okButton.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -105,6 +111,8 @@ public class JaratFelvetelDialog extends JDialog {
         erk_datumPanel.add(erk_nap);
         panel.add(erk_datumPanel);
         panel.add(erk_idopontPanel);
+        panel.add(specLabel);
+        panel.add(specField);
     }
     
 }

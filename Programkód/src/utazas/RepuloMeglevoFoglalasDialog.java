@@ -16,7 +16,7 @@ public class RepuloMeglevoFoglalasDialog extends MeglevoFoglalasDialog {
         JPanel panel2 = new JPanel();
         panel2.setLayout(new BoxLayout(panel2, BoxLayout.Y_AXIS));
 
-        for(int i = 0; i < jegyek.size(); i ++) {
+        for(int i = 1; i < jegyek.size()+1; i ++) {
             try {
                 RepuloJegy jegy = (RepuloJegy) jegyek.get(i);
                 if(jegy.get_ConfirmationNumber() == confirmationNumber) {

@@ -27,7 +27,7 @@ public class Jegyek<T> implements Serializable{
      * @throws TicketNotFoundException nem létező foglalás esetén dobott kivétel
      */
     public T get(int confirmationNumber) throws TicketNotFoundException {
-        for(int i = 0; i< tarolo.size(); i++) {
+        for(int i = 0; i < tarolo.size(); i++) {
             if(((Jegy)tarolo.get(i)).get_ConfirmationNumber() == confirmationNumber) {
                 return tarolo.get(i);
             }

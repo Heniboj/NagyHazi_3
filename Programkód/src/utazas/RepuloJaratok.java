@@ -31,6 +31,21 @@ public class RepuloJaratok extends Jaratok {
 
     
     /** 
+     * Repülő lekérése a tárolóból járatazonosító alapján
+     * @param id a járatazonosító
+     * @return Repulo
+     */
+    public Repulo getByID(String id) {
+        for(int i = 0; i < tarolo.size(); i++) {
+            if(tarolo.get(i).get_id().equals(id)) {
+                return tarolo.get(i);
+            }
+        }
+        return null;
+    }
+
+    
+    /** 
      * Repülő eltávolítása a tárolóból
      * @param id azonosító
      */

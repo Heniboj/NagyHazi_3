@@ -29,6 +29,20 @@ public class VonatJaratok extends Jaratok  {
         return tarolo.get(index);
     }
 
+    /** 
+     * Vonat lekérése a tárolóból járatazonosító alapján
+     * @param id a járatazonosító
+     * @return Vonat
+     */
+    public Vonat getByID(String id) {
+        for(int i = 0; i < tarolo.size(); i++) {
+            if(tarolo.get(i).get_id().equals(id)) {
+                return tarolo.get(i);
+            }
+        }
+        return null;
+    }
+
     
     /** 
      * Vonat eltávolítása a tárolóból

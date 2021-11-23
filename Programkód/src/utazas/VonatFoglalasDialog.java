@@ -1,5 +1,6 @@
 package utazas;
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.*;
 
 public class VonatFoglalasDialog extends FoglalasDialog {
@@ -22,31 +23,46 @@ public class VonatFoglalasDialog extends FoglalasDialog {
                     confirmationNumber = ((Jegy)jegyek.getByIndex(jegyek.size()-1)).get_ConfirmationNumber() + 1;
                 }
 
-                Jegy j = new VonatJegy(confirmationNumber, nevTextField.getText(), Integer.parseInt(secondTextField.getText()), Integer.parseInt(thirdTextField.getText()));
-                jegyek.add(j);
-                jegyek.save();
-                dispose();
-                ConfirmationDialog cd = new ConfirmationDialog();
-                cd.ujFoglalas(confirmationNumber);
+                if(jegyek.checkAvailableSeat(jaratszamComboBox.getSelectedItem().toString(), Integer.parseInt(secondTextField.getText()), Integer.parseInt(thirdTextField.getText()), (VonatJaratok)jaratok)) {
+                    Jegy j = new VonatJegy(jaratszamComboBox.getSelectedItem().toString(), confirmationNumber, nevTextField.getText(), Integer.parseInt(secondTextField.getText()), Integer.parseInt(thirdTextField.getText()));
+                    jegyek.add(j);
+                    jegyek.save();
+                    dispose();
+                    ConfirmationDialog cd = new ConfirmationDialog();
+                    cd.ujFoglalas(confirmationNumber);
+                } else {
+                    new ErrorDialog("Nem létező kocsiszám, vagy a hely már foglalt.");
+                }
             } catch(Exception ex) {
                 new ErrorDialog("Ne hagyj üresen mezőt és ellenőrizd az adatok helyességét.");
             } 
         }
     }
 
-    public VonatFoglalasDialog(Jegyek jegyek) {
-        super(jegyek);
+    public VonatFoglalasDialog(Jegyek jegyek, Jaratok jaratok) {
+        super(jegyek, jaratok);
         okButton.addActionListener(new okButtonActionListener());
 
         JLabel kocsiszamLabel = new JLabel("Kocsiszám:");
         JLabel helyLabel = new JLabel("Hely:");
-        
-        panel.add(nevLabel);
-        panel.add(nevTextField);
-        panel.add(kocsiszamLabel);
-        panel.add(secondTextField);
-        panel.add(helyLabel);
-        panel.add(thirdTextField);
+
+        JPanel jaratszamPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        jaratszamPanel.add(jaratszamLabel);
+        jaratszamPanel.add(jaratszamComboBox);
+        JPanel nevPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        nevPanel.add(nevLabel);
+        nevPanel.add(nevTextField);
+        JPanel kocsiszamPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        kocsiszamPanel.add(kocsiszamLabel);
+        kocsiszamPanel.add(secondTextField);
+        JPanel helyPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        helyPanel.add(helyLabel);
+        helyPanel.add(thirdTextField);
+
+        panel.add(jaratszamPanel);
+        panel.add(nevPanel);
+        panel.add(kocsiszamPanel);
+        panel.add(helyPanel);
         panel.add(okButton);
         add(panel);
         setVisible(true);

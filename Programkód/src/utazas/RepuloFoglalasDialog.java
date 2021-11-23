@@ -1,5 +1,6 @@
 package utazas;
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.*;
 
 public class RepuloFoglalasDialog extends FoglalasDialog {
@@ -22,32 +23,46 @@ public class RepuloFoglalasDialog extends FoglalasDialog {
                     confirmationNumber = ((Jegy)jegyek.getByIndex(jegyek.size()-1)).get_ConfirmationNumber() + 1;
                 }
 
-                Jegy j = new RepuloJegy(confirmationNumber, nevTextField.getText(), combobox.getSelectedItem().toString(), thirdTextField.getText());
-                jegyek.add(j);
-                jegyek.save();
-                dispose();
-                ConfirmationDialog cd = new ConfirmationDialog();
-                cd.ujFoglalas(confirmationNumber); 
+                if(jegyek.checkAvailableSeat(jaratszamComboBox.getSelectedItem().toString(), (RepuloJaratok)jaratok)) {
+                    Jegy j = new RepuloJegy(jaratszamComboBox.getSelectedItem().toString(), confirmationNumber, nevTextField.getText(), combobox.getSelectedItem().toString(), thirdTextField.getText());
+                    jegyek.add(j);
+                    jegyek.save();
+                    dispose();
+                    ConfirmationDialog cd = new ConfirmationDialog();
+                    cd.ujFoglalas(confirmationNumber); 
+                }
             } catch(Exception ex) {
                 new ErrorDialog("Ne hagyj üresen mezőt és ellenőrizd az adatok helyességét.");
             } 
         }
     }
 
-    public RepuloFoglalasDialog(Jegyek jegyek) {
-        super(jegyek);
+    public RepuloFoglalasDialog(Jegyek jegyek, Jaratok jaratok) {
+        super(jegyek, jaratok);
         okButton.addActionListener(new okButtonActionListener());
 
         JLabel osztalyLabel = new JLabel("Osztaly:");
         combobox = new JComboBox(new String[]{"Economy", "Business", "First"});
         JLabel menuLabel = new JLabel("Menu:");
-        
-        panel.add(nevLabel);
-        panel.add(nevTextField);
-        panel.add(osztalyLabel);
-        panel.add(combobox);
-        panel.add(menuLabel);
-        panel.add(thirdTextField);
+
+
+        JPanel jaratszamPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        jaratszamPanel.add(jaratszamLabel);
+        jaratszamPanel.add(jaratszamComboBox);
+        JPanel nevPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        nevPanel.add(nevLabel);
+        nevPanel.add(nevTextField);
+        JPanel osztalyPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        osztalyPanel.add(osztalyLabel);
+        osztalyPanel.add(combobox);
+        JPanel menuPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        menuPanel.add(menuLabel);
+        menuPanel.add(thirdTextField);
+
+        panel.add(jaratszamPanel);
+        panel.add(nevPanel);
+        panel.add(osztalyPanel);
+        panel.add(menuPanel);
         panel.add(okButton);
         add(panel);
         setVisible(true);

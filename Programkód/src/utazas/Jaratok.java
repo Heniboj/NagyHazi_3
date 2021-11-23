@@ -7,6 +7,8 @@ public abstract class Jaratok extends AbstractTableModel {
 
     public abstract Jarmu get(int index);
 
+    public abstract Jarmu getByID(String id);
+
     public abstract void remove(String id);
 
     public abstract int size();

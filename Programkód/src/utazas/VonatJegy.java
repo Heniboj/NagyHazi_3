@@ -3,7 +3,8 @@ public class VonatJegy extends Jegy {
     private int kocsiszam;
     private int hely;
 
-    public VonatJegy(int cn, String n, int k, int h) {
+    public VonatJegy(String id, int cn, String n, int k, int h) {
+        this.jaratazonosito = id;
         this.confirmationNumber = cn;
         this.nev = n;
         this.kocsiszam = k;

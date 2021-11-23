@@ -4,7 +4,7 @@ import java.awt.event.*;
 public class RepuloPanel extends JarmuPanel {
     class FoglalasButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            new RepuloFoglalasDialog(getJegyek());
+            new RepuloFoglalasDialog(getJegyek(), jaratok);
         }
     }
 

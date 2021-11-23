@@ -3,7 +3,8 @@ public class RepuloJegy extends Jegy {
     private String osztaly;
     private String menu;
 
-    public RepuloJegy(int cn, String n, String o, String m) {
+    public RepuloJegy(String id, int cn, String n, String o, String m) {
+        this.jaratazonosito = id;
         this.confirmationNumber = cn;
         this.nev = n;
         this.osztaly = o;

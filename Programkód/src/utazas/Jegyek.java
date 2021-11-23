@@ -57,13 +57,53 @@ public class Jegyek<T> implements Serializable{
         }
     }
 
-    
     /** 
      * A tároló mérete
      * @return int a méret
      */
     public int size() {
         return tarolo.size();
+    }
+
+    /** 
+     * Ellenőrzi, hogy a paraméterek alapján megadott hely szabad-e
+     * @param kocsi a kocsiszám
+     * @param hely az ülés száma
+     * @return boolean
+     */
+    public boolean checkAvailableSeat(String jaratazonosito, int kocsi, int hely, VonatJaratok jaratok) {
+        if(kocsi > ((Vonat)jaratok.getByID(jaratazonosito)).get_kocsik_szama()) {
+            return false;
+        }
+        for(int i = 0; i < tarolo.size(); i++) {
+            try {
+                if(((VonatJegy)tarolo.get(i)).get_jaratazonosito().equals(jaratazonosito) && ((VonatJegy)tarolo.get(i)).get_kocsiszam() == kocsi && ((VonatJegy)tarolo.get(i)).get_hely() == hely) {
+                    return false;
+                }
+            } catch(ClassCastException ex) {}
+        }
+        return true;
+    }
+    
+    /** 
+     * Ellenőrzi, hogy a paraméterek alapján van-e még szabad hely
+     * @param jaratazonosito a járatazonosító
+     * @param jaratok a járatok tömb
+     * @return boolean
+     */
+    public boolean checkAvailableSeat(String jaratazonosito, RepuloJaratok jaratok) {
+        int foglalt = 0;
+        for(int i = 0; i < tarolo.size(); i++) {
+            try {
+                if(((RepuloJegy)tarolo.get(i)).get_jaratazonosito().equals(jaratazonosito)) {
+                    foglalt++;
+                }
+            } catch(ClassCastException ex) {}
+        }
+        if(foglalt == jaratok.getByID(jaratazonosito).get_ferohely()) {
+            return false;
+        }
+        return true;
     }
 
     /**

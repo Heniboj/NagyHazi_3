@@ -15,6 +15,9 @@ public abstract class MeglevoFoglalasDialog extends JDialog {
                 new ErrorDialog("Ne hagyd üresen a mezőt.");
                 return;
             }
+            try {
+                Integer.parseInt(confirmationNumberField.getText());
+            } catch(NumberFormatException ex) {new ErrorDialog("Csak számot írj a mezőbe.");}
             constructSecondPanel(Integer.parseInt(confirmationNumberField.getText()));
             cl.show(panels, "panel2");
         }

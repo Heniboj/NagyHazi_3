@@ -18,6 +18,8 @@ public class RepuloMeglevoFoglalasDialog extends MeglevoFoglalasDialog {
 
         try {
             RepuloJegy jegy = (RepuloJegy) jegyek.get(confirmationNumber);
+            JLabel idLabel = new JLabel("Járatazonosító: "+jegy.get_jaratazonosito());
+            idLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
             JLabel nevLabel = new JLabel("Név: "+jegy.get_nev());
             nevLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
             JLabel osztalyLabel = new JLabel("Osztály: "+jegy.get_osztaly());
@@ -27,6 +29,7 @@ public class RepuloMeglevoFoglalasDialog extends MeglevoFoglalasDialog {
             JButton torlesButton = new JButton("Foglalás törlése");
             torlesButton.setAlignmentX(Component.CENTER_ALIGNMENT);
             torlesButton.addActionListener(new TorlesButtonActionListener(confirmationNumber));
+            panel2.add(idLabel);
             panel2.add(nevLabel);
             panel2.add(osztalyLabel);
             panel2.add(menulabel);

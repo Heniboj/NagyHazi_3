@@ -40,7 +40,7 @@ public abstract class MeglevoFoglalasDialog extends JDialog {
 
     public MeglevoFoglalasDialog(Jegyek jegyek) {
         this.jegyek = jegyek;
-        setSize(300,100);
+        setSize(300,125);
         setLocation(400, 200);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         setModalityType(ModalityType.APPLICATION_MODAL);

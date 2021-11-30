@@ -11,7 +11,7 @@ public class RepuloFoglalasDialog extends FoglalasDialog {
      */
     public class okButtonActionListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            if(nevTextField.getText().equals("") || thirdTextField.getText().equals("")) {
+            if(nevTextField.getText().equals("")) {
                 new ErrorDialog("Ne hagyj üresen mezőt és ellenőrizd az adatok helyességét.");
                 return;
             }
@@ -31,6 +31,10 @@ public class RepuloFoglalasDialog extends FoglalasDialog {
                     ConfirmationDialog cd = new ConfirmationDialog();
                     cd.ujFoglalas(confirmationNumber); 
                 }
+                else {
+                    new ErrorDialog("Ezen a járaton más nincs több férőhely.");
+                    return;
+                }
             } catch(Exception ex) {
                 new ErrorDialog("Ne hagyj üresen mezőt és ellenőrizd az adatok helyességét.");
             } 
@@ -43,8 +47,6 @@ public class RepuloFoglalasDialog extends FoglalasDialog {
 
         JLabel osztalyLabel = new JLabel("Osztaly:");
         combobox = new JComboBox(new String[]{"Economy", "Business", "First"});
-        JLabel menuLabel = new JLabel("Menu:");
-
 
         JPanel jaratszamPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
         jaratszamPanel.add(jaratszamLabel);
@@ -55,14 +57,10 @@ public class RepuloFoglalasDialog extends FoglalasDialog {
         JPanel osztalyPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
         osztalyPanel.add(osztalyLabel);
         osztalyPanel.add(combobox);
-        JPanel menuPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
-        menuPanel.add(menuLabel);
-        menuPanel.add(thirdTextField);
 
         panel.add(jaratszamPanel);
         panel.add(nevPanel);
         panel.add(osztalyPanel);
-        panel.add(menuPanel);
         panel.add(okButton);
         add(panel);
         setVisible(true);

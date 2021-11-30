@@ -24,15 +24,12 @@ public class RepuloMeglevoFoglalasDialog extends MeglevoFoglalasDialog {
             nevLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
             JLabel osztalyLabel = new JLabel("Osztály: "+jegy.get_osztaly());
             osztalyLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
-            JLabel menulabel = new JLabel("Menü: "+jegy.get_menu());
-            menulabel.setAlignmentX(Component.CENTER_ALIGNMENT);
             JButton torlesButton = new JButton("Foglalás törlése");
             torlesButton.setAlignmentX(Component.CENTER_ALIGNMENT);
             torlesButton.addActionListener(new TorlesButtonActionListener(confirmationNumber));
             panel2.add(idLabel);
             panel2.add(nevLabel);
             panel2.add(osztalyLabel);
-            panel2.add(menulabel);
             panel2.add(torlesButton);
             panels.add(panel2, "panel2");
             return;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Jegyek<T> implements Serializable{
-    List<T> tarolo;
+    private List<T> tarolo;
 
     public Jegyek() {
         tarolo = new ArrayList<T>();

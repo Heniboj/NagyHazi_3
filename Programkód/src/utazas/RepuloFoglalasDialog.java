@@ -24,7 +24,7 @@ public class RepuloFoglalasDialog extends FoglalasDialog {
                 }
 
                 if(jegyek.checkAvailableSeat(jaratszamComboBox.getSelectedItem().toString(), (RepuloJaratok)jaratok)) {
-                    Jegy j = new RepuloJegy(jaratszamComboBox.getSelectedItem().toString(), confirmationNumber, nevTextField.getText(), combobox.getSelectedItem().toString(), thirdTextField.getText());
+                    Jegy j = new RepuloJegy(jaratszamComboBox.getSelectedItem().toString(), confirmationNumber, nevTextField.getText(), combobox.getSelectedItem().toString());
                     jegyek.add(j);
                     jegyek.save();
                     dispose();

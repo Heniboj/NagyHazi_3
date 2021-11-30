@@ -20,7 +20,7 @@ public class JegyekTest extends Jegyek{
         jegyek = new Jegyek();
         v1 = new VonatJegy("BUD1", 1, "Gipsz Jakab", 1, 2);
         v2 = new VonatJegy("SZOL2", 3, "Kiss Janos", 1, 5);
-        r1 = new RepuloJegy("DEB5", 2, "Kovacs Istvan", "Economy", "minta1");
+        r1 = new RepuloJegy("DEB5", 2, "Kovacs Istvan", "Economy");
         jegyek.add(v1);
         jegyek.add(v2);
         jegyek.add(r1);
@@ -37,7 +37,7 @@ public class JegyekTest extends Jegyek{
     // jegy hozzáadásának tesztelése
     @Test
     public void testAdd() throws TicketNotFoundException {
-        RepuloJegy r2 = new RepuloJegy("BUD2", 13, "Minta Bence", "Fitst", "minta2");
+        RepuloJegy r2 = new RepuloJegy("BUD2", 13, "Minta Bence", "Fitst");
         jegyek.add(r2);
         Assert.assertEquals(r2, jegyek.get(13));
     }

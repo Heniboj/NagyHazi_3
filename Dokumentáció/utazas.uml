@@ -3,1642 +3,1615 @@
   <ID>JAVA</ID>
   <OriginalElement>utazas</OriginalElement>
   <nodes>
-    <node x="5323.993236825994" y="2081.0">utazas.RepuloFelvetelDialog.okButtonActionListener</node>
-    <node x="2617.3057368259942" y="2081.0">utazas.VonatFoglalasDialog.okButtonActionListener</node>
-    <node x="3362.566666666667" y="3383.0">utazas.RepuloPanel</node>
-    <node x="1682.055736825994" y="1868.5">utazas.FoglalasDialog</node>
-    <node x="3366.9307368259942" y="590.5">utazas.Repulo</node>
-    <node x="2172.661362591912" y="1467.0">utazas.Jegyek</node>
-    <node x="3560.3265701593273" y="2540.0">utazas.VonatPanel</node>
-    <node x="1300.4724034926608" y="2725.0">utazas.MainFrame</node>
-    <node x="1790.3122204350425" y="568.5">utazas.Jegy</node>
-    <node x="5184.478887101709" y="2355.0">utazas.JaratokFrame.NewButtonActionListener</node>
-    <node x="1954.055736825994" y="1032.5">utazas.RepuloJegy</node>
-    <node x="5381.618236825994" y="2234.5">utazas.RepuloFelvetelDialog</node>
-    <node x="313.0" y="2234.5">utazas.RepuloFoglalasDialog</node>
-    <node x="1394.055736825994" y="2355.0">utazas.SelectionPanel.VonatButtonActionListener</node>
-    <node x="2375.661362591912" y="1835.0">utazas.ConfirmationDialog</node>
-    <node x="660.625" y="1857.0">utazas.MeglevoFoglalasDialog</node>
-    <node x="1102.0557368259942" y="2355.0">utazas.SelectionPanel.RepuloButtonActionListener</node>
-    <node x="356.625" y="3241.0">utazas.RepuloPanel.FoglalasButtonActionListener</node>
-    <node x="4994.868236825994" y="2081.0">utazas.VonatFelvetelDialog.okButtonActionListener</node>
-    <node x="3079.9307368259942" y="590.5">utazas.ErrorDialog.okButtonActionListener</node>
-    <node x="5496.978887101709" y="2758.5">utazas.JaratokFrame</node>
-    <node x="3531.4375" y="2234.5">utazas.VonatFoglalasDialog</node>
-    <node x="5190.65990349266" y="491.0">utazas.Jaratok</node>
-    <node x="3991.187220435043" y="0.0">utazas.Datum</node>
-    <node x="4968.103887101709" y="2934.0">utazas.JarmuPanel.MainMenuButtonActionListener</node>
-    <node x="1988.4929572610363" y="2355.0">utazas.VonatPanel.EllenorzesButtonActionListener</node>
-    <node x="5175.555736825994" y="3086.0">utazas.JarmuPanel</node>
-    <node x="4255.375" y="922.0">utazas.VonatJaratok</node>
-    <node x="4649.328029258579" y="2934.0">utazas.Main</node>
-    <node x="0.0" y="2223.0">utazas.RepuloMeglevoFoglalasDialog</node>
-    <node x="5561.978887101709" y="2934.0">utazas.JarmuPanel.JaratokButtonActionListener</node>
-    <node x="5061.118236825994" y="2234.5">utazas.VonatFelvetelDialog</node>
-    <node x="1994.4929572610363" y="2223.0">utazas.VonatMeglevoFoglalasDialog</node>
-    <node x="3532.9375" y="2355.0">utazas.VonatPanel.FoglalasButtonActionListener</node>
-    <node x="1270.4724034926608" y="2551.5">utazas.SelectionPanel</node>
-    <node x="5337.993236825994" y="1055.0">utazas.JaratFelvetelDialog</node>
-    <node x="667.0" y="1555.0">utazas.MeglevoFoglalasDialog.okButtonActionListener</node>
-    <node x="781.5557368259942" y="2081.0">utazas.MeglevoFoglalasDialog.TorlesButtonActionListener</node>
-    <node x="5343.916666666667" y="2507.0">utazas.JaratokFrame.TableDocumentListener</node>
-    <node x="2996.4929572610363" y="922.0">utazas.RepuloJaratok</node>
-    <node x="243.68073682599425" y="2081.0">utazas.RepuloFoglalasDialog.okButtonActionListener</node>
-    <node x="3236.4929572610363" y="1055.0">utazas.ErrorDialog</node>
-    <node x="3785.4307368259942" y="590.5">utazas.Vonat</node>
-    <node x="4277.805736825994" y="1881.0">utazas.test</node>
-    <node x="3304.1500000000005" y="3513.0">utazas.RepuloPanel.EllenorzesButtonActionListener</node>
-    <node x="2697.4929572610363" y="1032.5">utazas.VonatJegy</node>
-    <node x="2303.0557368259942" y="1055.0">utazas.TicketNotFoundException</node>
-    <node x="3973.161362591912" y="261.0">utazas.Jarmu</node>
+    <node x="1411.9331499247485" y="2938.0">utazas.VonatFoglalasDialog.okButtonActionListener</node>
+    <node x="4071.044323739651" y="1391.0">utazas.RepuloFelvetelDialog.okButtonActionListener</node>
+    <node x="3774.5625" y="3768.0">utazas.RepuloPanel</node>
+    <node x="1866.7664832580817" y="2839.0">utazas.FoglalasDialog</node>
+    <node x="1298.240829571103" y="811.0">utazas.Repulo</node>
+    <node x="464.25" y="2418.0">utazas.Jegyek</node>
+    <node x="1957.025653686979" y="3768.0">utazas.VonatPanel</node>
+    <node x="5038.416666666666" y="3918.0">utazas.MainFrame</node>
+    <node x="2100.75" y="1335.5">utazas.Jegy</node>
+    <node x="3573.21999623777" y="2517.5">utazas.JaratokFrame.NewButtonActionListener</node>
+    <node x="1756.5" y="1861.5">utazas.RepuloJegy</node>
+    <node x="3833.9331499247487" y="1884.5">utazas.RepuloFelvetelDialog</node>
+    <node x="2373.1506536869792" y="3200.5">utazas.RepuloFoglalasDialog</node>
+    <node x="2922.0581499247487" y="800.5">utazas.ConfirmationDialog</node>
+    <node x="5176.5" y="3616.0">utazas.SelectionPanel.VonatButtonActionListener</node>
+    <node x="2915.3081499247487" y="2893.5">utazas.MeglevoFoglalasDialog</node>
+    <node x="4884.5" y="3616.0">utazas.SelectionPanel.RepuloButtonActionListener</node>
+    <node x="3579.9375" y="3616.0">utazas.RepuloPanel.FoglalasButtonActionListener</node>
+    <node x="3665.9331499247487" y="1391.0">utazas.VonatFelvetelDialog.okButtonActionListener</node>
+    <node x="3096.5581499247487" y="471.5">utazas.ErrorDialog.okButtonActionListener</node>
+    <node x="3971.5" y="2926.5">utazas.JaratokFrame</node>
+    <node x="1379.3081499247485" y="3212.0">utazas.VonatFoglalasDialog</node>
+    <node x="2471.6831499247482" y="723.0">utazas.Jaratok</node>
+    <node x="1147.974816591415" y="0.0">utazas.Datum</node>
+    <node x="4332.5" y="3200.5">utazas.JarmuPanel.MainMenuButtonActionListener</node>
+    <node x="1868.266483258082" y="3616.0">utazas.VonatPanel.EllenorzesButtonActionListener</node>
+    <node x="4186.5" y="3374.0">utazas.JarmuPanel</node>
+    <node x="80.75" y="1740.0">utazas.VonatJaratok</node>
+    <node x="5036.416666666666" y="4158.0">utazas.Main</node>
+    <node x="4570.5" y="3419.0">utazas.RepuloMeglevoFoglalasDialog</node>
+    <node x="3520.8081499247487" y="1884.5">utazas.VonatFelvetelDialog</node>
+    <node x="4036.5" y="3200.5">utazas.JarmuPanel.JaratokButtonActionListener</node>
+    <node x="1840.016483258082" y="3419.0">utazas.VonatMeglevoFoglalasDialog</node>
+    <node x="1465.490829571103" y="3616.0">utazas.VonatPanel.FoglalasButtonActionListener</node>
+    <node x="5008.416666666666" y="3779.5">utazas.SelectionPanel</node>
+    <node x="3417.9331499247487" y="1204.0">utazas.JaratFelvetelDialog</node>
+    <node x="2878.6206499247487" y="2517.5">utazas.MeglevoFoglalasDialog.okButtonActionListener</node>
+    <node x="2918.3081499247487" y="3189.0">utazas.MeglevoFoglalasDialog.TorlesButtonActionListener</node>
+    <node x="3860.21999623777" y="2440.0">utazas.JaratokFrame.TableDocumentListener</node>
+    <node x="1213.5" y="1740.0">utazas.RepuloJaratok</node>
+    <node x="2415.1506536869792" y="2938.0">utazas.RepuloFoglalasDialog.okButtonActionListener</node>
+    <node x="3145.0581499247487" y="834.0">utazas.ErrorDialog</node>
+    <node x="316.99082957110295" y="811.0">utazas.Vonat</node>
+    <node x="421.85682373965074" y="2962.0">utazas.test</node>
+    <node x="4281.25" y="3616.0">utazas.RepuloPanel.EllenorzesButtonActionListener</node>
+    <node x="892.5" y="1839.5">utazas.VonatJegy</node>
+    <node x="1453.5" y="1884.5">utazas.TicketNotFoundException</node>
+    <node x="1211.974816591415" y="372.0">utazas.Jarmu</node>
   </nodes>
   <notes />
   <edges>
     <edge source="utazas.Jaratok" target="utazas.Jarmu" relationship="DEPENDENCY">
       <point x="0.0" y="-138.5" />
-      <point x="5290.65990349266" y="459.0" />
-      <point x="4138.930736825994" y="459.0" />
-      <point x="4138.930736825994" y="449.0" />
-      <point x="4089.411362591912" y="449.0" />
-      <point x="38.75" y="83.0" />
+      <point x="2571.6831499247482" y="691.0" />
+      <point x="1515.724816591415" y="691.0" />
+      <point x="1515.724816591415" y="671.0" />
+      <point x="1346.974816591415" y="671.0" />
+      <point x="45.0" y="138.5" />
     </edge>
     <edge source="utazas.VonatPanel.FoglalasButtonActionListener" target="utazas.JarmuPanel" relationship="DEPENDENCY">
-      <point x="94.33333333333348" y="39.0" />
-      <point x="3768.770833333334" y="2475.0" />
-      <point x="4638.828029258579" y="2475.0" />
-      <point x="4638.828029258579" y="3054.0" />
-      <point x="1359.805736825994" y="3054.0" />
-      <point x="1359.805736825994" y="3064.0" />
-      <point x="5195.855736825994" y="3064.0" />
-      <point x="-81.19999999999982" y="-50.5" />
+      <point x="70.75" y="-39.0" />
+      <point x="1677.740829571103" y="3584.0" />
+      <point x="4293.5" y="3584.0" />
+      <point x="0.0" y="84.0" />
     </edge>
     <edge source="utazas.RepuloPanel" target="utazas.MainFrame" relationship="DEPENDENCY">
-      <point x="26.0" y="-39.0" />
-      <point x="3492.566666666667" y="3361.0" />
-      <point x="3570.170553768376" y="3361.0" />
-      <point x="3570.170553768376" y="3341.0" />
-      <point x="895.728887101709" y="3341.0" />
-      <point x="895.728887101709" y="2902.0" />
-      <point x="1359.805736825994" y="2902.0" />
-      <point x="1359.805736825994" y="2892.0" />
-      <point x="1381.9724034926608" y="2892.0" />
-      <point x="0.0" y="72.5" />
+      <point x="52.0" y="39.0" />
+      <point x="3930.5625" y="3867.0" />
+      <point x="5470.0" y="3867.0" />
+      <point x="5470.0" y="3897.0" />
+      <point x="5174.25" y="3897.0" />
+      <point x="54.33333333333303" y="-95.0" />
     </edge>
     <edge source="utazas.JaratFelvetelDialog" target="utazas.Jaratok" relationship="TO_ONE">
-      <point x="57.0" y="-27.5" />
-      <point x="5508.993236825994" y="860.0" />
-      <point x="5456.993236825994" y="860.0" />
-      <point x="5456.993236825994" y="840.0" />
-      <point x="5357.326570159327" y="840.0" />
-      <point x="66.66666666666697" y="138.5" />
-    </edge>
-    <edge source="utazas.RepuloPanel" target="utazas.Jaratok" relationship="DEPENDENCY">
-      <point x="26.0" y="-39.0" />
-      <point x="3492.566666666667" y="3361.0" />
-      <point x="3570.170553768376" y="3361.0" />
-      <point x="3570.170553768376" y="3341.0" />
-      <point x="6154.1916666666675" y="3341.0" />
-      <point x="6154.1916666666675" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
+      <point x="-57.0" y="-226.0" />
+      <point x="3474.9331499247487" y="1152.0" />
+      <point x="2571.6831499247482" y="1152.0" />
       <point x="0.0" y="138.5" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog.okButtonActionListener" target="utazas.ConfirmationDialog" relationship="CREATE">
       <point x="66.75" y="-39.0" />
-      <point x="443.93073682599425" y="2019.0" />
-      <point x="2477.161362591912" y="2019.0" />
+      <point x="2615.4006536869792" y="2817.0" />
+      <point x="2739.141483258082" y="2817.0" />
+      <point x="2739.141483258082" y="2767.0" />
+      <point x="2771.641483258082" y="2767.0" />
+      <point x="2771.641483258082" y="1182.0" />
+      <point x="3023.5581499247487" y="1182.0" />
       <point x="0.0" y="61.0" />
     </edge>
+    <edge source="utazas.RepuloPanel" target="utazas.Jaratok" relationship="DEPENDENCY">
+      <point x="78.0" y="-39.0" />
+      <point x="3956.5625" y="3736.0" />
+      <point x="4874.0" y="3736.0" />
+      <point x="4874.0" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
+    </edge>
     <edge source="utazas.JarmuPanel" target="utazas.JarmuPanel.JaratokButtonActionListener" relationship="CREATE">
-      <point x="-40.600000000000364" y="-50.5" />
-      <point x="5236.455736825994" y="3054.0" />
-      <point x="5154.353887101709" y="3054.0" />
-      <point x="5154.353887101709" y="3044.0" />
-      <point x="5630.978887101709" y="3044.0" />
+      <point x="-26.75" y="-84.0" />
+      <point x="4266.75" y="3352.0" />
+      <point x="4288.5" y="3352.0" />
+      <point x="4288.5" y="3322.0" />
+      <point x="4105.5" y="3322.0" />
       <point x="-69.0" y="39.0" />
     </edge>
     <edge source="utazas.VonatPanel.EllenorzesButtonActionListener" target="utazas.VonatMeglevoFoglalasDialog" relationship="CREATE">
-      <point x="0.0" y="-39.0" />
+      <point x="-74.5" y="-39.0" />
+      <point x="1942.766483258082" y="3574.0" />
+      <point x="1983.016483258082" y="3574.0" />
       <point x="0.0" y="39.0" />
     </edge>
     <edge source="utazas.RepuloFelvetelDialog.okButtonActionListener" target="utazas.Repulo" relationship="CREATE">
       <point x="-66.75" y="-39.0" />
-      <point x="5390.743236825994" y="2059.0" />
-      <point x="5440.604166666667" y="2059.0" />
-      <point x="5440.604166666667" y="1979.0" />
-      <point x="5327.493236825994" y="1979.0" />
-      <point x="5327.493236825994" y="870.0" />
-      <point x="4189.305736825994" y="870.0" />
-      <point x="4189.305736825994" y="810.0" />
-      <point x="3659.4307368259942" y="810.0" />
-      <point x="117.0" y="39.0" />
+      <point x="4137.794323739651" y="1172.0" />
+      <point x="3727.8081499247487" y="1172.0" />
+      <point x="3727.8081499247487" y="1052.0" />
+      <point x="1670.240829571103" y="1052.0" />
+      <point x="1670.240829571103" y="1032.0" />
+      <point x="1590.740829571103" y="1032.0" />
+      <point x="117.0" y="50.5" />
     </edge>
     <edge source="utazas.MainFrame" target="utazas.RepuloPanel" relationship="CREATE">
-      <point x="-54.33333333333326" y="72.5" />
-      <point x="1327.6390701593275" y="2892.0" />
-      <point x="1349.805736825994" y="2892.0" />
-      <point x="1349.805736825994" y="2912.0" />
-      <point x="884.728887101709" y="2912.0" />
-      <point x="884.728887101709" y="3341.0" />
-      <point x="694.2482613357911" y="3341.0" />
-      <point x="694.2482613357911" y="3361.0" />
-      <point x="3440.566666666667" y="3361.0" />
-      <point x="-26.0" y="-39.0" />
+      <point x="-54.33333333333326" y="-95.0" />
+      <point x="5065.583333333334" y="3897.0" />
+      <point x="0.25" y="3897.0" />
+      <point x="0.25" y="3887.0" />
+      <point x="3826.5625" y="3887.0" />
+      <point x="-52.0" y="39.0" />
     </edge>
     <edge source="utazas.test" target="utazas.Jaratok" relationship="DEPENDENCY">
       <point x="51.375" y="-15.0" />
-      <point x="4397.680736825994" y="1803.0" />
-      <point x="4524.243236825994" y="1803.0" />
-      <point x="4524.243236825994" y="1793.0" />
-      <point x="4529.493236825994" y="1793.0" />
-      <point x="4529.493236825994" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
-    </edge>
-    <edge source="utazas.VonatFoglalasDialog" target="utazas.Jaratok" relationship="DEPENDENCY">
-      <point x="35.75" y="-27.5" />
-      <point x="3710.1875" y="2201.0" />
-      <point x="4137.493236825994" y="2201.0" />
-      <point x="4137.493236825994" y="2181.0" />
-      <point x="4536.9375" y="2181.0" />
-      <point x="4536.9375" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="541.7318237396507" y="2817.0" />
+      <point x="1030.75" y="2817.0" />
+      <point x="1030.75" y="2156.0" />
+      <point x="1182.0" y="2156.0" />
+      <point x="1182.0" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.MainFrame" target="utazas.VonatPanel" relationship="CREATE">
-      <point x="54.33333333333326" y="-72.5" />
-      <point x="1436.305736825994" y="2703.0" />
-      <point x="1729.9565946691246" y="2703.0" />
-      <point x="1729.9565946691246" y="2673.0" />
-      <point x="3660.3265701593273" y="2673.0" />
-      <point x="0.0" y="39.0" />
+      <point x="-54.33333333333326" y="-95.0" />
+      <point x="5065.583333333334" y="3897.0" />
+      <point x="0.25" y="3897.0" />
+      <point x="0.25" y="3887.0" />
+      <point x="2007.025653686979" y="3887.0" />
+      <point x="-50.0" y="39.0" />
+    </edge>
+    <edge source="utazas.VonatFoglalasDialog" target="utazas.Jaratok" relationship="DEPENDENCY">
+      <point x="-107.25" y="-27.5" />
+      <point x="1415.0581499247485" y="3167.0" />
+      <point x="1204.240829571103" y="3167.0" />
+      <point x="1204.240829571103" y="3157.0" />
+      <point x="1049.9929928517643" y="3157.0" />
+      <point x="1049.9929928517643" y="2166.0" />
+      <point x="1203.0" y="2166.0" />
+      <point x="1203.0" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.Jegyek" target="utazas.Jegy" relationship="DEPENDENCY">
-      <point x="101.5" y="-127.0" />
-      <point x="2477.161362591912" y="1345.0" />
-      <point x="2573.5557368259942" y="1345.0" />
-      <point x="2573.5557368259942" y="900.0" />
-      <point x="1415.8122204350425" y="900.0" />
-      <point x="1415.8122204350425" y="840.0" />
-      <point x="1841.8122204350425" y="840.0" />
-      <point x="-51.5" y="61.0" />
+      <point x="101.5" y="-138.5" />
+      <point x="768.75" y="2396.0" />
+      <point x="672.25" y="2396.0" />
+      <point x="672.25" y="2156.0" />
+      <point x="606.5" y="2156.0" />
+      <point x="606.5" y="1708.0" />
+      <point x="2484.117992851764" y="1708.0" />
+      <point x="2484.117992851764" y="1698.0" />
+      <point x="2255.25" y="1698.0" />
+      <point x="51.5" y="94.5" />
     </edge>
     <edge source="utazas.JaratokFrame" target="utazas.Jaratok" relationship="DEPENDENCY">
-      <point x="50.75" y="-39.0" />
-      <point x="5750.728887101709" y="2693.0" />
-      <point x="6086.416666666667" y="2693.0" />
-      <point x="6086.416666666667" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="152.25" y="-50.5" />
+      <point x="4326.75" y="2767.0" />
+      <point x="4674.326326185097" y="2767.0" />
+      <point x="4674.326326185097" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.RepuloPanel" target="utazas.JarmuPanel" relationship="GENERALIZATION">
-      <point x="78.0" y="-39.0" />
-      <point x="3544.566666666667" y="3351.0" />
-      <point x="6165.1916666666675" y="3351.0" />
-      <point x="6165.1916666666675" y="3209.0" />
-      <point x="5327.805736825994" y="3209.0" />
-      <point x="50.75" y="50.5" />
+      <point x="-78.0" y="-39.0" />
+      <point x="3800.5625" y="3736.0" />
+      <point x="2208.599816591415" y="3736.0" />
+      <point x="2208.599816591415" y="3594.0" />
+      <point x="2203.599816591415" y="3594.0" />
+      <point x="2203.599816591415" y="3564.0" />
+      <point x="4222.166666666666" y="3564.0" />
+      <point x="-71.33333333333326" y="84.0" />
     </edge>
     <edge source="utazas.test" target="utazas.Jarmu" relationship="DEPENDENCY">
       <point x="51.375" y="-15.0" />
-      <point x="4397.680736825994" y="1803.0" />
-      <point x="4524.243236825994" y="1803.0" />
-      <point x="4524.243236825994" y="459.0" />
-      <point x="4138.930736825994" y="459.0" />
-      <point x="4138.930736825994" y="449.0" />
-      <point x="4089.411362591912" y="449.0" />
-      <point x="38.75" y="83.0" />
+      <point x="541.7318237396507" y="2817.0" />
+      <point x="1030.75" y="2817.0" />
+      <point x="1030.75" y="2757.0" />
+      <point x="880.75" y="2757.0" />
+      <point x="880.75" y="1082.0" />
+      <point x="1215.240829571103" y="1082.0" />
+      <point x="1215.240829571103" y="691.0" />
+      <point x="1515.724816591415" y="691.0" />
+      <point x="1515.724816591415" y="671.0" />
+      <point x="1346.974816591415" y="671.0" />
+      <point x="45.0" y="138.5" />
     </edge>
     <edge source="utazas.VonatJaratok" target="utazas.Jaratok" relationship="GENERALIZATION">
-      <point x="73.33333333333303" y="-160.5" />
-      <point x="4438.708333333333" y="890.0" />
-      <point x="4179.305736825994" y="890.0" />
-      <point x="4179.305736825994" y="790.0" />
-      <point x="5223.993236825993" y="790.0" />
-      <point x="-66.66666666666697" y="138.5" />
+      <point x="73.33333333333331" y="-172.0" />
+      <point x="264.0833333333335" y="1718.0" />
+      <point x="342.0" y="1718.0" />
+      <point x="342.0" y="1162.0" />
+      <point x="1451.1574962377695" y="1162.0" />
+      <point x="1451.1574962377695" y="1042.0" />
+      <point x="2505.0164832580817" y="1042.0" />
+      <point x="-66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.SelectionPanel" target="utazas.MainFrame" relationship="TO_ONE">
-      <point x="-74.33333333333326" y="27.5" />
-      <point x="1307.6390701593275" y="2693.0" />
-      <point x="1080.8057368259942" y="2693.0" />
-      <point x="1080.8057368259942" y="2703.0" />
-      <point x="1327.6390701593275" y="2703.0" />
-      <point x="-54.33333333333326" y="-72.5" />
+      <point x="0.0" y="27.5" />
+      <point x="0.0" y="-95.0" />
     </edge>
     <edge source="utazas.test" target="utazas.Vonat" relationship="CREATE">
-      <point x="-51.375" y="-15.0" />
-      <point x="4294.930736825994" y="1813.0" />
-      <point x="3649.9307368259942" y="1813.0" />
-      <point x="3649.9307368259942" y="1743.0" />
-      <point x="3838.536362591912" y="1743.0" />
-      <point x="3838.536362591912" y="880.0" />
-      <point x="4199.305736825994" y="880.0" />
-      <point x="4199.305736825994" y="800.0" />
-      <point x="4071.2640701593273" y="800.0" />
-      <point x="114.33333333333348" y="39.0" />
-    </edge>
-    <edge source="utazas.MainFrame" target="utazas.Jegy" relationship="DEPENDENCY">
-      <point x="0.0" y="-72.5" />
-      <point x="1381.9724034926608" y="2683.0" />
-      <point x="1091.5557368259942" y="2683.0" />
-      <point x="1091.5557368259942" y="900.0" />
-      <point x="1415.8122204350425" y="900.0" />
-      <point x="1415.8122204350425" y="840.0" />
-      <point x="1841.8122204350425" y="840.0" />
-      <point x="-51.5" y="61.0" />
+      <point x="17.125" y="-15.0" />
+      <point x="507.48182373965074" y="2797.0" />
+      <point x="453.75" y="2797.0" />
+      <point x="453.75" y="1092.0" />
+      <point x="1461.1574962377695" y="1092.0" />
+      <point x="1461.1574962377695" y="1072.0" />
+      <point x="602.8241629044362" y="1072.0" />
+      <point x="114.33333333333326" y="50.5" />
     </edge>
     <edge source="utazas.RepuloFelvetelDialog.okButtonActionListener" target="utazas.ConfirmationDialog" relationship="CREATE">
       <point x="-66.75" y="-39.0" />
-      <point x="5390.743236825994" y="2059.0" />
-      <point x="5440.604166666667" y="2059.0" />
-      <point x="5440.604166666667" y="1989.0" />
-      <point x="2477.161362591912" y="1989.0" />
+      <point x="4137.794323739651" y="1172.0" />
+      <point x="3727.8081499247487" y="1172.0" />
+      <point x="3727.8081499247487" y="1042.0" />
+      <point x="3023.5581499247487" y="1042.0" />
       <point x="0.0" y="61.0" />
     </edge>
+    <edge source="utazas.MainFrame" target="utazas.Jegy" relationship="DEPENDENCY">
+      <point x="54.33333333333326" y="-95.0" />
+      <point x="5174.25" y="3897.0" />
+      <point x="5470.0" y="3897.0" />
+      <point x="5470.0" y="3867.0" />
+      <point x="5496.0" y="3867.0" />
+      <point x="5496.0" y="1708.0" />
+      <point x="2484.117992851764" y="1708.0" />
+      <point x="2484.117992851764" y="1698.0" />
+      <point x="2255.25" y="1698.0" />
+      <point x="51.5" y="94.5" />
+    </edge>
     <edge source="utazas.RepuloJegy" target="utazas.Jegy" relationship="GENERALIZATION">
-      <point x="0.0" y="-50.0" />
-      <point x="2118.5557368259942" y="890.0" />
-      <point x="2704.4565946691246" y="890.0" />
-      <point x="2704.4565946691246" y="820.0" />
-      <point x="1944.8122204350425" y="820.0" />
-      <point x="51.5" y="61.0" />
+      <point x="0.0" y="-50.5" />
+      <point x="1899.0" y="1688.0" />
+      <point x="2152.25" y="1688.0" />
+      <point x="-51.5" y="94.5" />
     </edge>
     <edge source="utazas.ErrorDialog.okButtonActionListener" target="utazas.ErrorDialog" relationship="INNER_CLASS">
-      <point x="66.75" y="39.0" />
-      <point x="3280.1807368259942" y="820.0" />
-      <point x="3363.9929572610363" y="820.0" />
-      <point x="42.5" y="-27.5" />
+      <point x="-66.75" y="39.0" />
+      <point x="3163.3081499247487" y="701.0" />
+      <point x="3187.5581499247487" y="701.0" />
+      <point x="-42.5" y="-27.5" />
     </edge>
     <edge source="utazas.SelectionPanel.RepuloButtonActionListener" target="utazas.MainFrame" relationship="DEPENDENCY">
-      <point x="-90.66666666666697" y="39.0" />
-      <point x="1147.3890701593273" y="2465.0" />
-      <point x="1227.8057368259942" y="2465.0" />
-      <point x="1227.8057368259942" y="2683.0" />
-      <point x="1381.9724034926608" y="2683.0" />
-      <point x="0.0" y="-72.5" />
+      <point x="90.66666666666652" y="39.0" />
+      <point x="5111.166666666666" y="3736.0" />
+      <point x="5465.0" y="3736.0" />
+      <point x="5465.0" y="3867.0" />
+      <point x="5470.0" y="3867.0" />
+      <point x="5470.0" y="3897.0" />
+      <point x="5174.25" y="3897.0" />
+      <point x="54.33333333333303" y="-95.0" />
     </edge>
     <edge source="utazas.VonatPanel" target="utazas.MainFrame" relationship="DEPENDENCY">
-      <point x="-66.66666666666652" y="39.0" />
-      <point x="3593.6599034926608" y="2683.0" />
-      <point x="1381.9724034926608" y="2683.0" />
-      <point x="0.0" y="-72.5" />
+      <point x="50.0" y="39.0" />
+      <point x="2107.0256536869792" y="3867.0" />
+      <point x="5470.0" y="3867.0" />
+      <point x="5470.0" y="3897.0" />
+      <point x="5174.25" y="3897.0" />
+      <point x="54.33333333333303" y="-95.0" />
     </edge>
     <edge source="utazas.RepuloPanel" target="utazas.RepuloPanel.FoglalasButtonActionListener" relationship="CREATE">
       <point x="-26.0" y="-39.0" />
-      <point x="3440.566666666667" y="3361.0" />
-      <point x="694.2482613357911" y="3361.0" />
-      <point x="694.2482613357911" y="3341.0" />
-      <point x="568.875" y="3341.0" />
-      <point x="70.75" y="39.0" />
+      <point x="3852.5625" y="3746.0" />
+      <point x="3716.4375" y="3746.0" />
+      <point x="3716.4375" y="3726.0" />
+      <point x="3650.6875" y="3726.0" />
+      <point x="-70.75" y="39.0" />
     </edge>
     <edge source="utazas.VonatFoglalasDialog.okButtonActionListener" target="utazas.ConfirmationDialog" relationship="CREATE">
-      <point x="-66.75" y="-39.0" />
-      <point x="2684.0557368259942" y="2059.0" />
-      <point x="2589.161362591912" y="2059.0" />
-      <point x="2589.161362591912" y="2009.0" />
-      <point x="2477.161362591912" y="2009.0" />
+      <point x="66.75" y="-39.0" />
+      <point x="1612.1831499247485" y="2817.0" />
+      <point x="1539.740829571103" y="2817.0" />
+      <point x="1539.740829571103" y="2236.0" />
+      <point x="1746.0" y="2236.0" />
+      <point x="1746.0" y="1182.0" />
+      <point x="3023.5581499247487" y="1182.0" />
       <point x="0.0" y="61.0" />
     </edge>
     <edge source="utazas.VonatMeglevoFoglalasDialog" target="utazas.TicketNotFoundException" relationship="DEPENDENCY">
-      <point x="0.0" y="-39.0" />
-      <point x="2137.4929572610363" y="2201.0" />
-      <point x="2125.0622204350425" y="2201.0" />
-      <point x="2125.0622204350425" y="2181.0" />
-      <point x="2152.161362591912" y="2181.0" />
-      <point x="2152.161362591912" y="1415.0" />
-      <point x="2308.3057368259942" y="1415.0" />
-      <point x="2308.3057368259942" y="1285.0" />
-      <point x="2368.0557368259942" y="1285.0" />
-      <point x="-65.0" y="27.5" />
+      <point x="-95.33333333333326" y="-39.0" />
+      <point x="1887.6831499247487" y="3352.0" />
+      <point x="1936.0" y="3352.0" />
+      <point x="1936.0" y="3322.0" />
+      <point x="1856.2664832580817" y="3322.0" />
+      <point x="1856.2664832580817" y="2356.0" />
+      <point x="2063.0" y="2356.0" />
+      <point x="2063.0" y="2116.0" />
+      <point x="1648.5" y="2116.0" />
+      <point x="65.0" y="27.5" />
     </edge>
     <edge source="utazas.RepuloMeglevoFoglalasDialog" target="utazas.RepuloJegy" relationship="DEPENDENCY">
       <point x="0.0" y="-39.0" />
-      <point x="146.5" y="2201.0" />
-      <point x="107.30573682599425" y="2201.0" />
-      <point x="107.30573682599425" y="1365.0" />
-      <point x="2058.7224034926608" y="1365.0" />
-      <point x="2058.7224034926608" y="1305.0" />
-      <point x="2008.8890701593273" y="1305.0" />
-      <point x="-109.66666666666674" y="50.0" />
+      <point x="4717.0" y="2166.0" />
+      <point x="2377.4423203536453" y="2166.0" />
+      <point x="2377.4423203536453" y="2106.0" />
+      <point x="1994.0" y="2106.0" />
+      <point x="95.0" y="50.5" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog" target="utazas.Jaratok" relationship="DEPENDENCY">
-      <point x="110.25" y="-27.5" />
-      <point x="570.25" y="2201.0" />
-      <point x="576.8057368259942" y="2201.0" />
-      <point x="576.8057368259942" y="1355.0" />
-      <point x="521.6807368259942" y="1355.0" />
-      <point x="521.6807368259942" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="-36.75" y="-39.0" />
+      <point x="2483.4006536869792" y="3157.0" />
+      <point x="2404.6506536869792" y="3157.0" />
+      <point x="2404.6506536869792" y="2336.0" />
+      <point x="2739.641483258082" y="2336.0" />
+      <point x="2739.641483258082" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.Jegyek" target="utazas.Vonat" relationship="DEPENDENCY">
-      <point x="101.5" y="-127.0" />
-      <point x="2477.161362591912" y="1345.0" />
-      <point x="2645.5557368259942" y="1345.0" />
-      <point x="2645.5557368259942" y="840.0" />
-      <point x="3907.411362591912" y="840.0" />
-      <point x="3907.411362591912" y="800.0" />
-      <point x="3956.9307368259942" y="800.0" />
-      <point x="0.0" y="39.0" />
+      <point x="101.5" y="-138.5" />
+      <point x="768.75" y="2396.0" />
+      <point x="672.25" y="2396.0" />
+      <point x="672.25" y="2156.0" />
+      <point x="606.5" y="2156.0" />
+      <point x="606.5" y="1182.0" />
+      <point x="488.49082957110295" y="1182.0" />
+      <point x="0.0" y="50.5" />
     </edge>
     <edge source="utazas.ErrorDialog" target="utazas.ErrorDialog.okButtonActionListener" relationship="CREATE">
-      <point x="-42.5" y="-27.5" />
-      <point x="3278.9929572610363" y="830.0" />
-      <point x="3146.6807368259942" y="830.0" />
-      <point x="-66.75" y="39.0" />
+      <point x="42.5" y="-27.5" />
+      <point x="3272.5581499247487" y="701.0" />
+      <point x="3296.8081499247487" y="701.0" />
+      <point x="66.75" y="39.0" />
     </edge>
     <edge source="utazas.RepuloJaratok" target="utazas.Datum" relationship="DEPENDENCY">
-      <point x="-73.33333333333348" y="-160.5" />
-      <point x="3033.159623927703" y="900.0" />
-      <point x="3050.041666666667" y="900.0" />
-      <point x="3050.041666666667" y="240.0" />
-      <point x="3985.812220435043" y="240.0" />
-      <point x="3985.812220435043" y="210.0" />
-      <point x="4044.187220435043" y="210.0" />
-      <point x="-106.0" y="94.5" />
+      <point x="1.4210854715202004E-14" y="-172.0" />
+      <point x="1323.5" y="1718.0" />
+      <point x="1468.240829571103" y="1718.0" />
+      <point x="1468.240829571103" y="1678.0" />
+      <point x="1478.740829571103" y="1678.0" />
+      <point x="1478.740829571103" y="1132.0" />
+      <point x="1680.740829571103" y="1132.0" />
+      <point x="1680.740829571103" y="341.0" />
+      <point x="1306.974816591415" y="341.0" />
+      <point x="0.0" y="150.0" />
     </edge>
     <edge source="utazas.SelectionPanel.VonatButtonActionListener" target="utazas.MainFrame" relationship="DEPENDENCY">
       <point x="89.0" y="39.0" />
-      <point x="1616.555736825994" y="2465.0" />
-      <point x="1537.805736825994" y="2465.0" />
-      <point x="1537.805736825994" y="2683.0" />
-      <point x="1381.9724034926608" y="2683.0" />
-      <point x="0.0" y="-72.5" />
-    </edge>
-    <edge source="utazas.VonatPanel" target="utazas.Jaratok" relationship="DEPENDENCY">
-      <point x="66.66666666666652" y="-39.0" />
-      <point x="3726.993236825994" y="2485.0" />
-      <point x="4615.618236825994" y="2485.0" />
-      <point x="4615.618236825994" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="5399.0" y="3726.0" />
+      <point x="5475.0" y="3726.0" />
+      <point x="5475.0" y="3867.0" />
+      <point x="5470.0" y="3867.0" />
+      <point x="5470.0" y="3897.0" />
+      <point x="5174.25" y="3897.0" />
+      <point x="54.33333333333303" y="-95.0" />
     </edge>
     <edge source="utazas.VonatPanel.EllenorzesButtonActionListener" target="utazas.JarmuPanel" relationship="DEPENDENCY">
-      <point x="-99.33333333333348" y="39.0" />
-      <point x="2038.1596239277028" y="2475.0" />
-      <point x="1069.5557368259942" y="2475.0" />
-      <point x="1069.5557368259942" y="3054.0" />
-      <point x="1359.805736825994" y="3054.0" />
-      <point x="1359.805736825994" y="3064.0" />
-      <point x="5195.855736825994" y="3064.0" />
-      <point x="-81.19999999999982" y="-50.5" />
+      <point x="74.5" y="-39.0" />
+      <point x="2091.766483258082" y="3584.0" />
+      <point x="4293.5" y="3584.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="utazas.VonatPanel" target="utazas.Jaratok" relationship="DEPENDENCY">
+      <point x="25.0" y="-39.0" />
+      <point x="2082.0256536869792" y="3736.0" />
+      <point x="2187.599816591415" y="3736.0" />
+      <point x="2187.599816591415" y="2326.0" />
+      <point x="2657.576326185098" y="2326.0" />
+      <point x="2657.576326185098" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.test" target="utazas.Repulo" relationship="TO_ONE">
       <point x="-17.125" y="-15.0" />
-      <point x="4329.180736825994" y="1803.0" />
-      <point x="3900.1807368259942" y="1803.0" />
-      <point x="3900.1807368259942" y="1743.0" />
-      <point x="3963.6872204350425" y="1743.0" />
-      <point x="3963.6872204350425" y="900.0" />
-      <point x="3542.4307368259942" y="900.0" />
-      <point x="0.0" y="39.0" />
+      <point x="473.23182373965074" y="2807.0" />
+      <point x="378.75" y="2807.0" />
+      <point x="378.75" y="2747.0" />
+      <point x="353.0" y="2747.0" />
+      <point x="353.0" y="1172.0" />
+      <point x="1049.224816591415" y="1172.0" />
+      <point x="1049.224816591415" y="1062.0" />
+      <point x="1356.740829571103" y="1062.0" />
+      <point x="-117.0" y="50.5" />
     </edge>
     <edge source="utazas.JarmuPanel" target="utazas.JarmuPanel.MainMenuButtonActionListener" relationship="CREATE">
-      <point x="-40.600000000000364" y="-50.5" />
-      <point x="5236.455736825994" y="3054.0" />
-      <point x="5154.353887101709" y="3054.0" />
-      <point x="5154.353887101709" y="3044.0" />
-      <point x="5042.603887101709" y="3044.0" />
-      <point x="-74.5" y="39.0" />
+      <point x="-26.75" y="-84.0" />
+      <point x="4266.75" y="3352.0" />
+      <point x="4288.5" y="3352.0" />
+      <point x="4288.5" y="3322.0" />
+      <point x="4382.166666666666" y="3322.0" />
+      <point x="-99.33333333333348" y="39.0" />
     </edge>
     <edge source="utazas.RepuloJaratok" target="utazas.Repulo" relationship="TO_MANY">
-      <point x="0.0" y="-160.5" />
-      <point x="3106.4929572610363" y="900.0" />
-      <point x="3542.4307368259942" y="900.0" />
-      <point x="0.0" y="39.0" />
-    </edge>
-    <edge source="utazas.VonatPanel" target="utazas.VonatPanel.FoglalasButtonActionListener" relationship="CREATE">
-      <point x="0.0" y="-39.0" />
-      <point x="3660.3265701593273" y="2465.0" />
-      <point x="3674.4375" y="2465.0" />
-      <point x="0.0" y="39.0" />
+      <point x="-73.33333333333331" y="-172.0" />
+      <point x="1250.1666666666667" y="1688.0" />
+      <point x="1370.240829571103" y="1688.0" />
+      <point x="1370.240829571103" y="1172.0" />
+      <point x="1049.224816591415" y="1172.0" />
+      <point x="1049.224816591415" y="1062.0" />
+      <point x="1356.740829571103" y="1062.0" />
+      <point x="-117.0" y="50.5" />
     </edge>
     <edge source="utazas.MainFrame" target="utazas.Jegyek" relationship="TO_ONE">
-      <point x="-54.33333333333326" y="-72.5" />
-      <point x="1327.6390701593275" y="2703.0" />
-      <point x="1080.8057368259942" y="2703.0" />
-      <point x="1080.5557368259942" y="1783.0" />
-      <point x="1400.8122204350425" y="1783.0" />
-      <point x="1400.8122204350425" y="1743.0" />
-      <point x="2324.911362591912" y="1743.0" />
-      <point x="-50.75" y="127.0" />
+      <point x="0.0" y="-95.0" />
+      <point x="5119.916666666666" y="3877.0" />
+      <point x="11.000000000000455" y="3877.0" />
+      <point x="11.0" y="2787.0" />
+      <point x="1215.240829571103" y="2787.0" />
+      <point x="1215.240829571103" y="2727.0" />
+      <point x="718.0" y="2727.0" />
+      <point x="50.75" y="138.5" />
     </edge>
-    <edge source="utazas.VonatMeglevoFoglalasDialog" target="utazas.Jegy" relationship="DEPENDENCY">
-      <point x="0.0" y="-39.0" />
-      <point x="2137.4929572610363" y="2201.0" />
-      <point x="2125.0622204350425" y="2201.0" />
-      <point x="2125.0622204350425" y="2181.0" />
-      <point x="1943.555736825994" y="2181.0" />
-      <point x="1943.555736825994" y="900.0" />
-      <point x="1415.8122204350425" y="900.0" />
-      <point x="1415.8122204350425" y="840.0" />
-      <point x="1841.8122204350425" y="840.0" />
-      <point x="-51.5" y="61.0" />
+    <edge source="utazas.VonatPanel" target="utazas.VonatPanel.FoglalasButtonActionListener" relationship="CREATE">
+      <point x="-75.0" y="-39.0" />
+      <point x="1982.025653686979" y="3746.0" />
+      <point x="1526.75" y="3746.0" />
+      <point x="1526.75" y="3736.0" />
+      <point x="1536.240829571103" y="3736.0" />
+      <point x="-70.75" y="39.0" />
     </edge>
     <edge source="utazas.Jegyek" target="utazas.VonatJaratok" relationship="DEPENDENCY">
-      <point x="101.5" y="-127.0" />
-      <point x="2477.161362591912" y="1365.0" />
-      <point x="3633.9307368259942" y="1365.0" />
-      <point x="3633.9307368259942" y="1265.0" />
-      <point x="4292.041666666667" y="1265.0" />
-      <point x="-73.33333333333303" y="160.5" />
+      <point x="101.5" y="-138.5" />
+      <point x="768.75" y="2396.0" />
+      <point x="672.25" y="2396.0" />
+      <point x="672.25" y="2196.0" />
+      <point x="1552.8081499247485" y="2196.0" />
+      <point x="1552.8081499247485" y="2146.0" />
+      <point x="264.0833333333335" y="2146.0" />
+      <point x="73.33333333333331" y="172.0" />
+    </edge>
+    <edge source="utazas.VonatMeglevoFoglalasDialog" target="utazas.Jegy" relationship="DEPENDENCY">
+      <point x="-95.33333333333326" y="-39.0" />
+      <point x="1887.6831499247487" y="3352.0" />
+      <point x="1936.0" y="3352.0" />
+      <point x="1936.0" y="3322.0" />
+      <point x="2132.2664832580817" y="3322.0" />
+      <point x="2132.2664832580817" y="2316.0" />
+      <point x="2484.117992851764" y="2316.0" />
+      <point x="2484.117992851764" y="1698.0" />
+      <point x="2255.25" y="1698.0" />
+      <point x="51.5" y="94.5" />
     </edge>
     <edge source="utazas.VonatJaratok" target="utazas.Vonat" relationship="DEPENDENCY">
-      <point x="0.0" y="-160.5" />
-      <point x="4365.375" y="900.0" />
-      <point x="4158.187220435042" y="900.0" />
-      <point x="4158.187220435042" y="830.0" />
-      <point x="3907.411362591912" y="830.0" />
-      <point x="3907.411362591912" y="800.0" />
-      <point x="3956.9307368259942" y="800.0" />
-      <point x="0.0" y="39.0" />
+      <point x="0.0" y="-172.0" />
+      <point x="190.75" y="1708.0" />
+      <point x="331.0" y="1708.0" />
+      <point x="331.0" y="1182.0" />
+      <point x="488.49082957110295" y="1182.0" />
+      <point x="0.0" y="50.5" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog" target="utazas.RepuloFoglalasDialog.okButtonActionListener" relationship="CREATE">
-      <point x="-36.75" y="-27.5" />
-      <point x="423.25" y="2181.0" />
-      <point x="443.93073682599425" y="2181.0" />
-      <point x="66.75" y="39.0" />
+      <point x="36.75" y="-39.0" />
+      <point x="2556.9006536869792" y="3137.0" />
+      <point x="2481.9006536869792" y="3137.0" />
+      <point x="-66.75" y="39.0" />
     </edge>
     <edge source="utazas.JarmuPanel.MainMenuButtonActionListener" target="utazas.MainFrame" relationship="DEPENDENCY">
-      <point x="0.0" y="-39.0" />
-      <point x="5117.103887101709" y="2902.0" />
-      <point x="1359.805736825994" y="2902.0" />
-      <point x="1359.805736825994" y="2892.0" />
-      <point x="1381.9724034926608" y="2892.0" />
-      <point x="0.0" y="72.5" />
+      <point x="99.33333333333348" y="39.0" />
+      <point x="4580.833333333334" y="3322.0" />
+      <point x="5485.5" y="3322.0" />
+      <point x="5485.5" y="3867.0" />
+      <point x="5470.0" y="3867.0" />
+      <point x="5470.0" y="3897.0" />
+      <point x="5174.25" y="3897.0" />
+      <point x="54.33333333333303" y="-95.0" />
     </edge>
     <edge source="utazas.JaratokFrame" target="utazas.Jaratok" relationship="TO_ONE">
-      <point x="152.25" y="-39.0" />
-      <point x="5852.228887101709" y="2703.0" />
-      <point x="6097.416666666667" y="2703.0" />
-      <point x="6097.416666666667" y="860.0" />
-      <point x="5456.993236825994" y="860.0" />
-      <point x="5456.993236825994" y="840.0" />
-      <point x="5357.326570159327" y="840.0" />
-      <point x="66.66666666666697" y="138.5" />
+      <point x="50.75" y="-50.5" />
+      <point x="4225.25" y="2757.0" />
+      <point x="4602.719996237769" y="2757.0" />
+      <point x="4602.719996237769" y="1152.0" />
+      <point x="2571.6831499247482" y="1152.0" />
+      <point x="0.0" y="138.5" />
     </edge>
     <edge source="utazas.RepuloPanel.EllenorzesButtonActionListener" target="utazas.RepuloPanel" relationship="INNER_CLASS">
-      <point x="0.0" y="-39.0" />
-      <point x="3453.1500000000005" y="3492.0" />
-      <point x="3518.566666666667" y="3492.0" />
-      <point x="52.0" y="39.0" />
-    </edge>
-    <edge source="utazas.VonatFelvetelDialog.okButtonActionListener" target="utazas.ConfirmationDialog" relationship="CREATE">
-      <point x="-66.75" y="-39.0" />
-      <point x="5061.618236825994" y="2059.0" />
-      <point x="5122.868236825994" y="2059.0" />
-      <point x="5122.868236825994" y="1999.0" />
-      <point x="2477.161362591912" y="1999.0" />
-      <point x="0.0" y="61.0" />
+      <point x="74.5" y="39.0" />
+      <point x="4504.75" y="3716.0" />
+      <point x="4435.25" y="3716.0" />
+      <point x="4435.25" y="3746.0" />
+      <point x="3904.5625" y="3746.0" />
+      <point x="26.0" y="-39.0" />
     </edge>
     <edge source="utazas.test" target="utazas.VonatJegy" relationship="TO_ONE">
       <point x="-17.125" y="-15.0" />
-      <point x="4329.180736825994" y="1803.0" />
-      <point x="3900.1807368259942" y="1803.0" />
-      <point x="3900.1807368259942" y="1743.0" />
-      <point x="3859.536362591912" y="1743.0" />
-      <point x="3859.536362591912" y="1285.0" />
-      <point x="2929.9929572610363" y="1285.0" />
-      <point x="93.0" y="50.0" />
+      <point x="473.23182373965074" y="2807.0" />
+      <point x="378.75" y="2807.0" />
+      <point x="378.75" y="2747.0" />
+      <point x="363.5" y="2747.0" />
+      <point x="363.5" y="2166.0" />
+      <point x="939.0" y="2166.0" />
+      <point x="-93.0" y="72.5" />
+    </edge>
+    <edge source="utazas.VonatFelvetelDialog.okButtonActionListener" target="utazas.ConfirmationDialog" relationship="CREATE">
+      <point x="-66.75" y="-39.0" />
+      <point x="3732.6831499247487" y="1182.0" />
+      <point x="3396.9331499247487" y="1182.0" />
+      <point x="3396.9331499247487" y="1072.0" />
+      <point x="3023.5581499247487" y="1072.0" />
+      <point x="0.0" y="61.0" />
     </edge>
     <edge source="utazas.VonatPanel.FoglalasButtonActionListener" target="utazas.VonatFoglalasDialog" relationship="CREATE">
-      <point x="0.0" y="-39.0" />
+      <point x="-70.75" y="-39.0" />
+      <point x="1536.240829571103" y="3594.0" />
+      <point x="1522.3081499247485" y="3594.0" />
       <point x="0.0" y="27.5" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog.okButtonActionListener" target="utazas.Jegy" relationship="DEPENDENCY">
       <point x="-66.75" y="-39.0" />
-      <point x="310.43073682599425" y="2059.0" />
-      <point x="273.07629059436977" y="2059.0" />
-      <point x="273.07629059436977" y="900.0" />
-      <point x="1415.8122204350425" y="900.0" />
-      <point x="1415.8122204350425" y="840.0" />
-      <point x="1841.8122204350425" y="840.0" />
-      <point x="-51.5" y="61.0" />
+      <point x="2481.9006536869792" y="2817.0" />
+      <point x="2571.9006536869792" y="2817.0" />
+      <point x="2571.9006536869792" y="2346.0" />
+      <point x="2760.641483258082" y="2346.0" />
+      <point x="2760.641483258082" y="1708.0" />
+      <point x="2484.117992851764" y="1708.0" />
+      <point x="2484.117992851764" y="1698.0" />
+      <point x="2255.25" y="1698.0" />
+      <point x="51.5" y="94.5" />
     </edge>
     <edge source="utazas.VonatMeglevoFoglalasDialog" target="utazas.MeglevoFoglalasDialog" relationship="GENERALIZATION">
-      <point x="95.33333333333348" y="-39.0" />
-      <point x="2232.8262905943698" y="2201.0" />
-      <point x="2437.4307368259942" y="2201.0" />
-      <point x="2437.4307368259942" y="2049.0" />
-      <point x="780.625" y="2049.0" />
-      <point x="780.625" y="2009.0" />
-      <point x="723.125" y="2009.0" />
-      <point x="-62.5" y="39.0" />
+      <point x="0.0" y="-39.0" />
+      <point x="1983.016483258082" y="3332.0" />
+      <point x="2143.2664832580817" y="3332.0" />
+      <point x="2143.2664832580817" y="3147.0" />
+      <point x="3046.8081499247487" y="3147.0" />
+      <point x="3046.8081499247487" y="3137.0" />
+      <point x="2983.5581499247487" y="3137.0" />
+      <point x="-68.25" y="83.5" />
     </edge>
     <edge source="utazas.VonatFoglalasDialog.okButtonActionListener" target="utazas.VonatJaratok" relationship="DEPENDENCY">
-      <point x="66.75" y="-39.0" />
-      <point x="2817.5557368259942" y="2059.0" />
-      <point x="2756.3057368259942" y="2059.0" />
-      <point x="2756.3057368259942" y="1979.0" />
-      <point x="3254.8057368259942" y="1979.0" />
-      <point x="3254.8057368259942" y="1385.0" />
-      <point x="3633.9307368259942" y="1385.0" />
-      <point x="3633.9307368259942" y="1265.0" />
-      <point x="4292.041666666667" y="1265.0" />
-      <point x="-73.33333333333303" y="160.5" />
+      <point x="-66.75" y="-39.0" />
+      <point x="1478.6831499247485" y="2817.0" />
+      <point x="1381.4331499247485" y="2817.0" />
+      <point x="1381.4331499247485" y="2747.0" />
+      <point x="1308.115829571103" y="2747.0" />
+      <point x="1308.115829571103" y="2206.0" />
+      <point x="1552.8081499247485" y="2206.0" />
+      <point x="1552.8081499247485" y="2146.0" />
+      <point x="264.0833333333335" y="2146.0" />
+      <point x="73.33333333333331" y="172.0" />
     </edge>
     <edge source="utazas.VonatMeglevoFoglalasDialog" target="utazas.Jegyek" relationship="DEPENDENCY">
-      <point x="0.0" y="-39.0" />
-      <point x="2137.4929572610363" y="2201.0" />
-      <point x="2125.0622204350425" y="2201.0" />
-      <point x="2125.0622204350425" y="2181.0" />
-      <point x="1943.555736825994" y="2181.0" />
-      <point x="1943.555736825994" y="1793.0" />
-      <point x="987.0557368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1753.0" />
-      <point x="2223.411362591912" y="1753.0" />
-      <point x="-152.25" y="127.0" />
+      <point x="-95.33333333333326" y="-39.0" />
+      <point x="1887.6831499247487" y="3352.0" />
+      <point x="1936.0" y="3352.0" />
+      <point x="1936.0" y="3322.0" />
+      <point x="2132.2664832580817" y="3322.0" />
+      <point x="2132.2664832580817" y="2777.0" />
+      <point x="2394.1506536869792" y="2777.0" />
+      <point x="2394.1506536869792" y="2717.0" />
+      <point x="819.5" y="2717.0" />
+      <point x="152.25" y="138.5" />
     </edge>
     <edge source="utazas.SelectionPanel" target="utazas.SelectionPanel.VonatButtonActionListener" relationship="CREATE">
       <point x="-55.75" y="-27.5" />
-      <point x="1326.2224034926608" y="2485.0" />
-      <point x="1332.166666666667" y="2485.0" />
-      <point x="1332.166666666667" y="2465.0" />
-      <point x="1438.555736825994" y="2465.0" />
+      <point x="5064.166666666666" y="3746.0" />
+      <point x="4970.166666666666" y="3746.0" />
+      <point x="4970.166666666666" y="3726.0" />
+      <point x="5221.0" y="3726.0" />
       <point x="-89.0" y="39.0" />
     </edge>
     <edge source="utazas.JaratokFrame.NewButtonActionListener" target="utazas.VonatJaratok" relationship="DEPENDENCY">
       <point x="-66.75" y="-39.0" />
-      <point x="5251.228887101709" y="2333.0" />
-      <point x="4984.368236825994" y="2333.0" />
-      <point x="4984.368236825994" y="1385.0" />
-      <point x="3633.9307368259942" y="1385.0" />
-      <point x="3633.9307368259942" y="1265.0" />
-      <point x="4292.041666666667" y="1265.0" />
-      <point x="-73.33333333333303" y="160.5" />
+      <point x="3639.96999623777" y="2396.0" />
+      <point x="2750.141483258082" y="2396.0" />
+      <point x="2750.141483258082" y="2186.0" />
+      <point x="1552.8081499247485" y="2186.0" />
+      <point x="1552.8081499247485" y="2146.0" />
+      <point x="264.0833333333335" y="2146.0" />
+      <point x="73.33333333333331" y="172.0" />
     </edge>
     <edge source="utazas.VonatJegy" target="utazas.Jegy" relationship="GENERALIZATION">
-      <point x="0.0" y="-50.0" />
-      <point x="2836.9929572610363" y="890.0" />
-      <point x="2704.4565946691246" y="890.0" />
-      <point x="2704.4565946691246" y="820.0" />
-      <point x="1944.8122204350425" y="820.0" />
-      <point x="51.5" y="61.0" />
+      <point x="0.0" y="-72.5" />
+      <point x="1032.0" y="1698.0" />
+      <point x="1899.0" y="1698.0" />
+      <point x="1899.0" y="1688.0" />
+      <point x="2152.25" y="1688.0" />
+      <point x="-51.5" y="94.5" />
     </edge>
     <edge source="utazas.SelectionPanel" target="utazas.MainFrame" relationship="DEPENDENCY">
-      <point x="0.0" y="27.5" />
-      <point x="0.0" y="-72.5" />
+      <point x="74.33333333333348" y="27.5" />
+      <point x="5194.25" y="3867.0" />
+      <point x="5470.0" y="3867.0" />
+      <point x="5470.0" y="3897.0" />
+      <point x="5174.25" y="3897.0" />
+      <point x="54.33333333333303" y="-95.0" />
     </edge>
     <edge source="utazas.test" target="utazas.Jegyek" relationship="GENERALIZATION">
-      <point x="17.125" y="-15.0" />
-      <point x="4363.430736825994" y="1813.0" />
-      <point x="4501.875" y="1813.0" />
-      <point x="4501.875" y="1753.0" />
-      <point x="2527.911362591912" y="1753.0" />
-      <point x="152.25" y="127.0" />
+      <point x="-51.375" y="-15.0" />
+      <point x="438.98182373965074" y="2817.0" />
+      <point x="237.25" y="2817.0" />
+      <point x="237.25" y="2727.0" />
+      <point x="515.0" y="2727.0" />
+      <point x="-152.25" y="138.5" />
     </edge>
     <edge source="utazas.test" target="utazas.RepuloJaratok" relationship="CREATE">
-      <point x="-51.375" y="-15.0" />
-      <point x="4294.930736825994" y="1813.0" />
-      <point x="3649.9307368259942" y="1813.0" />
-      <point x="3649.9307368259942" y="1743.0" />
-      <point x="3475.2065946691246" y="1743.0" />
-      <point x="3475.2065946691246" y="1425.0" />
-      <point x="3106.4929572610363" y="1425.0" />
-      <point x="0.0" y="160.5" />
+      <point x="17.125" y="-15.0" />
+      <point x="507.48182373965074" y="2797.0" />
+      <point x="453.75" y="2797.0" />
+      <point x="453.75" y="2376.0" />
+      <point x="1323.5" y="2376.0" />
+      <point x="-1.4210854715202004E-14" y="172.0" />
     </edge>
     <edge source="utazas.JarmuPanel.JaratokButtonActionListener" target="utazas.JarmuPanel" relationship="INNER_CLASS">
       <point x="69.0" y="39.0" />
-      <point x="5768.978887101709" y="3034.0" />
-      <point x="5632.978887101709" y="3034.0" />
-      <point x="5632.978887101709" y="3064.0" />
-      <point x="5317.655736825995" y="3064.0" />
-      <point x="40.600000000000364" y="-50.5" />
+      <point x="4243.5" y="3312.0" />
+      <point x="4298.5" y="3312.0" />
+      <point x="4298.5" y="3352.0" />
+      <point x="4320.25" y="3352.0" />
+      <point x="26.75" y="-84.0" />
     </edge>
     <edge source="utazas.VonatPanel" target="utazas.VonatJaratok" relationship="CREATE">
-      <point x="0.0" y="-39.0" />
-      <point x="3660.3265701593273" y="2465.0" />
-      <point x="4604.618236825994" y="2465.0" />
-      <point x="4604.618236825994" y="1405.0" />
-      <point x="4365.375" y="1405.0" />
-      <point x="0.0" y="160.5" />
+      <point x="-75.0" y="-39.0" />
+      <point x="1982.025653686979" y="3746.0" />
+      <point x="1526.75" y="3746.0" />
+      <point x="1526.75" y="3736.0" />
+      <point x="22.0" y="3736.0" />
+      <point x="22.0" y="2396.0" />
+      <point x="190.75" y="2396.0" />
+      <point x="0.0" y="172.0" />
     </edge>
     <edge source="utazas.RepuloMeglevoFoglalasDialog" target="utazas.Jegy" relationship="DEPENDENCY">
       <point x="0.0" y="-39.0" />
-      <point x="146.5" y="2201.0" />
-      <point x="107.30573682599425" y="2201.0" />
-      <point x="107.30573682599425" y="900.0" />
-      <point x="1415.8122204350425" y="900.0" />
-      <point x="1415.8122204350425" y="840.0" />
-      <point x="1841.8122204350425" y="840.0" />
-      <point x="-51.5" y="61.0" />
-    </edge>
-    <edge source="utazas.MeglevoFoglalasDialog.TorlesButtonActionListener" target="utazas.Jegyek" relationship="DEPENDENCY">
-      <point x="0.0" y="-39.0" />
-      <point x="915.0557368259942" y="2009.0" />
-      <point x="921.125" y="2009.0" />
-      <point x="921.125" y="1793.0" />
-      <point x="987.0557368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1753.0" />
-      <point x="2223.411362591912" y="1753.0" />
-      <point x="-152.25" y="127.0" />
+      <point x="4717.0" y="3352.0" />
+      <point x="4784.5" y="3352.0" />
+      <point x="4784.5" y="1708.0" />
+      <point x="2484.117992851764" y="1708.0" />
+      <point x="2484.117992851764" y="1698.0" />
+      <point x="2255.25" y="1698.0" />
+      <point x="51.5" y="94.5" />
     </edge>
     <edge source="utazas.RepuloFelvetelDialog" target="utazas.RepuloFelvetelDialog.okButtonActionListener" relationship="CREATE">
-      <point x="-89.625" y="-27.5" />
-      <point x="5411.493236825994" y="2201.0" />
-      <point x="5390.743236825994" y="2201.0" />
-      <point x="-66.75" y="39.0" />
+      <point x="89.625" y="-27.5" />
+      <point x="4043.0581499247487" y="1698.0" />
+      <point x="4271.294323739651" y="1698.0" />
+      <point x="66.75" y="39.0" />
     </edge>
-    <edge source="utazas.JarmuPanel" target="utazas.MainFrame" relationship="TO_ONE">
-      <point x="81.19999999999982" y="-50.5" />
-      <point x="5358.255736825994" y="3054.0" />
-      <point x="5880.978887101709" y="3054.0" />
-      <point x="5880.978887101709" y="3044.0" />
-      <point x="5875.728887101709" y="3044.0" />
-      <point x="5875.728887101709" y="2892.0" />
-      <point x="1436.305736825994" y="2892.0" />
-      <point x="54.33333333333326" y="72.5" />
+    <edge source="utazas.MeglevoFoglalasDialog.TorlesButtonActionListener" target="utazas.Jegyek" relationship="DEPENDENCY">
+      <point x="-89.0" y="-50.5" />
+      <point x="2962.8081499247487" y="3137.0" />
+      <point x="2904.8081499247487" y="3137.0" />
+      <point x="2904.8081499247487" y="2777.0" />
+      <point x="2394.1506536869792" y="2777.0" />
+      <point x="2394.1506536869792" y="2717.0" />
+      <point x="819.5" y="2717.0" />
+      <point x="152.25" y="138.5" />
     </edge>
     <edge source="utazas.JaratokFrame.NewButtonActionListener" target="utazas.RepuloJaratok" relationship="DEPENDENCY">
       <point x="-66.75" y="-39.0" />
-      <point x="5251.228887101709" y="2333.0" />
-      <point x="4984.368236825994" y="2333.0" />
-      <point x="4984.368236825994" y="1395.0" />
-      <point x="2762.2429572610363" y="1395.0" />
-      <point x="2762.2429572610363" y="1275.0" />
-      <point x="3033.159623927703" y="1275.0" />
-      <point x="-73.33333333333348" y="160.5" />
+      <point x="3639.96999623777" y="2396.0" />
+      <point x="2750.141483258082" y="2396.0" />
+      <point x="2750.141483258082" y="2176.0" />
+      <point x="1975.25" y="2176.0" />
+      <point x="1975.25" y="2126.0" />
+      <point x="1396.8333333333333" y="2126.0" />
+      <point x="73.33333333333331" y="172.0" />
+    </edge>
+    <edge source="utazas.JarmuPanel" target="utazas.MainFrame" relationship="TO_ONE">
+      <point x="71.33333333333326" y="84.0" />
+      <point x="4364.833333333333" y="3564.0" />
+      <point x="5454.0" y="3564.0" />
+      <point x="5454.0" y="3877.0" />
+      <point x="5119.916666666666" y="3877.0" />
+      <point x="0.0" y="-95.0" />
     </edge>
     <edge source="utazas.Jarmu" target="utazas.Datum" relationship="TO_ONE">
-      <point x="38.75" y="-83.0" />
-      <point x="4089.411362591912" y="230.0" />
-      <point x="4141.367957261036" y="230.0" />
-      <point x="4141.367957261036" y="210.0" />
-      <point x="4150.187220435043" y="210.0" />
-      <point x="0.0" y="94.5" />
+      <point x="-45.0" y="-138.5" />
+      <point x="1256.974816591415" y="351.0" />
+      <point x="695.0164832580817" y="351.0" />
+      <point x="695.0164832580817" y="321.0" />
+      <point x="1200.974816591415" y="321.0" />
+      <point x="-106.0" y="150.0" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog" target="utazas.Jegyek" relationship="DEPENDENCY">
-      <point x="110.25" y="-27.5" />
-      <point x="570.25" y="2201.0" />
-      <point x="576.8057368259942" y="2201.0" />
-      <point x="576.8057368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1753.0" />
-      <point x="2223.411362591912" y="1753.0" />
-      <point x="-152.25" y="127.0" />
+      <point x="-36.75" y="-39.0" />
+      <point x="2483.4006536869792" y="3157.0" />
+      <point x="2404.6506536869792" y="3157.0" />
+      <point x="2404.6506536869792" y="3137.0" />
+      <point x="2394.1506536869792" y="3137.0" />
+      <point x="2394.1506536869792" y="2717.0" />
+      <point x="819.5" y="2717.0" />
+      <point x="152.25" y="138.5" />
     </edge>
     <edge source="utazas.JaratokFrame.NewButtonActionListener" target="utazas.JaratokFrame" relationship="INNER_CLASS">
       <point x="-66.75" y="39.0" />
-      <point x="5251.228887101709" y="2485.0" />
-      <point x="5312.478887101709" y="2485.0" />
-      <point x="5312.728887101709" y="2703.0" />
-      <point x="5547.728887101709" y="2703.0" />
-      <point x="-152.25" y="-39.0" />
+      <point x="3639.96999623777" y="2817.0" />
+      <point x="4022.25" y="2817.0" />
+      <point x="-152.25" y="-50.5" />
     </edge>
     <edge source="utazas.RepuloJaratok" target="utazas.Repulo" relationship="DEPENDENCY">
-      <point x="-73.33333333333348" y="-160.5" />
-      <point x="3033.159623927703" y="900.0" />
-      <point x="3050.041666666667" y="900.0" />
-      <point x="3050.041666666667" y="820.0" />
-      <point x="2725.9565946691246" y="820.0" />
-      <point x="2725.9565946691246" y="810.0" />
-      <point x="3425.4307368259942" y="810.0" />
-      <point x="-117.0" y="39.0" />
+      <point x="1.4210854715202004E-14" y="-172.0" />
+      <point x="1323.5" y="1718.0" />
+      <point x="1468.240829571103" y="1718.0" />
+      <point x="1468.240829571103" y="1678.0" />
+      <point x="1381.240829571103" y="1678.0" />
+      <point x="1381.240829571103" y="1102.0" />
+      <point x="1473.740829571103" y="1102.0" />
+      <point x="0.0" y="50.5" />
     </edge>
     <edge source="utazas.test" target="utazas.Datum" relationship="TO_ONE">
       <point x="-17.125" y="-15.0" />
-      <point x="4329.180736825994" y="1803.0" />
-      <point x="3900.1807368259942" y="1803.0" />
-      <point x="3900.1807368259942" y="1743.0" />
-      <point x="4244.875" y="1743.0" />
-      <point x="4244.875" y="230.0" />
-      <point x="4141.367957261036" y="230.0" />
-      <point x="4141.367957261036" y="210.0" />
-      <point x="4150.187220435043" y="210.0" />
-      <point x="0.0" y="94.5" />
+      <point x="473.23182373965074" y="2807.0" />
+      <point x="378.75" y="2807.0" />
+      <point x="378.75" y="2747.0" />
+      <point x="49.25" y="2747.0" />
+      <point x="49.25" y="351.0" />
+      <point x="695.0164832580817" y="351.0" />
+      <point x="695.0164832580817" y="321.0" />
+      <point x="1200.974816591415" y="321.0" />
+      <point x="-106.0" y="150.0" />
     </edge>
     <edge source="utazas.VonatPanel" target="utazas.VonatPanel.EllenorzesButtonActionListener" relationship="CREATE">
-      <point x="0.0" y="-39.0" />
-      <point x="3660.3265701593273" y="2465.0" />
-      <point x="2236.8262905943698" y="2465.0" />
-      <point x="99.33333333333348" y="39.0" />
+      <point x="-75.0" y="-39.0" />
+      <point x="1982.025653686979" y="3746.0" />
+      <point x="1526.75" y="3746.0" />
+      <point x="1526.75" y="3736.0" />
+      <point x="1942.766483258082" y="3736.0" />
+      <point x="-74.5" y="39.0" />
     </edge>
     <edge source="utazas.Jegyek" target="utazas.RepuloJegy" relationship="DEPENDENCY">
-      <point x="101.5" y="-127.0" />
-      <point x="2477.161362591912" y="1315.0" />
-      <point x="2058.7224034926608" y="1315.0" />
-      <point x="2058.7224034926608" y="1305.0" />
-      <point x="2008.8890701593273" y="1305.0" />
-      <point x="-109.66666666666674" y="50.0" />
+      <point x="101.5" y="-138.5" />
+      <point x="768.75" y="2396.0" />
+      <point x="672.25" y="2396.0" />
+      <point x="672.25" y="2306.0" />
+      <point x="2377.4423203536453" y="2306.0" />
+      <point x="2377.4423203536453" y="2106.0" />
+      <point x="1994.0" y="2106.0" />
+      <point x="95.0" y="50.5" />
     </edge>
     <edge source="utazas.JaratokFrame" target="utazas.JaratokFrame.NewButtonActionListener" relationship="CREATE">
-      <point x="-50.75" y="-39.0" />
-      <point x="5649.228887101709" y="2703.0" />
-      <point x="5613.166666666667" y="2703.0" />
-      <point x="5613.166666666667" y="2683.0" />
-      <point x="5333.416666666667" y="2683.0" />
-      <point x="5333.416666666667" y="2485.0" />
-      <point x="5384.728887101709" y="2485.0" />
+      <point x="-50.75" y="-50.5" />
+      <point x="4123.75" y="2817.0" />
+      <point x="4077.75" y="2817.0" />
+      <point x="4077.75" y="2747.0" />
+      <point x="3773.46999623777" y="2747.0" />
       <point x="66.75" y="39.0" />
     </edge>
     <edge source="utazas.RepuloMeglevoFoglalasDialog" target="utazas.MeglevoFoglalasDialog" relationship="GENERALIZATION">
-      <point x="-97.66666666666669" y="-39.0" />
-      <point x="48.833333333333485" y="2201.0" />
-      <point x="96.30573682599425" y="2201.0" />
-      <point x="96.30573682599425" y="2049.0" />
-      <point x="780.625" y="2049.0" />
-      <point x="780.625" y="2009.0" />
-      <point x="723.125" y="2009.0" />
-      <point x="-62.5" y="39.0" />
+      <point x="97.66666666666663" y="-39.0" />
+      <point x="4814.666666666666" y="3352.0" />
+      <point x="4795.5" y="3352.0" />
+      <point x="4795.5" y="3147.0" />
+      <point x="3046.8081499247487" y="3147.0" />
+      <point x="3046.8081499247487" y="3137.0" />
+      <point x="2983.5581499247487" y="3137.0" />
+      <point x="-68.25" y="83.5" />
     </edge>
     <edge source="utazas.VonatMeglevoFoglalasDialog" target="utazas.MeglevoFoglalasDialog.TorlesButtonActionListener" relationship="CREATE">
-      <point x="-95.33333333333348" y="-39.0" />
-      <point x="2042.1596239277028" y="2191.0" />
-      <point x="915.0557368259942" y="2191.0" />
-      <point x="0.0" y="39.0" />
+      <point x="95.33333333333326" y="-39.0" />
+      <point x="2078.349816591415" y="3342.0" />
+      <point x="3051.8081499247487" y="3342.0" />
+      <point x="0.0" y="50.5" />
     </edge>
     <edge source="utazas.SelectionPanel.VonatButtonActionListener" target="utazas.SelectionPanel" relationship="INNER_CLASS">
       <point x="0.0" y="39.0" />
-      <point x="1527.555736825994" y="2455.0" />
-      <point x="1440.6179572610363" y="2455.0" />
-      <point x="1440.6179572610363" y="2485.0" />
-      <point x="1437.7224034926608" y="2485.0" />
+      <point x="5310.0" y="3716.0" />
+      <point x="5270.5" y="3716.0" />
+      <point x="5270.5" y="3746.0" />
+      <point x="5175.666666666666" y="3746.0" />
       <point x="55.75" y="-27.5" />
     </edge>
     <edge source="utazas.MeglevoFoglalasDialog.okButtonActionListener" target="utazas.MeglevoFoglalasDialog" relationship="DEPENDENCY">
-      <point x="0.0" y="39.0" />
-      <point x="800.5" y="1763.0" />
-      <point x="780.625" y="1763.0" />
-      <point x="780.625" y="1813.0" />
-      <point x="754.375" y="1813.0" />
-      <point x="-31.25" y="-39.0" />
+      <point x="-89.0" y="39.0" />
+      <point x="2923.1206499247487" y="2717.0" />
+      <point x="3002.1206499247487" y="2717.0" />
+      <point x="3002.1206499247487" y="2817.0" />
+      <point x="3017.6831499247487" y="2817.0" />
+      <point x="-34.125" y="-83.5" />
     </edge>
     <edge source="utazas.VonatFoglalasDialog.okButtonActionListener" target="utazas.VonatJegy" relationship="CREATE">
-      <point x="-66.75" y="-39.0" />
-      <point x="2684.0557368259942" y="2059.0" />
-      <point x="2589.161362591912" y="2059.0" />
-      <point x="2589.161362591912" y="1435.0" />
-      <point x="2836.9929572610363" y="1435.0" />
-      <point x="0.0" y="50.0" />
+      <point x="66.75" y="-39.0" />
+      <point x="1612.1831499247485" y="2817.0" />
+      <point x="1539.740829571103" y="2817.0" />
+      <point x="1539.740829571103" y="2386.0" />
+      <point x="1032.0" y="2386.0" />
+      <point x="0.0" y="72.5" />
     </edge>
     <edge source="utazas.VonatFoglalasDialog" target="utazas.Jegyek" relationship="DEPENDENCY">
-      <point x="35.75" y="-27.5" />
-      <point x="3710.1875" y="2201.0" />
-      <point x="4137.493236825994" y="2201.0" />
-      <point x="4137.493236825994" y="2181.0" />
-      <point x="3639.4307368259942" y="2181.0" />
-      <point x="3639.4307368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1753.0" />
-      <point x="2223.411362591912" y="1753.0" />
-      <point x="-152.25" y="127.0" />
+      <point x="-107.25" y="-27.5" />
+      <point x="1415.0581499247485" y="3167.0" />
+      <point x="1204.240829571103" y="3167.0" />
+      <point x="1204.240829571103" y="2777.0" />
+      <point x="2394.1506536869792" y="2777.0" />
+      <point x="2394.1506536869792" y="2717.0" />
+      <point x="819.5" y="2717.0" />
+      <point x="152.25" y="138.5" />
     </edge>
     <edge source="utazas.RepuloPanel.FoglalasButtonActionListener" target="utazas.RepuloFoglalasDialog" relationship="CREATE">
       <point x="-70.75" y="-39.0" />
-      <point x="427.375" y="3219.0" />
-      <point x="460.0" y="3219.0" />
-      <point x="0.0" y="27.5" />
+      <point x="3650.6875" y="3574.0" />
+      <point x="2520.1506536869792" y="3574.0" />
+      <point x="0.0" y="39.0" />
     </edge>
     <edge source="utazas.test" target="utazas.Jegyek" relationship="CREATE">
-      <point x="-51.375" y="-15.0" />
-      <point x="4294.930736825994" y="1813.0" />
-      <point x="3649.9307368259942" y="1813.0" />
-      <point x="3649.9307368259942" y="1773.0" />
-      <point x="2426.411362591912" y="1773.0" />
-      <point x="50.75" y="127.0" />
+      <point x="17.125" y="-15.0" />
+      <point x="507.48182373965074" y="2797.0" />
+      <point x="453.75" y="2797.0" />
+      <point x="453.75" y="2747.0" />
+      <point x="384.0" y="2747.0" />
+      <point x="384.0" y="2717.0" />
+      <point x="616.5" y="2717.0" />
+      <point x="-50.75" y="138.5" />
     </edge>
     <edge source="utazas.Main" target="utazas.MainFrame" relationship="CREATE">
       <point x="0.0" y="-39.0" />
-      <point x="4732.828029258579" y="2912.0" />
-      <point x="1349.805736825994" y="2912.0" />
-      <point x="1349.805736825994" y="2892.0" />
-      <point x="1327.6390701593275" y="2892.0" />
-      <point x="-54.33333333333326" y="72.5" />
+      <point x="0.0" y="95.0" />
     </edge>
     <edge source="utazas.RepuloPanel.EllenorzesButtonActionListener" target="utazas.JarmuPanel" relationship="DEPENDENCY">
-      <point x="99.33333333333348" y="-39.0" />
-      <point x="3552.4833333333336" y="3492.0" />
-      <point x="6188.9416666666675" y="3492.0" />
-      <point x="6188.9416666666675" y="3219.0" />
-      <point x="5226.305736825994" y="3219.0" />
-      <point x="-50.75" y="50.5" />
+      <point x="-74.5" y="-39.0" />
+      <point x="4355.75" y="3584.0" />
+      <point x="4293.5" y="3584.0" />
+      <point x="0.0" y="84.0" />
     </edge>
     <edge source="utazas.VonatPanel.EllenorzesButtonActionListener" target="utazas.VonatPanel" relationship="INNER_CLASS">
-      <point x="0.0" y="39.0" />
-      <point x="2137.4929572610363" y="2475.0" />
-      <point x="2182.1596239277033" y="2475.0" />
-      <point x="2182.1596239277033" y="2485.0" />
-      <point x="3593.6599034926608" y="2485.0" />
-      <point x="-66.66666666666652" y="-39.0" />
+      <point x="74.5" y="39.0" />
+      <point x="2091.766483258082" y="3726.0" />
+      <point x="2022.266483258082" y="3726.0" />
+      <point x="2022.266483258082" y="3746.0" />
+      <point x="2032.025653686979" y="3746.0" />
+      <point x="-25.0" y="-39.0" />
     </edge>
     <edge source="utazas.VonatFoglalasDialog.okButtonActionListener" target="utazas.ErrorDialog" relationship="CREATE">
-      <point x="-66.75" y="-39.0" />
-      <point x="2684.0557368259942" y="2059.0" />
-      <point x="2589.161362591912" y="2059.0" />
-      <point x="2589.161362591912" y="1375.0" />
-      <point x="3321.4929572610363" y="1375.0" />
+      <point x="66.75" y="-39.0" />
+      <point x="1612.1831499247485" y="2817.0" />
+      <point x="1539.740829571103" y="2817.0" />
+      <point x="1539.740829571103" y="2747.0" />
+      <point x="1576.3081499247485" y="2747.0" />
+      <point x="1576.3081499247485" y="2266.0" />
+      <point x="2052.0" y="2266.0" />
+      <point x="2052.0" y="1132.0" />
+      <point x="3230.0581499247487" y="1132.0" />
       <point x="0.0" y="27.5" />
     </edge>
     <edge source="utazas.RepuloPanel" target="utazas.RepuloPanel.EllenorzesButtonActionListener" relationship="CREATE">
-      <point x="-52.0" y="39.0" />
-      <point x="3414.566666666667" y="3482.0" />
-      <point x="3284.045553768376" y="3482.0" />
-      <point x="3284.045553768376" y="3492.0" />
-      <point x="3353.8166666666666" y="3492.0" />
-      <point x="-99.33333333333348" y="-39.0" />
+      <point x="-26.0" y="-39.0" />
+      <point x="3852.5625" y="3746.0" />
+      <point x="3716.4375" y="3746.0" />
+      <point x="3716.4375" y="3726.0" />
+      <point x="4355.75" y="3726.0" />
+      <point x="-74.5" y="39.0" />
     </edge>
     <edge source="utazas.MeglevoFoglalasDialog.TorlesButtonActionListener" target="utazas.ConfirmationDialog" relationship="CREATE">
-      <point x="89.0" y="-39.0" />
-      <point x="1004.0557368259942" y="2029.0" />
-      <point x="2477.161362591912" y="2029.0" />
+      <point x="89.0" y="-50.5" />
+      <point x="3140.8081499247487" y="3137.0" />
+      <point x="3198.8081499247487" y="3137.0" />
+      <point x="3198.8081499247487" y="1182.0" />
+      <point x="3023.5581499247487" y="1182.0" />
       <point x="0.0" y="61.0" />
     </edge>
     <edge source="utazas.test" target="utazas.RepuloJaratok" relationship="GENERALIZATION">
-      <point x="17.125" y="-15.0" />
-      <point x="4363.430736825994" y="1813.0" />
-      <point x="4501.875" y="1813.0" />
-      <point x="4501.875" y="1753.0" />
-      <point x="4496.875" y="1753.0" />
-      <point x="4496.875" y="1275.0" />
-      <point x="3179.8262905943698" y="1275.0" />
-      <point x="73.33333333333348" y="160.5" />
+      <point x="-51.375" y="-15.0" />
+      <point x="438.98182373965074" y="2817.0" />
+      <point x="237.25" y="2817.0" />
+      <point x="237.25" y="2727.0" />
+      <point x="38.25" y="2727.0" />
+      <point x="38.25" y="2176.0" />
+      <point x="1250.1666666666667" y="2176.0" />
+      <point x="-73.33333333333333" y="172.0" />
     </edge>
     <edge source="utazas.FoglalasDialog" target="utazas.Jegyek" relationship="DEPENDENCY">
-      <point x="-62.75" y="-27.5" />
-      <point x="1744.805736825994" y="1813.0" />
-      <point x="1390.3122204350425" y="1813.0" />
-      <point x="1390.3122204350425" y="1763.0" />
-      <point x="987.0557368259942" y="1763.0" />
-      <point x="987.0557368259942" y="1753.0" />
-      <point x="2223.411362591912" y="1753.0" />
-      <point x="-152.25" y="127.0" />
+      <point x="63.75" y="-138.0" />
+      <point x="2058.0164832580817" y="2807.0" />
+      <point x="1845.2664832580817" y="2807.0" />
+      <point x="1845.2664832580817" y="2767.0" />
+      <point x="2394.1506536869792" y="2767.0" />
+      <point x="2394.1506536869792" y="2717.0" />
+      <point x="819.5" y="2717.0" />
+      <point x="152.25" y="138.5" />
     </edge>
     <edge source="utazas.RepuloFelvetelDialog.okButtonActionListener" target="utazas.Jaratok" relationship="DEPENDENCY">
       <point x="66.75" y="-39.0" />
-      <point x="5524.243236825994" y="2059.0" />
-      <point x="5587.493236825994" y="2059.0" />
-      <point x="5587.493236825994" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="4271.294323739651" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.FoglalasDialog" target="utazas.Jaratok" relationship="DEPENDENCY">
-      <point x="-62.75" y="-27.5" />
-      <point x="1744.805736825994" y="1813.0" />
-      <point x="1390.3122204350425" y="1813.0" />
-      <point x="1390.3122204350425" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="63.75" y="-138.0" />
+      <point x="2058.0164832580817" y="2807.0" />
+      <point x="1845.2664832580817" y="2807.0" />
+      <point x="1845.2664832580817" y="2296.0" />
+      <point x="2366.9423203536453" y="2296.0" />
+      <point x="2366.9423203536453" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog" target="utazas.FoglalasDialog" relationship="GENERALIZATION">
-      <point x="36.75" y="-27.5" />
-      <point x="496.75" y="2181.0" />
-      <point x="521.1807368259942" y="2181.0" />
-      <point x="521.1807368259942" y="2039.0" />
-      <point x="1807.555736825994" y="2039.0" />
-      <point x="0.0" y="27.5" />
+      <point x="-110.25" y="-39.0" />
+      <point x="2409.9006536869792" y="3167.0" />
+      <point x="1994.2664832580817" y="3167.0" />
+      <point x="0.0" y="138.0" />
     </edge>
     <edge source="utazas.SelectionPanel" target="utazas.SelectionPanel.RepuloButtonActionListener" relationship="CREATE">
       <point x="-55.75" y="-27.5" />
-      <point x="1326.2224034926608" y="2485.0" />
-      <point x="1332.166666666667" y="2485.0" />
-      <point x="1332.166666666667" y="2465.0" />
-      <point x="1238.0557368259942" y="2465.0" />
-      <point x="0.0" y="39.0" />
+      <point x="5064.166666666666" y="3746.0" />
+      <point x="4970.166666666666" y="3746.0" />
+      <point x="4970.166666666666" y="3726.0" />
+      <point x="4929.833333333334" y="3726.0" />
+      <point x="-90.66666666666674" y="39.0" />
     </edge>
     <edge source="utazas.Jegyek" target="utazas.TicketNotFoundException" relationship="CREATE">
-      <point x="-101.5" y="-127.0" />
-      <point x="2274.161362591912" y="1335.0" />
-      <point x="2498.0557368259942" y="1335.0" />
-      <point x="65.0" y="27.5" />
+      <point x="-101.5" y="-138.5" />
+      <point x="565.75" y="2186.0" />
+      <point x="1518.5" y="2186.0" />
+      <point x="-65.0" y="27.5" />
     </edge>
     <edge source="utazas.test" target="utazas.RepuloJegy" relationship="TO_ONE">
       <point x="-17.125" y="-15.0" />
-      <point x="4329.180736825994" y="1803.0" />
-      <point x="3900.1807368259942" y="1803.0" />
-      <point x="3900.1807368259942" y="1743.0" />
-      <point x="3849.536362591912" y="1743.0" />
-      <point x="3849.536362591912" y="1295.0" />
-      <point x="2228.2224034926603" y="1295.0" />
-      <point x="109.66666666666652" y="50.0" />
+      <point x="473.23182373965074" y="2807.0" />
+      <point x="378.75" y="2807.0" />
+      <point x="378.75" y="2747.0" />
+      <point x="373.5" y="2747.0" />
+      <point x="373.5" y="2246.0" />
+      <point x="1804.0" y="2246.0" />
+      <point x="-95.0" y="50.5" />
     </edge>
     <edge source="utazas.VonatPanel.FoglalasButtonActionListener" target="utazas.VonatPanel" relationship="INNER_CLASS">
-      <point x="-94.33333333333348" y="39.0" />
-      <point x="3580.104166666667" y="2475.0" />
-      <point x="2182.1596239277033" y="2475.0" />
-      <point x="2182.1596239277033" y="2485.0" />
-      <point x="3593.6599034926608" y="2485.0" />
-      <point x="-66.66666666666652" y="-39.0" />
+      <point x="70.75" y="39.0" />
+      <point x="1677.740829571103" y="3726.0" />
+      <point x="2022.266483258082" y="3726.0" />
+      <point x="2022.266483258082" y="3746.0" />
+      <point x="2032.025653686979" y="3746.0" />
+      <point x="-25.0" y="-39.0" />
     </edge>
     <edge source="utazas.VonatFoglalasDialog" target="utazas.VonatFoglalasDialog.okButtonActionListener" relationship="CREATE">
       <point x="-35.75" y="-27.5" />
-      <point x="3638.6875" y="2191.0" />
-      <point x="2817.5557368259942" y="2191.0" />
-      <point x="66.75" y="39.0" />
+      <point x="1486.5581499247485" y="3167.0" />
+      <point x="1478.6831499247485" y="3167.0" />
+      <point x="-66.75" y="39.0" />
     </edge>
     <edge source="utazas.VonatFelvetelDialog.okButtonActionListener" target="utazas.VonatFelvetelDialog" relationship="INNER_CLASS">
       <point x="-66.75" y="39.0" />
-      <point x="5061.618236825994" y="2201.0" />
-      <point x="5090.118236825994" y="2201.0" />
-      <point x="-87.0" y="-27.5" />
+      <point x="3732.6831499247487" y="1688.0" />
+      <point x="3665.8081499247487" y="1688.0" />
+      <point x="29.0" y="-27.5" />
     </edge>
     <edge source="utazas.VonatFoglalasDialog.okButtonActionListener" target="utazas.Jegyek" relationship="DEPENDENCY">
-      <point x="66.75" y="-39.0" />
-      <point x="2817.5557368259942" y="2059.0" />
-      <point x="2756.3057368259942" y="2059.0" />
-      <point x="2756.3057368259942" y="1979.0" />
-      <point x="2600.161362591912" y="1979.0" />
-      <point x="2600.161362591912" y="1793.0" />
-      <point x="987.0557368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1753.0" />
-      <point x="2223.411362591912" y="1753.0" />
-      <point x="-152.25" y="127.0" />
+      <point x="-66.75" y="-39.0" />
+      <point x="1478.6831499247485" y="2817.0" />
+      <point x="1381.4331499247485" y="2817.0" />
+      <point x="1381.4331499247485" y="2757.0" />
+      <point x="2394.1506536869792" y="2757.0" />
+      <point x="2394.1506536869792" y="2717.0" />
+      <point x="819.5" y="2717.0" />
+      <point x="152.25" y="138.5" />
+    </edge>
+    <edge source="utazas.FoglalasDialog" target="utazas.Jarmu" relationship="DEPENDENCY">
+      <point x="63.75" y="-138.0" />
+      <point x="2058.0164832580817" y="2807.0" />
+      <point x="1845.2664832580817" y="2807.0" />
+      <point x="1845.2664832580817" y="2286.0" />
+      <point x="2317.25" y="2286.0" />
+      <point x="2317.25" y="1122.0" />
+      <point x="2054.5673203536453" y="1122.0" />
+      <point x="2054.5673203536453" y="691.0" />
+      <point x="1515.724816591415" y="691.0" />
+      <point x="1515.724816591415" y="671.0" />
+      <point x="1346.974816591415" y="671.0" />
+      <point x="45.0" y="138.5" />
     </edge>
     <edge source="utazas.JarmuPanel.JaratokButtonActionListener" target="utazas.JaratokFrame" relationship="CREATE">
       <point x="0.0" y="-39.0" />
-      <point x="0.0" y="39.0" />
-    </edge>
-    <edge source="utazas.FoglalasDialog" target="utazas.Jarmu" relationship="DEPENDENCY">
-      <point x="-62.75" y="-27.5" />
-      <point x="1744.805736825994" y="1813.0" />
-      <point x="1390.3122204350425" y="1813.0" />
-      <point x="1390.3122204350425" y="840.0" />
-      <point x="883.7065946691246" y="840.0" />
-      <point x="883.7065946691246" y="459.0" />
-      <point x="4138.930736825994" y="459.0" />
-      <point x="4138.930736825994" y="449.0" />
-      <point x="4089.411362591912" y="449.0" />
-      <point x="38.75" y="83.0" />
+      <point x="0.0" y="50.5" />
     </edge>
     <edge source="utazas.VonatFoglalasDialog.okButtonActionListener" target="utazas.Jegy" relationship="DEPENDENCY">
-      <point x="66.75" y="-39.0" />
-      <point x="2817.5557368259942" y="2059.0" />
-      <point x="2756.3057368259942" y="2059.0" />
-      <point x="2756.3057368259942" y="1979.0" />
-      <point x="2686.9929572610363" y="1979.0" />
-      <point x="2686.9929572610363" y="900.0" />
-      <point x="1415.8122204350425" y="900.0" />
-      <point x="1415.8122204350425" y="840.0" />
-      <point x="1841.8122204350425" y="840.0" />
-      <point x="-51.5" y="61.0" />
+      <point x="-66.75" y="-39.0" />
+      <point x="1478.6831499247485" y="2817.0" />
+      <point x="1381.4331499247485" y="2817.0" />
+      <point x="1381.4331499247485" y="2226.0" />
+      <point x="1724.0" y="2226.0" />
+      <point x="1724.0" y="1708.0" />
+      <point x="2484.117992851764" y="1708.0" />
+      <point x="2484.117992851764" y="1698.0" />
+      <point x="2255.25" y="1698.0" />
+      <point x="51.5" y="94.5" />
     </edge>
     <edge source="utazas.test" target="utazas.Repulo" relationship="CREATE">
-      <point x="-51.375" y="-15.0" />
-      <point x="4294.930736825994" y="1813.0" />
-      <point x="3649.9307368259942" y="1813.0" />
-      <point x="3649.9307368259942" y="1743.0" />
-      <point x="3833.536362591912" y="1743.0" />
-      <point x="3833.536362591912" y="870.0" />
-      <point x="4189.305736825994" y="870.0" />
-      <point x="4189.305736825994" y="810.0" />
-      <point x="3659.4307368259942" y="810.0" />
-      <point x="117.0" y="39.0" />
+      <point x="17.125" y="-15.0" />
+      <point x="507.48182373965074" y="2797.0" />
+      <point x="453.75" y="2797.0" />
+      <point x="453.75" y="1122.0" />
+      <point x="1670.240829571103" y="1122.0" />
+      <point x="1670.240829571103" y="1032.0" />
+      <point x="1590.740829571103" y="1032.0" />
+      <point x="117.0" y="50.5" />
     </edge>
     <edge source="utazas.VonatFelvetelDialog.okButtonActionListener" target="utazas.Datum" relationship="CREATE">
       <point x="-66.75" y="-39.0" />
-      <point x="5061.618236825994" y="2059.0" />
-      <point x="5122.868236825994" y="2059.0" />
-      <point x="5122.416387101709" y="210.0" />
-      <point x="4256.187220435043" y="210.0" />
-      <point x="106.0" y="94.5" />
+      <point x="3732.6831499247487" y="1182.0" />
+      <point x="3396.9331499247487" y="1182.0" />
+      <point x="3396.9331499247487" y="321.0" />
+      <point x="1412.974816591415" y="321.0" />
+      <point x="106.0" y="150.0" />
     </edge>
     <edge source="utazas.JaratokFrame.TableDocumentListener" target="utazas.JaratokFrame" relationship="INNER_CLASS">
-      <point x="-183.0" y="72.0" />
-      <point x="5526.916666666667" y="2693.0" />
-      <point x="5312.728887101709" y="2693.0" />
-      <point x="5312.728887101709" y="2703.0" />
-      <point x="5547.728887101709" y="2703.0" />
-      <point x="-152.25" y="-39.0" />
+      <point x="-183.0" y="116.5" />
+      <point x="4043.21999623777" y="2767.0" />
+      <point x="3639.96999623777" y="2767.0" />
+      <point x="3639.96999623777" y="2817.0" />
+      <point x="4022.25" y="2817.0" />
+      <point x="-152.25" y="-50.5" />
     </edge>
     <edge source="utazas.MeglevoFoglalasDialog.okButtonActionListener" target="utazas.MeglevoFoglalasDialog" relationship="INNER_CLASS">
-      <point x="-89.0" y="39.0" />
-      <point x="711.5" y="1783.0" />
-      <point x="691.875" y="1783.0" />
-      <point x="-93.75" y="-39.0" />
+      <point x="0.0" y="39.0" />
+      <point x="3012.1206499247487" y="2767.0" />
+      <point x="3085.9331499247487" y="2767.0" />
+      <point x="34.125" y="-83.5" />
     </edge>
     <edge source="utazas.VonatFelvetelDialog.okButtonActionListener" target="utazas.Jaratok" relationship="DEPENDENCY">
       <point x="66.75" y="-39.0" />
-      <point x="5195.118236825994" y="2059.0" />
-      <point x="5183.618236825994" y="2059.0" />
-      <point x="5183.618236825994" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="3866.1831499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.MainFrame" target="utazas.SelectionPanel" relationship="CREATE">
-      <point x="54.33333333333326" y="-72.5" />
-      <point x="1436.305736825994" y="2703.0" />
-      <point x="1729.9565946691246" y="2703.0" />
-      <point x="1729.9565946691246" y="2673.0" />
-      <point x="1456.305736825994" y="2673.0" />
-      <point x="74.33333333333326" y="27.5" />
+      <point x="-54.33333333333326" y="-95.0" />
+      <point x="5065.583333333334" y="3897.0" />
+      <point x="0.25" y="3897.0" />
+      <point x="0.25" y="3887.0" />
+      <point x="5045.583333333334" y="3887.0" />
+      <point x="-74.33333333333326" y="27.5" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog.okButtonActionListener" target="utazas.Jegyek" relationship="DEPENDENCY">
       <point x="-66.75" y="-39.0" />
-      <point x="310.43073682599425" y="2059.0" />
-      <point x="273.07629059436977" y="2059.0" />
-      <point x="273.07629059436977" y="2039.0" />
-      <point x="278.07629059436977" y="2039.0" />
-      <point x="278.07629059436977" y="1793.0" />
-      <point x="987.0557368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1753.0" />
-      <point x="2223.411362591912" y="1753.0" />
-      <point x="-152.25" y="127.0" />
+      <point x="2481.9006536869792" y="2817.0" />
+      <point x="2571.9006536869792" y="2817.0" />
+      <point x="2571.9006536869792" y="2747.0" />
+      <point x="2394.1506536869792" y="2747.0" />
+      <point x="2394.1506536869792" y="2717.0" />
+      <point x="819.5" y="2717.0" />
+      <point x="152.25" y="138.5" />
     </edge>
     <edge source="utazas.Jegyek" target="utazas.Repulo" relationship="DEPENDENCY">
-      <point x="101.5" y="-127.0" />
-      <point x="2477.161362591912" y="1345.0" />
-      <point x="2573.5557368259942" y="1345.0" />
-      <point x="2573.5557368259942" y="830.0" />
-      <point x="2725.9565946691246" y="830.0" />
-      <point x="2725.9565946691246" y="810.0" />
-      <point x="3425.4307368259942" y="810.0" />
-      <point x="-117.0" y="39.0" />
+      <point x="101.5" y="-138.5" />
+      <point x="768.75" y="2396.0" />
+      <point x="672.25" y="2396.0" />
+      <point x="672.25" y="2156.0" />
+      <point x="606.5" y="2156.0" />
+      <point x="606.5" y="1102.0" />
+      <point x="1473.740829571103" y="1102.0" />
+      <point x="0.0" y="50.5" />
     </edge>
     <edge source="utazas.RepuloPanel.FoglalasButtonActionListener" target="utazas.RepuloPanel" relationship="INNER_CLASS">
-      <point x="-70.75" y="39.0" />
-      <point x="427.375" y="3351.0" />
-      <point x="3388.566666666667" y="3351.0" />
-      <point x="-78.0" y="-39.0" />
+      <point x="70.75" y="39.0" />
+      <point x="3792.1875" y="3716.0" />
+      <point x="4435.25" y="3716.0" />
+      <point x="4435.25" y="3746.0" />
+      <point x="3904.5625" y="3746.0" />
+      <point x="26.0" y="-39.0" />
+    </edge>
+    <edge source="utazas.Jegyek" target="utazas.RepuloJaratok" relationship="DEPENDENCY">
+      <point x="101.5" y="-138.5" />
+      <point x="768.75" y="2396.0" />
+      <point x="672.25" y="2396.0" />
+      <point x="672.25" y="2256.0" />
+      <point x="1975.25" y="2256.0" />
+      <point x="1975.25" y="2126.0" />
+      <point x="1396.8333333333333" y="2126.0" />
+      <point x="73.33333333333331" y="172.0" />
+    </edge>
+    <edge source="utazas.VonatMeglevoFoglalasDialog" target="utazas.VonatJegy" relationship="DEPENDENCY">
+      <point x="-95.33333333333326" y="-39.0" />
+      <point x="1887.6831499247487" y="3352.0" />
+      <point x="1936.0" y="3352.0" />
+      <point x="1936.0" y="3322.0" />
+      <point x="1704.7664832580817" y="3322.0" />
+      <point x="1704.7664832580817" y="2206.0" />
+      <point x="1562.8081499247485" y="2206.0" />
+      <point x="1562.8081499247485" y="2136.0" />
+      <point x="1125.0" y="2136.0" />
+      <point x="93.0" y="72.5" />
     </edge>
     <edge source="utazas.RepuloMeglevoFoglalasDialog" target="utazas.MeglevoFoglalasDialog.TorlesButtonActionListener" relationship="CREATE">
-      <point x="97.66666666666669" y="-39.0" />
-      <point x="244.16666666666652" y="2191.0" />
-      <point x="915.0557368259942" y="2191.0" />
-      <point x="0.0" y="39.0" />
+      <point x="-97.66666666666674" y="-39.0" />
+      <point x="4619.333333333334" y="3342.0" />
+      <point x="3051.8081499247487" y="3342.0" />
+      <point x="0.0" y="50.5" />
     </edge>
     <edge source="utazas.RepuloFelvetelDialog.okButtonActionListener" target="utazas.ErrorDialog" relationship="CREATE">
       <point x="-66.75" y="-39.0" />
-      <point x="5390.743236825994" y="2059.0" />
-      <point x="5440.604166666667" y="2059.0" />
-      <point x="5440.604166666667" y="1979.0" />
-      <point x="5327.493236825994" y="1979.0" />
-      <point x="5327.493236825994" y="1375.0" />
-      <point x="3321.4929572610363" y="1375.0" />
+      <point x="4137.794323739651" y="1172.0" />
+      <point x="3727.8081499247487" y="1172.0" />
+      <point x="3727.8081499247487" y="1032.0" />
+      <point x="3230.0581499247487" y="1032.0" />
       <point x="0.0" y="27.5" />
     </edge>
-    <edge source="utazas.Jegyek" target="utazas.RepuloJaratok" relationship="DEPENDENCY">
-      <point x="101.5" y="-127.0" />
-      <point x="2477.161362591912" y="1355.0" />
-      <point x="2762.2429572610363" y="1355.0" />
-      <point x="2762.2429572610363" y="1275.0" />
-      <point x="3033.159623927703" y="1275.0" />
-      <point x="-73.33333333333348" y="160.5" />
-    </edge>
-    <edge source="utazas.VonatMeglevoFoglalasDialog" target="utazas.VonatJegy" relationship="DEPENDENCY">
-      <point x="0.0" y="-39.0" />
-      <point x="2137.4929572610363" y="2201.0" />
-      <point x="2125.0622204350425" y="2201.0" />
-      <point x="2125.0622204350425" y="2181.0" />
-      <point x="2162.161362591912" y="2181.0" />
-      <point x="2162.161362591912" y="1325.0" />
-      <point x="2318.3057368259942" y="1325.0" />
-      <point x="2318.3057368259942" y="1275.0" />
-      <point x="2743.9929572610363" y="1275.0" />
-      <point x="-93.0" y="50.0" />
-    </edge>
     <edge source="utazas.JaratokFrame" target="utazas.JaratokFrame.TableDocumentListener" relationship="CREATE">
-      <point x="-50.75" y="-39.0" />
-      <point x="5649.228887101709" y="2703.0" />
-      <point x="5613.166666666667" y="2703.0" />
-      <point x="5613.166666666667" y="2683.0" />
-      <point x="5892.916666666667" y="2683.0" />
-      <point x="183.0" y="72.0" />
+      <point x="-50.75" y="-50.5" />
+      <point x="4123.75" y="2817.0" />
+      <point x="4077.75" y="2817.0" />
+      <point x="4077.75" y="2747.0" />
+      <point x="4409.21999623777" y="2747.0" />
+      <point x="183.0" y="116.5" />
     </edge>
     <edge source="utazas.RepuloFelvetelDialog.okButtonActionListener" target="utazas.RepuloFelvetelDialog" relationship="INNER_CLASS">
-      <point x="66.75" y="39.0" />
-      <point x="5524.243236825994" y="2201.0" />
-      <point x="5471.243236825994" y="2201.0" />
-      <point x="-29.875" y="-27.5" />
-    </edge>
-    <edge source="utazas.MeglevoFoglalasDialog" target="utazas.Jegyek" relationship="TO_ONE">
-      <point x="93.75" y="-39.0" />
-      <point x="879.375" y="1783.0" />
-      <point x="1400.8122204350425" y="1783.0" />
-      <point x="1400.8122204350425" y="1743.0" />
-      <point x="2324.911362591912" y="1743.0" />
-      <point x="-50.75" y="127.0" />
+      <point x="-66.75" y="39.0" />
+      <point x="4137.794323739651" y="1688.0" />
+      <point x="3983.3081499247487" y="1688.0" />
+      <point x="29.875" y="-27.5" />
     </edge>
     <edge source="utazas.test" target="utazas.VonatJaratok" relationship="CREATE">
-      <point x="-51.375" y="-15.0" />
-      <point x="4294.930736825994" y="1813.0" />
-      <point x="3649.9307368259942" y="1813.0" />
-      <point x="3649.9307368259942" y="1743.0" />
-      <point x="3838.536362591912" y="1743.0" />
-      <point x="3838.536362591912" y="1405.0" />
-      <point x="4365.375" y="1405.0" />
-      <point x="0.0" y="160.5" />
+      <point x="17.125" y="-15.0" />
+      <point x="507.48182373965074" y="2797.0" />
+      <point x="453.75" y="2797.0" />
+      <point x="453.75" y="2737.0" />
+      <point x="394.5" y="2737.0" />
+      <point x="394.5" y="2396.0" />
+      <point x="190.75" y="2396.0" />
+      <point x="0.0" y="172.0" />
+    </edge>
+    <edge source="utazas.MeglevoFoglalasDialog" target="utazas.Jegyek" relationship="TO_ONE">
+      <point x="-102.375" y="-83.5" />
+      <point x="2949.4331499247487" y="2787.0" />
+      <point x="1215.240829571103" y="2787.0" />
+      <point x="1215.240829571103" y="2727.0" />
+      <point x="718.0" y="2727.0" />
+      <point x="50.75" y="138.5" />
     </edge>
     <edge source="utazas.Jarmu" target="utazas.Datum" relationship="DEPENDENCY">
-      <point x="-38.75" y="-83.0" />
-      <point x="4011.911362591912" y="240.0" />
-      <point x="3985.812220435043" y="240.0" />
-      <point x="3985.812220435043" y="210.0" />
-      <point x="4044.187220435043" y="210.0" />
-      <point x="-106.0" y="94.5" />
+      <point x="45.0" y="-138.5" />
+      <point x="1346.974816591415" y="341.0" />
+      <point x="1306.974816591415" y="341.0" />
+      <point x="0.0" y="150.0" />
     </edge>
     <edge source="utazas.test" target="utazas.Vonat" relationship="TO_ONE">
       <point x="-17.125" y="-15.0" />
-      <point x="4329.180736825994" y="1803.0" />
-      <point x="3900.1807368259942" y="1803.0" />
-      <point x="3900.1807368259942" y="1743.0" />
-      <point x="4062.1872204350425" y="1743.0" />
-      <point x="4062.1872204350425" y="820.0" />
-      <point x="3897.411362591912" y="820.0" />
-      <point x="3897.411362591912" y="800.0" />
-      <point x="3842.5974034926603" y="800.0" />
-      <point x="-114.33333333333348" y="39.0" />
+      <point x="473.23182373965074" y="2807.0" />
+      <point x="378.75" y="2807.0" />
+      <point x="378.75" y="2747.0" />
+      <point x="70.25" y="2747.0" />
+      <point x="70.25" y="1182.0" />
+      <point x="125.0" y="1182.0" />
+      <point x="125.0" y="1142.0" />
+      <point x="374.1574962377697" y="1142.0" />
+      <point x="-114.33333333333331" y="50.5" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog.okButtonActionListener" target="utazas.RepuloFoglalasDialog" relationship="INNER_CLASS">
-      <point x="-66.75" y="39.0" />
-      <point x="310.43073682599425" y="2181.0" />
-      <point x="349.75" y="2181.0" />
-      <point x="-110.25" y="-27.5" />
+      <point x="66.75" y="39.0" />
+      <point x="2615.4006536869792" y="3137.0" />
+      <point x="2630.4006536869792" y="3137.0" />
+      <point x="110.25" y="-39.0" />
     </edge>
     <edge source="utazas.VonatFelvetelDialog.okButtonActionListener" target="utazas.ErrorDialog" relationship="CREATE">
       <point x="-66.75" y="-39.0" />
-      <point x="5061.618236825994" y="2059.0" />
-      <point x="5122.868236825994" y="2059.0" />
-      <point x="5122.868236825994" y="1375.0" />
-      <point x="3321.4929572610363" y="1375.0" />
+      <point x="3732.6831499247487" y="1182.0" />
+      <point x="3396.9331499247487" y="1182.0" />
+      <point x="3396.9331499247487" y="1062.0" />
+      <point x="3230.0581499247487" y="1062.0" />
       <point x="0.0" y="27.5" />
     </edge>
     <edge source="utazas.Jegyek" target="utazas.VonatJegy" relationship="DEPENDENCY">
-      <point x="101.5" y="-127.0" />
-      <point x="2477.161362591912" y="1305.0" />
-      <point x="2318.3057368259942" y="1305.0" />
-      <point x="2318.3057368259942" y="1275.0" />
-      <point x="2743.9929572610363" y="1275.0" />
-      <point x="-93.0" y="50.0" />
+      <point x="101.5" y="-138.5" />
+      <point x="768.75" y="2396.0" />
+      <point x="672.25" y="2396.0" />
+      <point x="672.25" y="2216.0" />
+      <point x="1562.8081499247485" y="2216.0" />
+      <point x="1562.8081499247485" y="2136.0" />
+      <point x="1125.0" y="2136.0" />
+      <point x="93.0" y="72.5" />
     </edge>
     <edge source="utazas.VonatFelvetelDialog.okButtonActionListener" target="utazas.Vonat" relationship="CREATE">
       <point x="-66.75" y="-39.0" />
-      <point x="5061.618236825994" y="2059.0" />
-      <point x="5122.868236825994" y="2059.0" />
-      <point x="5122.868236825994" y="880.0" />
-      <point x="4199.305736825994" y="880.0" />
-      <point x="4199.305736825994" y="800.0" />
-      <point x="4071.2640701593273" y="800.0" />
-      <point x="114.33333333333348" y="39.0" />
+      <point x="3732.6831499247487" y="1182.0" />
+      <point x="3396.9331499247487" y="1182.0" />
+      <point x="3396.9331499247487" y="1082.0" />
+      <point x="1461.1574962377695" y="1082.0" />
+      <point x="1461.1574962377695" y="1072.0" />
+      <point x="602.8241629044362" y="1072.0" />
+      <point x="114.33333333333326" y="50.5" />
     </edge>
     <edge source="utazas.VonatFoglalasDialog.okButtonActionListener" target="utazas.VonatFoglalasDialog" relationship="INNER_CLASS">
-      <point x="-66.75" y="39.0" />
-      <point x="2684.0557368259942" y="2201.0" />
-      <point x="3567.1875" y="2201.0" />
-      <point x="-107.25" y="-27.5" />
+      <point x="66.75" y="39.0" />
+      <point x="1612.1831499247485" y="3167.0" />
+      <point x="1558.0581499247485" y="3167.0" />
+      <point x="35.75" y="-27.5" />
     </edge>
     <edge source="utazas.Vonat" target="utazas.Jarmu" relationship="GENERALIZATION">
-      <point x="85.75000000000045" y="-39.0" />
-      <point x="4042.6807368259942" y="469.0" />
-      <point x="3993.1613625919126" y="469.0" />
-      <point x="3993.1613625919126" y="449.0" />
-      <point x="4011.911362591912" y="449.0" />
-      <point x="-38.75" y="83.0" />
+      <point x="85.75" y="-50.5" />
+      <point x="574.240829571103" y="701.0" />
+      <point x="1256.974816591415" y="701.0" />
+      <point x="-45.0" y="138.5" />
     </edge>
     <edge source="utazas.RepuloPanel.FoglalasButtonActionListener" target="utazas.JarmuPanel" relationship="DEPENDENCY">
       <point x="70.75" y="-39.0" />
-      <point x="568.875" y="3219.0" />
-      <point x="5226.305736825994" y="3219.0" />
-      <point x="-50.75" y="50.5" />
+      <point x="3792.1875" y="3584.0" />
+      <point x="4293.5" y="3584.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="utazas.RepuloPanel.EllenorzesButtonActionListener" target="utazas.RepuloMeglevoFoglalasDialog" relationship="CREATE">
+      <point x="74.5" y="-39.0" />
+      <point x="4504.75" y="3574.0" />
+      <point x="4717.0" y="3574.0" />
+      <point x="0.0" y="39.0" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog.okButtonActionListener" target="utazas.RepuloJegy" relationship="CREATE">
       <point x="66.75" y="-39.0" />
-      <point x="443.93073682599425" y="1445.0" />
-      <point x="2068.7224034926608" y="1445.0" />
-      <point x="2068.7224034926608" y="1305.0" />
-      <point x="2118.5557368259942" y="1305.0" />
-      <point x="0.0" y="50.0" />
-    </edge>
-    <edge source="utazas.RepuloPanel.EllenorzesButtonActionListener" target="utazas.RepuloMeglevoFoglalasDialog" relationship="CREATE">
-      <point x="-99.33333333333348" y="-39.0" />
-      <point x="3353.8166666666666" y="3492.0" />
-      <point x="3284.045553768376" y="3492.0" />
-      <point x="3284.045553768376" y="3482.0" />
-      <point x="146.5" y="3482.0" />
-      <point x="0.0" y="39.0" />
+      <point x="2615.4006536869792" y="2817.0" />
+      <point x="2739.141483258082" y="2817.0" />
+      <point x="2739.141483258082" y="2366.0" />
+      <point x="1899.0" y="2366.0" />
+      <point x="0.0" y="50.5" />
     </edge>
     <edge source="utazas.Repulo" target="utazas.Jarmu" relationship="GENERALIZATION">
-      <point x="87.75" y="-39.0" />
-      <point x="3630.1807368259942" y="469.0" />
-      <point x="3993.1613625919126" y="469.0" />
-      <point x="3993.1613625919126" y="449.0" />
-      <point x="4011.911362591912" y="449.0" />
-      <point x="-38.75" y="83.0" />
-    </edge>
-    <edge source="utazas.Repulo" target="utazas.Datum" relationship="DEPENDENCY">
-      <point x="-87.75" y="-39.0" />
-      <point x="3454.6807368259942" y="449.0" />
-      <point x="3617.161362591912" y="449.0" />
-      <point x="3617.161362591912" y="240.0" />
-      <point x="3985.812220435043" y="240.0" />
-      <point x="3985.812220435043" y="210.0" />
-      <point x="4044.187220435043" y="210.0" />
-      <point x="-106.0" y="94.5" />
+      <point x="-87.75" y="-50.5" />
+      <point x="1385.990829571103" y="701.0" />
+      <point x="1256.974816591415" y="701.0" />
+      <point x="-45.0" y="138.5" />
     </edge>
     <edge source="utazas.JaratokFrame.NewButtonActionListener" target="utazas.VonatFelvetelDialog" relationship="CREATE">
       <point x="66.75" y="-39.0" />
-      <point x="5384.728887101709" y="2333.0" />
-      <point x="5400.103887101709" y="2333.0" />
-      <point x="5400.103887101709" y="2323.0" />
-      <point x="5177.118236825994" y="2323.0" />
+      <point x="3773.46999623777" y="2156.0" />
+      <point x="3636.8081499247487" y="2156.0" />
       <point x="0.0" y="27.5" />
     </edge>
+    <edge source="utazas.Repulo" target="utazas.Datum" relationship="DEPENDENCY">
+      <point x="87.75" y="-50.5" />
+      <point x="1561.490829571103" y="681.0" />
+      <point x="1402.474816591415" y="681.0" />
+      <point x="1402.474816591415" y="341.0" />
+      <point x="1306.974816591415" y="341.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
     <edge source="utazas.JarmuPanel" target="utazas.Jaratok" relationship="DEPENDENCY">
-      <point x="-81.19999999999982" y="-50.5" />
-      <point x="5195.855736825994" y="3064.0" />
-      <point x="1359.805736825994" y="3064.0" />
-      <point x="1359.805736825994" y="3054.0" />
-      <point x="4826.828029258579" y="3054.0" />
-      <point x="4826.828029258579" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="80.25" y="-84.0" />
+      <point x="4373.75" y="3332.0" />
+      <point x="4706.0" y="3332.0" />
+      <point x="4706.0" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog.okButtonActionListener" target="utazas.ErrorDialog" relationship="CREATE">
       <point x="66.75" y="-39.0" />
-      <point x="443.93073682599425" y="1375.0" />
-      <point x="3321.4929572610363" y="1375.0" />
+      <point x="2615.4006536869792" y="2817.0" />
+      <point x="2739.141483258082" y="2817.0" />
+      <point x="2739.141483258082" y="2767.0" />
+      <point x="2771.641483258082" y="2767.0" />
+      <point x="2771.641483258082" y="1132.0" />
+      <point x="3230.0581499247487" y="1132.0" />
       <point x="0.0" y="27.5" />
     </edge>
     <edge source="utazas.JarmuPanel.MainMenuButtonActionListener" target="utazas.JarmuPanel" relationship="INNER_CLASS">
-      <point x="74.5" y="39.0" />
-      <point x="5191.603887101709" y="3034.0" />
-      <point x="5632.978887101709" y="3034.0" />
-      <point x="5632.978887101709" y="3064.0" />
-      <point x="5317.655736825995" y="3064.0" />
-      <point x="40.600000000000364" y="-50.5" />
+      <point x="0.0" y="39.0" />
+      <point x="4481.5" y="3312.0" />
+      <point x="4298.5" y="3312.0" />
+      <point x="4298.5" y="3352.0" />
+      <point x="4320.25" y="3352.0" />
+      <point x="26.75" y="-84.0" />
     </edge>
     <edge source="utazas.SelectionPanel.RepuloButtonActionListener" target="utazas.SelectionPanel" relationship="INNER_CLASS">
-      <point x="90.66666666666674" y="39.0" />
-      <point x="1328.722403492661" y="2455.0" />
-      <point x="1440.6179572610363" y="2455.0" />
-      <point x="1440.6179572610363" y="2485.0" />
-      <point x="1437.7224034926608" y="2485.0" />
+      <point x="0.0" y="39.0" />
+      <point x="5020.5" y="3716.0" />
+      <point x="5270.5" y="3716.0" />
+      <point x="5270.5" y="3746.0" />
+      <point x="5175.666666666666" y="3746.0" />
       <point x="55.75" y="-27.5" />
     </edge>
     <edge source="utazas.FoglalasDialog" target="utazas.Jegyek" relationship="TO_ONE">
-      <point x="62.75" y="-27.5" />
-      <point x="1870.305736825994" y="1803.0" />
-      <point x="1411.3122204350425" y="1803.0" />
-      <point x="1411.3122204350425" y="1773.0" />
-      <point x="1400.8122204350425" y="1773.0" />
-      <point x="1400.8122204350425" y="1743.0" />
-      <point x="2324.911362591912" y="1743.0" />
-      <point x="-50.75" y="127.0" />
+      <point x="-63.75" y="-138.0" />
+      <point x="1930.5164832580817" y="2817.0" />
+      <point x="1726.2664832580817" y="2817.0" />
+      <point x="1726.2664832580817" y="2737.0" />
+      <point x="1215.240829571103" y="2737.0" />
+      <point x="1215.240829571103" y="2727.0" />
+      <point x="718.0" y="2727.0" />
+      <point x="50.75" y="138.5" />
     </edge>
     <edge source="utazas.Vonat" target="utazas.Datum" relationship="DEPENDENCY">
-      <point x="-85.74999999999955" y="-39.0" />
-      <point x="3871.1807368259942" y="449.0" />
-      <point x="3962.661362591912" y="449.0" />
-      <point x="3962.661362591912" y="240.0" />
-      <point x="3985.812220435043" y="240.0" />
-      <point x="3985.812220435043" y="210.0" />
-      <point x="4044.187220435043" y="210.0" />
-      <point x="-106.0" y="94.5" />
+      <point x="-85.75" y="-50.5" />
+      <point x="402.74082957110295" y="341.0" />
+      <point x="1306.974816591415" y="341.0" />
+      <point x="0.0" y="150.0" />
     </edge>
     <edge source="utazas.RepuloFelvetelDialog.okButtonActionListener" target="utazas.Datum" relationship="CREATE">
       <point x="-66.75" y="-39.0" />
-      <point x="5390.743236825994" y="2059.0" />
-      <point x="5440.604166666667" y="2059.0" />
-      <point x="5440.604166666667" y="1979.0" />
-      <point x="5576.493236825994" y="1979.0" />
-      <point x="5576.493236825994" y="220.0" />
-      <point x="5122.416387101709" y="220.0" />
-      <point x="5122.416387101709" y="210.0" />
-      <point x="4256.187220435043" y="210.0" />
-      <point x="106.0" y="94.5" />
-    </edge>
-    <edge source="utazas.JarmuPanel" target="utazas.MainFrame" relationship="DEPENDENCY">
-      <point x="-81.19999999999982" y="-50.5" />
-      <point x="5195.855736825994" y="3064.0" />
-      <point x="1359.805736825994" y="3064.0" />
-      <point x="1359.805736825994" y="2892.0" />
-      <point x="1381.9724034926608" y="2892.0" />
-      <point x="0.0" y="72.5" />
+      <point x="4137.794323739651" y="1172.0" />
+      <point x="3727.8081499247487" y="1172.0" />
+      <point x="3727.8081499247487" y="331.0" />
+      <point x="3396.9331499247487" y="331.0" />
+      <point x="3396.9331499247487" y="321.0" />
+      <point x="1412.974816591415" y="321.0" />
+      <point x="106.0" y="150.0" />
     </edge>
     <edge source="utazas.JarmuPanel" target="utazas.Jegyek" relationship="DEPENDENCY">
-      <point x="-81.19999999999982" y="-50.5" />
-      <point x="5195.855736825994" y="3064.0" />
-      <point x="1359.805736825994" y="3064.0" />
-      <point x="1359.805736825994" y="3054.0" />
-      <point x="1059.0557368259942" y="3054.0" />
-      <point x="1059.0557368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1753.0" />
-      <point x="2223.411362591912" y="1753.0" />
-      <point x="-152.25" y="127.0" />
+      <point x="80.25" y="-84.0" />
+      <point x="4373.75" y="3332.0" />
+      <point x="4706.0" y="3332.0" />
+      <point x="4706.0" y="2777.0" />
+      <point x="2394.1506536869792" y="2777.0" />
+      <point x="2394.1506536869792" y="2717.0" />
+      <point x="819.5" y="2717.0" />
+      <point x="152.25" y="138.5" />
+    </edge>
+    <edge source="utazas.JarmuPanel" target="utazas.MainFrame" relationship="DEPENDENCY">
+      <point x="0.0" y="84.0" />
+      <point x="4293.5" y="3584.0" />
+      <point x="5485.5" y="3584.0" />
+      <point x="5485.5" y="3867.0" />
+      <point x="5470.0" y="3867.0" />
+      <point x="5470.0" y="3897.0" />
+      <point x="5174.25" y="3897.0" />
+      <point x="54.33333333333303" y="-95.0" />
     </edge>
     <edge source="utazas.RepuloJaratok" target="utazas.Jarmu" relationship="DEPENDENCY">
-      <point x="-73.33333333333348" y="-160.5" />
-      <point x="3033.159623927703" y="900.0" />
-      <point x="3050.041666666667" y="900.0" />
-      <point x="3050.041666666667" y="459.0" />
-      <point x="4138.930736825994" y="459.0" />
-      <point x="4138.930736825994" y="449.0" />
-      <point x="4089.411362591912" y="449.0" />
-      <point x="38.75" y="83.0" />
-    </edge>
-    <edge source="utazas.RepuloMeglevoFoglalasDialog" target="utazas.Jegyek" relationship="DEPENDENCY">
-      <point x="0.0" y="-39.0" />
-      <point x="146.5" y="2201.0" />
-      <point x="107.30573682599425" y="2201.0" />
-      <point x="107.30573682599425" y="2191.0" />
-      <point x="138.43073682599425" y="2191.0" />
-      <point x="138.43073682599425" y="1793.0" />
-      <point x="987.0557368259942" y="1793.0" />
-      <point x="987.0557368259942" y="1753.0" />
-      <point x="2223.411362591912" y="1753.0" />
-      <point x="-152.25" y="127.0" />
+      <point x="1.4210854715202004E-14" y="-172.0" />
+      <point x="1323.5" y="1718.0" />
+      <point x="1468.240829571103" y="1718.0" />
+      <point x="1468.240829571103" y="1112.0" />
+      <point x="1659.740829571103" y="1112.0" />
+      <point x="1659.740829571103" y="691.0" />
+      <point x="1515.724816591415" y="691.0" />
+      <point x="1515.724816591415" y="671.0" />
+      <point x="1346.974816591415" y="671.0" />
+      <point x="45.0" y="138.5" />
     </edge>
     <edge source="utazas.RepuloFoglalasDialog.okButtonActionListener" target="utazas.RepuloJaratok" relationship="DEPENDENCY">
       <point x="-66.75" y="-39.0" />
-      <point x="310.43073682599425" y="2059.0" />
-      <point x="273.07629059436977" y="2059.0" />
-      <point x="273.07629059436977" y="1395.0" />
-      <point x="2762.2429572610363" y="1395.0" />
-      <point x="2762.2429572610363" y="1275.0" />
-      <point x="3033.159623927703" y="1275.0" />
-      <point x="-73.33333333333348" y="160.5" />
+      <point x="2481.9006536869792" y="2817.0" />
+      <point x="2571.9006536869792" y="2817.0" />
+      <point x="2571.9006536869792" y="2737.0" />
+      <point x="2555.9006536869792" y="2737.0" />
+      <point x="2555.9006536869792" y="2246.0" />
+      <point x="1975.25" y="2246.0" />
+      <point x="1975.25" y="2126.0" />
+      <point x="1396.8333333333333" y="2126.0" />
+      <point x="73.33333333333331" y="172.0" />
+    </edge>
+    <edge source="utazas.RepuloMeglevoFoglalasDialog" target="utazas.Jegyek" relationship="DEPENDENCY">
+      <point x="0.0" y="-39.0" />
+      <point x="4717.0" y="2777.0" />
+      <point x="2394.1506536869792" y="2777.0" />
+      <point x="2394.1506536869792" y="2717.0" />
+      <point x="819.5" y="2717.0" />
+      <point x="152.25" y="138.5" />
     </edge>
     <edge source="utazas.test" target="utazas.TicketNotFoundException" relationship="DEPENDENCY">
       <point x="51.375" y="-15.0" />
-      <point x="4397.680736825994" y="1803.0" />
-      <point x="4524.243236825994" y="1803.0" />
-      <point x="4524.243236825994" y="1415.0" />
-      <point x="2308.3057368259942" y="1415.0" />
-      <point x="2308.3057368259942" y="1285.0" />
-      <point x="2368.0557368259942" y="1285.0" />
-      <point x="-65.0" y="27.5" />
+      <point x="541.7318237396507" y="2817.0" />
+      <point x="1030.75" y="2817.0" />
+      <point x="1030.75" y="2356.0" />
+      <point x="2063.0" y="2356.0" />
+      <point x="2063.0" y="2116.0" />
+      <point x="1648.5" y="2116.0" />
+      <point x="65.0" y="27.5" />
     </edge>
     <edge source="utazas.VonatJaratok" target="utazas.Vonat" relationship="TO_MANY">
-      <point x="-73.33333333333303" y="-160.5" />
-      <point x="4292.041666666667" y="820.0" />
-      <point x="3897.411362591912" y="820.0" />
-      <point x="3897.411362591912" y="800.0" />
-      <point x="3842.5974034926603" y="800.0" />
-      <point x="-114.33333333333348" y="39.0" />
+      <point x="-73.33333333333331" y="-172.0" />
+      <point x="117.41666666666652" y="1718.0" />
+      <point x="130.25" y="1718.0" />
+      <point x="130.25" y="1182.0" />
+      <point x="125.0" y="1182.0" />
+      <point x="125.0" y="1142.0" />
+      <point x="374.1574962377697" y="1142.0" />
+      <point x="-114.33333333333331" y="50.5" />
     </edge>
     <edge source="utazas.MeglevoFoglalasDialog" target="utazas.MeglevoFoglalasDialog.okButtonActionListener" relationship="CREATE">
-      <point x="31.25" y="-39.0" />
-      <point x="816.875" y="1763.0" />
-      <point x="889.5" y="1763.0" />
+      <point x="102.375" y="-83.5" />
+      <point x="3154.1831499247487" y="2767.0" />
+      <point x="3101.1206499247487" y="2767.0" />
       <point x="89.0" y="39.0" />
     </edge>
     <edge source="utazas.test" target="utazas.RepuloJegy" relationship="CREATE">
-      <point x="-51.375" y="-15.0" />
-      <point x="4294.930736825994" y="1813.0" />
-      <point x="3649.9307368259942" y="1813.0" />
-      <point x="3649.9307368259942" y="1743.0" />
-      <point x="3279.5190946691246" y="1743.0" />
-      <point x="3279.5190946691246" y="1445.0" />
-      <point x="2068.7224034926608" y="1445.0" />
-      <point x="2068.7224034926608" y="1305.0" />
-      <point x="2118.5557368259942" y="1305.0" />
-      <point x="0.0" y="50.0" />
+      <point x="17.125" y="-15.0" />
+      <point x="507.48182373965074" y="2797.0" />
+      <point x="453.75" y="2797.0" />
+      <point x="453.75" y="2366.0" />
+      <point x="1899.0" y="2366.0" />
+      <point x="0.0" y="50.5" />
     </edge>
     <edge source="utazas.test" target="utazas.VonatJegy" relationship="CREATE">
-      <point x="-51.375" y="-15.0" />
-      <point x="4294.930736825994" y="1813.0" />
-      <point x="3649.9307368259942" y="1813.0" />
-      <point x="3649.9307368259942" y="1743.0" />
-      <point x="3335.2065946691246" y="1743.0" />
-      <point x="3335.2065946691246" y="1435.0" />
-      <point x="2836.9929572610363" y="1435.0" />
-      <point x="0.0" y="50.0" />
+      <point x="17.125" y="-15.0" />
+      <point x="507.48182373965074" y="2797.0" />
+      <point x="453.75" y="2797.0" />
+      <point x="453.75" y="2386.0" />
+      <point x="1032.0" y="2386.0" />
+      <point x="0.0" y="72.5" />
     </edge>
     <edge source="utazas.RepuloFelvetelDialog" target="utazas.Jaratok" relationship="DEPENDENCY">
-      <point x="89.625" y="-27.5" />
-      <point x="5590.743236825994" y="2201.0" />
-      <point x="5838.456594669125" y="2201.0" />
-      <point x="5838.456594669125" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="-29.875" y="-27.5" />
+      <point x="3923.5581499247487" y="1698.0" />
+      <point x="3943.4331499247487" y="1698.0" />
+      <point x="3943.4331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.test" target="utazas.VonatJaratok" relationship="GENERALIZATION">
-      <point x="17.125" y="-15.0" />
-      <point x="4363.430736825994" y="1813.0" />
-      <point x="4501.875" y="1813.0" />
-      <point x="4501.875" y="1753.0" />
-      <point x="4513.243236825994" y="1753.0" />
-      <point x="4513.243236825994" y="1265.0" />
-      <point x="4438.708333333333" y="1265.0" />
-      <point x="73.33333333333303" y="160.5" />
+      <point x="-51.375" y="-15.0" />
+      <point x="438.98182373965074" y="2817.0" />
+      <point x="237.25" y="2817.0" />
+      <point x="237.25" y="2727.0" />
+      <point x="38.25" y="2727.0" />
+      <point x="38.25" y="2166.0" />
+      <point x="117.41666666666652" y="2166.0" />
+      <point x="-73.33333333333331" y="172.0" />
     </edge>
     <edge source="utazas.MainFrame" target="utazas.Jegyek" relationship="CREATE">
-      <point x="54.33333333333326" y="-72.5" />
-      <point x="1436.305736825994" y="2703.0" />
-      <point x="1729.9565946691246" y="2703.0" />
-      <point x="1729.9565946691246" y="2673.0" />
-      <point x="1671.555736825994" y="2673.0" />
-      <point x="1671.555736825994" y="1783.0" />
-      <point x="2426.411362591912" y="1783.0" />
-      <point x="50.75" y="127.0" />
+      <point x="-54.33333333333326" y="-95.0" />
+      <point x="5065.583333333334" y="3897.0" />
+      <point x="0.25" y="3897.0" />
+      <point x="0.0" y="2757.0" />
+      <point x="384.0" y="2757.0" />
+      <point x="384.0" y="2717.0" />
+      <point x="616.5" y="2717.0" />
+      <point x="-50.75" y="138.5" />
     </edge>
     <edge source="utazas.MeglevoFoglalasDialog" target="utazas.Jegyek" relationship="DEPENDENCY">
-      <point x="-31.25" y="-39.0" />
-      <point x="754.375" y="1813.0" />
-      <point x="780.625" y="1813.0" />
-      <point x="780.625" y="1773.0" />
-      <point x="987.0557368259942" y="1773.0" />
-      <point x="987.0557368259942" y="1753.0" />
-      <point x="2223.411362591912" y="1753.0" />
-      <point x="-152.25" y="127.0" />
-    </edge>
-    <edge source="utazas.RepuloPanel" target="utazas.RepuloJaratok" relationship="CREATE">
-      <point x="-26.0" y="-39.0" />
-      <point x="3440.566666666667" y="3361.0" />
-      <point x="694.2482613357911" y="3361.0" />
-      <point x="694.2482613357911" y="3341.0" />
-      <point x="650.125" y="3341.0" />
-      <point x="650.125" y="1425.0" />
-      <point x="3106.4929572610363" y="1425.0" />
-      <point x="0.0" y="160.5" />
+      <point x="-34.125" y="-83.5" />
+      <point x="3017.6831499247487" y="2817.0" />
+      <point x="3002.1206499247487" y="2817.0" />
+      <point x="3002.1206499247487" y="2727.0" />
+      <point x="2394.1506536869792" y="2727.0" />
+      <point x="2394.1506536869792" y="2717.0" />
+      <point x="819.5" y="2717.0" />
+      <point x="152.25" y="138.5" />
     </edge>
     <edge source="utazas.test" target="utazas.Jaratok" relationship="TO_ONE">
       <point x="-17.125" y="-15.0" />
-      <point x="4329.180736825994" y="1803.0" />
-      <point x="3900.1807368259942" y="1803.0" />
-      <point x="3900.1807368259942" y="1743.0" />
-      <point x="4485.875" y="1743.0" />
-      <point x="4485.875" y="860.0" />
-      <point x="5456.993236825994" y="860.0" />
-      <point x="5456.993236825994" y="840.0" />
-      <point x="5357.326570159327" y="840.0" />
-      <point x="66.66666666666697" y="138.5" />
+      <point x="473.23182373965074" y="2807.0" />
+      <point x="378.75" y="2807.0" />
+      <point x="378.75" y="2747.0" />
+      <point x="353.0" y="2747.0" />
+      <point x="353.0" y="1152.0" />
+      <point x="2571.6831499247482" y="1152.0" />
+      <point x="0.0" y="138.5" />
+    </edge>
+    <edge source="utazas.RepuloPanel" target="utazas.RepuloJaratok" relationship="CREATE">
+      <point x="-26.0" y="-39.0" />
+      <point x="3852.5625" y="3746.0" />
+      <point x="3716.4375" y="3746.0" />
+      <point x="3716.4375" y="3726.0" />
+      <point x="2289.766483258082" y="3726.0" />
+      <point x="2289.766483258082" y="2376.0" />
+      <point x="1323.5" y="2376.0" />
+      <point x="-1.4210854715202004E-14" y="172.0" />
     </edge>
     <edge source="utazas.RepuloFelvetelDialog" target="utazas.JaratFelvetelDialog" relationship="GENERALIZATION">
-      <point x="29.875" y="-27.5" />
-      <point x="5530.993236825994" y="2191.0" />
-      <point x="5631.618236825994" y="2191.0" />
-      <point x="5631.618236825994" y="1365.0" />
-      <point x="5451.993236825994" y="1365.0" />
-      <point x="0.0" y="27.5" />
+      <point x="-89.625" y="-27.5" />
+      <point x="3863.8081499247487" y="1678.0" />
+      <point x="3531.9331499247487" y="1678.0" />
+      <point x="0.0" y="226.0" />
     </edge>
     <edge source="utazas.VonatFelvetelDialog" target="utazas.VonatFelvetelDialog.okButtonActionListener" relationship="CREATE">
-      <point x="-29.0" y="-27.5" />
-      <point x="5148.118236825994" y="2201.0" />
-      <point x="5195.118236825994" y="2201.0" />
+      <point x="87.0" y="-27.5" />
+      <point x="3723.8081499247487" y="1698.0" />
+      <point x="3866.1831499247487" y="1698.0" />
       <point x="66.75" y="39.0" />
     </edge>
     <edge source="utazas.MeglevoFoglalasDialog.TorlesButtonActionListener" target="utazas.MeglevoFoglalasDialog" relationship="INNER_CLASS">
-      <point x="-89.0" y="-39.0" />
-      <point x="826.0557368259942" y="2009.0" />
-      <point x="848.125" y="2009.0" />
-      <point x="62.5" y="39.0" />
+      <point x="0.0" y="-50.5" />
+      <point x="3051.8081499247487" y="3137.0" />
+      <point x="3120.0581499247487" y="3137.0" />
+      <point x="68.25" y="83.5" />
     </edge>
     <edge source="utazas.test" target="utazas.Jegyek" relationship="TO_ONE">
       <point x="-17.125" y="-15.0" />
-      <point x="4329.180736825994" y="1803.0" />
-      <point x="3900.1807368259942" y="1803.0" />
-      <point x="3900.1807368259942" y="1763.0" />
-      <point x="1400.8122204350425" y="1763.0" />
-      <point x="1400.8122204350425" y="1743.0" />
-      <point x="2324.911362591912" y="1743.0" />
-      <point x="-50.75" y="127.0" />
+      <point x="473.23182373965074" y="2807.0" />
+      <point x="378.75" y="2807.0" />
+      <point x="378.75" y="2767.0" />
+      <point x="1215.240829571103" y="2767.0" />
+      <point x="1215.240829571103" y="2727.0" />
+      <point x="718.0" y="2727.0" />
+      <point x="50.75" y="138.5" />
     </edge>
     <edge source="utazas.FoglalasDialog" target="utazas.Jaratok" relationship="TO_ONE">
-      <point x="62.75" y="-27.5" />
-      <point x="1870.305736825994" y="1803.0" />
-      <point x="1411.3122204350425" y="1803.0" />
-      <point x="1411.3122204350425" y="860.0" />
-      <point x="5456.993236825994" y="860.0" />
-      <point x="5456.993236825994" y="840.0" />
-      <point x="5357.326570159327" y="840.0" />
-      <point x="66.66666666666697" y="138.5" />
+      <point x="-63.75" y="-138.0" />
+      <point x="1930.5164832580817" y="2817.0" />
+      <point x="1726.2664832580817" y="2817.0" />
+      <point x="1726.2664832580817" y="2276.0" />
+      <point x="2090.25" y="2276.0" />
+      <point x="2090.25" y="1152.0" />
+      <point x="2571.6831499247482" y="1152.0" />
+      <point x="0.0" y="138.5" />
     </edge>
     <edge source="utazas.VonatJaratok" target="utazas.Datum" relationship="DEPENDENCY">
-      <point x="0.0" y="-160.5" />
-      <point x="4365.375" y="900.0" />
-      <point x="4158.187220435042" y="900.0" />
-      <point x="4158.187220435042" y="790.0" />
-      <point x="4168.805736825994" y="790.0" />
-      <point x="4168.805736825994" y="240.0" />
-      <point x="3985.812220435043" y="240.0" />
-      <point x="3985.812220435043" y="210.0" />
-      <point x="4044.187220435043" y="210.0" />
-      <point x="-106.0" y="94.5" />
+      <point x="0.0" y="-172.0" />
+      <point x="190.75" y="1708.0" />
+      <point x="141.25" y="1708.0" />
+      <point x="141.25" y="341.0" />
+      <point x="1306.974816591415" y="341.0" />
+      <point x="0.0" y="150.0" />
     </edge>
     <edge source="utazas.JarmuPanel" target="utazas.Jaratok" relationship="TO_ONE">
-      <point x="81.19999999999982" y="-50.5" />
-      <point x="5358.255736825994" y="3054.0" />
-      <point x="5880.978887101709" y="3054.0" />
-      <point x="5880.978887101709" y="3044.0" />
-      <point x="6133.291666666667" y="3044.0" />
-      <point x="6133.291666666667" y="860.0" />
-      <point x="5456.993236825994" y="860.0" />
-      <point x="5456.993236825994" y="840.0" />
-      <point x="5357.326570159327" y="840.0" />
-      <point x="66.66666666666697" y="138.5" />
-    </edge>
-    <edge source="utazas.VonatPanel" target="utazas.JarmuPanel" relationship="GENERALIZATION">
-      <point x="66.66666666666652" y="39.0" />
-      <point x="3726.993236825994" y="2703.0" />
-      <point x="5276.603887101709" y="2703.0" />
-      <point x="0.0" y="-50.5" />
+      <point x="-80.25" y="-84.0" />
+      <point x="4213.25" y="3332.0" />
+      <point x="2815.766483258082" y="3332.0" />
+      <point x="2815.766483258082" y="1152.0" />
+      <point x="2571.6831499247482" y="1152.0" />
+      <point x="0.0" y="138.5" />
     </edge>
     <edge source="utazas.VonatFoglalasDialog" target="utazas.FoglalasDialog" relationship="GENERALIZATION">
       <point x="107.25" y="-27.5" />
-      <point x="3781.6875" y="2191.0" />
-      <point x="4593.618236825994" y="2191.0" />
-      <point x="4593.618236825994" y="2039.0" />
-      <point x="1807.555736825994" y="2039.0" />
-      <point x="0.0" y="27.5" />
+      <point x="1629.5581499247485" y="3167.0" />
+      <point x="1994.2664832580817" y="3167.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="utazas.VonatPanel" target="utazas.JarmuPanel" relationship="GENERALIZATION">
+      <point x="75.0" y="-39.0" />
+      <point x="2132.0256536869792" y="3746.0" />
+      <point x="2198.599816591415" y="3746.0" />
+      <point x="2198.599816591415" y="3594.0" />
+      <point x="2203.599816591415" y="3594.0" />
+      <point x="2203.599816591415" y="3564.0" />
+      <point x="4222.166666666666" y="3564.0" />
+      <point x="-71.33333333333326" y="84.0" />
     </edge>
     <edge source="utazas.JaratokFrame.NewButtonActionListener" target="utazas.RepuloFelvetelDialog" relationship="CREATE">
       <point x="66.75" y="-39.0" />
-      <point x="5384.728887101709" y="2333.0" />
-      <point x="5400.103887101709" y="2333.0" />
-      <point x="5400.103887101709" y="2323.0" />
-      <point x="5501.118236825994" y="2323.0" />
+      <point x="3773.46999623777" y="2156.0" />
+      <point x="3953.4331499247487" y="2156.0" />
       <point x="0.0" y="27.5" />
     </edge>
     <edge source="utazas.MeglevoFoglalasDialog.okButtonActionListener" target="utazas.ErrorDialog" relationship="CREATE">
       <point x="0.0" y="-39.0" />
-      <point x="800.5" y="1375.0" />
-      <point x="3321.4929572610363" y="1375.0" />
+      <point x="3012.1206499247487" y="1132.0" />
+      <point x="3230.0581499247487" y="1132.0" />
       <point x="0.0" y="27.5" />
     </edge>
     <edge source="utazas.VonatFelvetelDialog" target="utazas.Jaratok" relationship="DEPENDENCY">
-      <point x="29.0" y="-27.5" />
-      <point x="5206.118236825994" y="2191.0" />
-      <point x="5272.368236825994" y="2191.0" />
-      <point x="5272.368236825994" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="-87.0" y="-27.5" />
+      <point x="3549.8081499247487" y="1698.0" />
+      <point x="3407.4331499247487" y="1698.0" />
+      <point x="3407.4331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1142.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.VonatJaratok" target="utazas.Jarmu" relationship="DEPENDENCY">
-      <point x="0.0" y="-160.5" />
-      <point x="4365.375" y="900.0" />
-      <point x="4158.187220435042" y="900.0" />
-      <point x="4158.187220435042" y="790.0" />
-      <point x="4138.930736825994" y="790.0" />
-      <point x="4138.930736825994" y="449.0" />
-      <point x="4089.411362591912" y="449.0" />
-      <point x="38.75" y="83.0" />
+      <point x="0.0" y="-172.0" />
+      <point x="190.75" y="691.0" />
+      <point x="1515.724816591415" y="691.0" />
+      <point x="1515.724816591415" y="671.0" />
+      <point x="1346.974816591415" y="671.0" />
+      <point x="45.0" y="138.5" />
     </edge>
     <edge source="utazas.VonatFelvetelDialog" target="utazas.JaratFelvetelDialog" relationship="GENERALIZATION">
-      <point x="87.0" y="-27.5" />
-      <point x="5264.118236825994" y="2201.0" />
-      <point x="5283.368236825994" y="2201.0" />
-      <point x="5283.368236825994" y="1365.0" />
-      <point x="5451.993236825994" y="1365.0" />
-      <point x="0.0" y="27.5" />
+      <point x="-29.0" y="-27.5" />
+      <point x="3607.8081499247487" y="1678.0" />
+      <point x="3531.9331499247487" y="1678.0" />
+      <point x="0.0" y="226.0" />
     </edge>
     <edge source="utazas.test" target="utazas.Datum" relationship="CREATE">
-      <point x="-51.375" y="-15.0" />
-      <point x="4294.930736825994" y="1813.0" />
-      <point x="3649.9307368259942" y="1813.0" />
-      <point x="3649.9307368259942" y="1743.0" />
-      <point x="3681.9307368259942" y="1743.0" />
-      <point x="3681.9307368259942" y="830.0" />
-      <point x="3774.9307368259942" y="830.0" />
-      <point x="3774.9307368259942" y="220.0" />
-      <point x="5122.416387101709" y="220.0" />
-      <point x="5122.416387101709" y="210.0" />
-      <point x="4256.187220435043" y="210.0" />
-      <point x="106.0" y="94.5" />
+      <point x="17.125" y="-15.0" />
+      <point x="507.48182373965074" y="2797.0" />
+      <point x="453.75" y="2797.0" />
+      <point x="453.75" y="1082.0" />
+      <point x="688.740829571103" y="1082.0" />
+      <point x="688.740829571103" y="331.0" />
+      <point x="3396.9331499247487" y="331.0" />
+      <point x="3396.9331499247487" y="321.0" />
+      <point x="1412.974816591415" y="321.0" />
+      <point x="106.0" y="150.0" />
     </edge>
     <edge source="utazas.JaratFelvetelDialog" target="utazas.Jaratok" relationship="DEPENDENCY">
-      <point x="-57.0" y="-27.5" />
-      <point x="5394.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="850.0" />
-      <point x="5318.993236825994" y="840.0" />
-      <point x="5290.65990349266" y="840.0" />
-      <point x="0.0" y="138.5" />
+      <point x="57.0" y="-226.0" />
+      <point x="3588.9331499247487" y="1022.0" />
+      <point x="2638.349816591415" y="1022.0" />
+      <point x="66.66666666666669" y="138.5" />
     </edge>
     <edge source="utazas.RepuloMeglevoFoglalasDialog" target="utazas.TicketNotFoundException" relationship="DEPENDENCY">
       <point x="0.0" y="-39.0" />
-      <point x="146.5" y="2201.0" />
-      <point x="107.30573682599425" y="2201.0" />
-      <point x="107.30573682599425" y="1415.0" />
-      <point x="2308.3057368259942" y="1415.0" />
-      <point x="2308.3057368259942" y="1285.0" />
-      <point x="2368.0557368259942" y="1285.0" />
-      <point x="-65.0" y="27.5" />
+      <point x="4717.0" y="2356.0" />
+      <point x="2063.0" y="2356.0" />
+      <point x="2063.0" y="2116.0" />
+      <point x="1648.5" y="2116.0" />
+      <point x="65.0" y="27.5" />
     </edge>
     <edge source="utazas.RepuloJaratok" target="utazas.Jaratok" relationship="GENERALIZATION">
-      <point x="73.33333333333348" y="-160.5" />
-      <point x="3179.8262905943698" y="890.0" />
-      <point x="4179.305736825994" y="890.0" />
-      <point x="4179.305736825994" y="790.0" />
-      <point x="5223.993236825993" y="790.0" />
-      <point x="-66.66666666666697" y="138.5" />
+      <point x="73.33333333333331" y="-172.0" />
+      <point x="1396.8333333333333" y="1688.0" />
+      <point x="1570.1574962377695" y="1688.0" />
+      <point x="1570.1574962377695" y="1162.0" />
+      <point x="1451.1574962377695" y="1162.0" />
+      <point x="1451.1574962377695" y="1042.0" />
+      <point x="2505.0164832580817" y="1042.0" />
+      <point x="-66.66666666666669" y="138.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.347900390625" showDependencies="true" x="3397.1957894736843" y="2656.6631578947367" />
+  <settings layout="Hierarchic" zoom="0.6976326038393008" showDependencies="true" x="1368.3758103672737" y="869.2039826599869" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
+    <Category>Fields</Category>
     <Category>Inner Classes</Category>
     <Category>Methods</Category>
     <Category>Properties</Category>
